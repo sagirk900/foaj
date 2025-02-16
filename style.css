@@ -1,0 +1,480 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body 
+{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.banner 
+{
+    width: 100%;
+    height: 100%;
+    background-color:#b6daec;
+    background-image: url("images/banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.header 
+{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color:#b6daec;
+    
+}
+
+.header-left p:nth-child(1)
+{
+    font-family: "PPEiko";
+    font-size: 18px;
+    font-weight: 700 !important;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #00341a;
+   margin: 0px;
+}
+.header-left p:nth-child(2)
+{
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: #00341a;
+    margin: 0px;
+}
+.header-right #toggleDirection
+{
+    background-color: #222; /* Default background */
+    color: #fff; /* Default text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    font-family: "PPEiko";
+    text-transform: capitalize;
+}
+#toggleDirection:hover {
+    background-color: #00341a; /* Change background on hover */
+    transform: scale(1.1); /* Slightly increase size */
+}
+.banfooter 
+{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right:1%;
+    padding-left: 0%;
+}
+[dir="rtl"] .banfooter 
+{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right:0%;
+    padding-left: 1%;
+}
+.banfooterpara 
+{
+    color: #00341a;
+    font-family: "PPEiko";
+    font-size: 16px;
+}
+.menu 
+{
+    width: 100%;
+    height: 15%;
+    background-color: #eae9e6;
+    display: flex;
+    position: sticky !important;
+}
+.menuleft 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menuleftimg 
+{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.menuleftimg img 
+{
+    width: 50%;
+    height: 50%;
+}
+.menuleftcontent 
+{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menuleftcontent p:nth-child(1)
+{
+    margin: 0%;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #00341A;
+    font-family: "PPEiko";
+}
+.menuleftcontent p:nth-child(2)
+{
+    font-family: "Helvetica";
+    font-size: 13px;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: #00341a;
+    margin: 0%;
+}
+.menuright 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menuright a 
+{
+    text-decoration: none;
+    color: #054a28;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    padding: 10px;
+    height: 50%;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+}
+[dir="rtl"] .menuright a 
+{
+    text-decoration: none;
+    color: #054a28;
+    font-size: 14px;
+    font-family: "Graphik";
+    padding: 10px;
+    height: 50%;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+}
+.menuright a:hover 
+{
+    color: black;
+    border-top: 1px solid #00341a;
+}
+.vediosection 
+{
+    width: 100%;
+    height: 100%;
+  
+}
+.centersection 
+{
+    height: 80%;
+    width: 100%;
+    background-color: #00341a;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+[dir="rtl"] .centersection 
+{
+    height: 60%;
+    width: 100%;
+    background-color: #00341a;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.centersectioncontent 
+{
+    height: 80%;
+    width: 80%;
+    border-top: 0.5px solid white;
+    display: flex;
+}
+[dir="rtl"] .centersectioncontent 
+{
+    height: 80%;
+    width: 80%;
+    border-top: 0.5px solid white;
+    display: flex;
+}
+.centersectioncontentleft 
+{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+[dir="rtl"] .centersectioncontentleft 
+{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.centersectioncontentleft h1 
+{
+    font-size: 5rem;
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+[dir="rtl"] .centersectioncontentleft h1 
+{
+    font-size: 3rem;
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+.centersectioncontentcenter 
+{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+[dir="rtl"] .centersectioncontentcenter 
+{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centersectioncontentcenter  p 
+{
+    font-family: "Poppins", serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: white;
+}
+[dir="rtl"] .centersectioncontentcenter  p 
+{
+    font-family: "Poppins", serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: white;
+}
+.centersectioncontentright 
+{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centersectioncontentright a 
+{
+    width: 55%;
+    height: 10%;
+    border: 0.5px solid white;
+    border-radius: 45%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+[dir="rtl"] .centersectioncontentright a 
+{
+    width: 55%;
+    height: 10%;
+    border: 0.5px solid white;
+    border-radius: 45%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.centersectioncontentright a i 
+{
+    color: white;
+    text-decoration: none;
+}
+.brandlogosection 
+{
+    width: 100%;
+    height: 150vh;
+    background-color: #eae9e6;
+   display: flex;
+   justify-content: center;
+   align-items: end;
+}
+.brandlogocontent 
+{
+width: 80%;
+height: 90%;
+border-top: 0.5px solid black;
+}
+.brandlogotopcontent 
+{
+    height: 60%;
+    width: 100%;
+}
+
+.brandlogotopcontentrow1 
+{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+.brandlogotopcontentrow1logo 
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandlogotopcontentrow1logo img 
+{
+    width: 60%;
+    height: 60%;
+}
+
+.brandlogotopcontentrow2 
+{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+.brandlogotopcontentrow2logo 
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandlogotopcontentrow2logo img 
+{
+    width: 60%;
+    height: 60%;
+}
+.brandlogotopcontentrow3 
+{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+.brandlogotopcontentrow3logo 
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandlogotopcontentrow3logo img 
+{
+    width: 30%;
+    height: 60%;
+}
+
+
+.brandlogobottomcontent
+{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandlogobottomcontentleft 
+{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandlogobottomcontentleft p 
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    width: 60%;
+    text-align: justify;
+    color: #00341A;
+}
+[dir="rtl"] .brandlogobottomcontentleft p 
+{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    width: 60%;
+    text-align: justify;
+    color: #00341A;
+}
+.brandlogobottomcontentright
+{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandlogobottomcontentright a 
+{
+    text-decoration: none;
+    color: #00341a;
+    font-size: 16px;
+}
+.brandlogobottomcontentright a:hover 
+{
+    color: #00341a;
+    transform: scale(1.1,1.1);
+}
+.brandlogobottomcontentright a span 
+{
+    font-size: 16px;
+    font-family: "Poppins", serif;
+}
+[dir="rtl"] .brandlogobottomcontentright a span 
+{
+    font-size: 17px;
+    font-family: "Poppins", serif;
+}
+.brandlogobottomcontentright a i 
+{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+[dir="rtl"] .brandlogobottomcontentright a i 
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
