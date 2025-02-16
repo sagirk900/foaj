@@ -478,3 +478,163 @@ border-top: 0.5px solid black;
     padding-right: 10px;
     padding-left: 0px;
 }
+.footersection 
+{
+    width: 100%;
+    height: 50%;
+    background-color: #b6daec;
+    display: flex;
+}
+.footerlogo
+{
+width: 20%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footerlogo img 
+{
+    width: 80%;
+    height: 80%;
+}
+.footermenu
+{
+width: 50%;
+height: 100%;
+}
+
+.footermenutop 
+{
+    width: 60%;
+    height: 75%;
+    padding-top: 10px;
+}
+.footermenutop a 
+{
+    text-decoration: none;
+    font-family: 'Poppins', serif;
+    color: #00341a;
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footermenutop a:hover 
+{
+    color: #00341a;
+}
+.footermenubottom
+{
+    width: 100%;
+    height: 25%;
+}
+.footermenubottom h6
+{
+    color: #00341a;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins',serif;
+    font-size: 18px;
+}
+.footermenubottom p 
+{
+    color: #00341a;
+    width: 100%;
+    font-family: 'Poppins',serif;
+    font-size: 16px;
+}
+.footercopyright
+{
+width: 30%;
+height: 100%;
+}
+.footercpyrighttop 
+{
+width: 100%;
+height: 75%;
+padding-top: 10px;
+padding-right: 15px;
+display: flex;
+justify-content: flex-end;
+}
+[dir="rtl"] .footercpyrighttop 
+{
+width: 100%;
+height: 75%;
+padding-top: 10px;
+padding-right: 15px;
+display: flex;
+justify-content: flex-start;
+}
+.footercpyrighttop button 
+{
+    background-color: #222; /* Default background */
+    color: #fff; /* Default text color */
+    height: 20%;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    font-family: "PPEiko";
+    text-transform: capitalize; 
+}
+.footercpyrighttop button:hover 
+{
+    background-color: #00341a; /* Change background on hover */
+    transform: scale(1.1); /* Slightly increase size */
+}
+.footercopyrightbottom
+{
+width: 100%;
+height: 25%;
+display: flex;
+justify-content: flex-end;
+font-size: 12px;
+padding-top: 10px;
+padding-right: 10px;
+}
+
+[dir="rtl"] .footercopyrightbottom
+{
+width: 100%;
+height: 25%;
+display: flex;
+justify-content: flex-start;
+font-size: 12px;
+padding-top: 10px;
+padding-right: 0px;
+}
+
+.footercopyrightbottom .linkdin 
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .linkdin 
+{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.footercopyrightbottom .xfoaj
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .xfoaj
+{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.footercopyrightbottom .rightsreserve
+{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .rightsreserve
+{
+    padding-left: 0;
+    padding-right: 10px;
+}
