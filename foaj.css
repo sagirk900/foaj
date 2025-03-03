@@ -587,6 +587,14 @@ font-style: italic;
     width: 85%;
     text-align: right;
 }
+[dir="rtl"] .foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 85%;
+    text-align: left;
+}
 .foajdatasectiontoprow2content h1 span
 {
 font-size: 22px;
@@ -610,7 +618,6 @@ font-style: italic;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: right;
 }
 .foajdatasectiontoprow3content h1
 {
@@ -618,6 +625,15 @@ font-style: italic;
     font-size: 3em;
     color: #00341A;
     width: 80%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 70%;
+    text-align: left;
 }
 .foajdatasectiontoprow3content h1 span
 {
@@ -1132,7 +1148,439 @@ align-items: center;
     object-position: center;
 }
 
+/*foaj count section*/
+.foajcount 
+{
+    width: 100%;
+    height: 35%;
+    background-color: #00341a;
+    display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+}
+.foajcountcontent1 
+{
+width: 10%;
+height: 70%;
+}
+.foajcountcontent2
+{
+    width: 10%;
+    height: 70%;
+}
+.foajcountcontent3
+{
+    width: 10%;
+    height: 70%;
+}
+.foajcountcontent4
+{
+    width: 10%;
+    height: 70%;
+}
 
+.foajcountcontent1top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent1top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent1top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent1bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent1bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent1bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent2top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent2top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent2top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent2bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+[dir="ltr"] .foajcountcontent2bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent2bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent3top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent3top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent3top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent3bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent3bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent3bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent4top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent4top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent4top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent4bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent4bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent4bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+/*foaj data*/
+.foajdata 
+{
+    height: 150%;
+    width: 100%;
+    background-color: #b6daec;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foajdatasection 
+{
+    width: 90%;
+    height: 90%;
+    border-top: 1px solid black;
+}
+.foajdatasectiontop 
+{
+    width: 100%;
+    height: 75%;
+}
+.foajdatasectionbottom 
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.foajdatasectionbottomcontent 
+{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.foajdatasectionbottomcontent p 
+{
+    width: 80%;
+    color: #00341a;
+    font-size: 14px;
+    font-family: Poppins,'san-serif';
+    font-weight: 300;
+}
+.foajdatasectiontoprow1 
+{
+    width: 100%;
+    height: 28.33%;
+    padding-left: 10%;
+}
+.foajdatasectiontoprow1content 
+{
+    width: 70%;
+    height: 100%;
+   border-bottom: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.foajdatasectiontoprow1content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+}
+[dir="rtl"] .foajdatasectiontoprow1content h1
+{
+    font-family: "PPEiko";
+    font-size: 2.5em;
+    color: #00341A;
+}
+.foajdatasectiontoprow1content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow2 
+{
+    width: 100%;
+    height: 28.33%;
+}
+.foajdatasectiontoprow2content 
+{
+    width: 90%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 85%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 2.5em;
+    color: #00341A;
+    width: 85%;
+    text-align: left;
+}
+
+.foajdatasectiontoprow2content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow3 
+{
+    width: 100%;
+    height: 28.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.foajdatasectiontoprow3content 
+{
+    width: 70%;
+    height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 80%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 2.5em;
+    color: #00341A;
+    width: 70%;
+    text-align: left;
+}
+.foajdatasectiontoprow3content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow4
+{
+    width: 100%;
+    height: 15%;
+}
+.foajdatasectiontoprow4content 
+{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.foajdatasectiontoprow4content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+}
+[dir="rtl"] .foajdatasectiontoprow4content h1
+{
+    font-family: "PPEiko";
+    font-size: 2.5em;
+    color: #00341A;
+}
+.foajdatasectiontoprow4content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+
+/*foajbanner*/
+.foajbanner 
+{
+width: 100%;
+height: 150%;
+}
+.foajbanner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+/*footer section*/
     .footersection 
     {
         width: 100%;
@@ -1502,6 +1950,8 @@ align-items: center;
         color: black;
         border-top: 1px solid #00341a;
     }
+
+
     /* foaj about */
 .foajabout 
 {
@@ -1612,6 +2062,441 @@ align-items: center;
     object-fit: cover;
     object-position: center;
 }
+
+
+/*foaj count section*/
+.foajcount 
+{
+    width: 100%;
+    height: 35%;
+    background-color: #00341a;
+    display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+}
+.foajcountcontent1 
+{
+width: 10%;
+height: 75%;
+}
+.foajcountcontent2
+{
+    width: 10%;
+    height: 75%;
+}
+.foajcountcontent3
+{
+    width: 10%;
+    height: 75%;
+}
+.foajcountcontent4
+{
+    width: 10%;
+    height: 75%;
+}
+
+.foajcountcontent1top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent1top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent1top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent1bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent1bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent1bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent2top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent2top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent2top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent2bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+[dir="ltr"] .foajcountcontent2bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent2bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent3top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent3top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent3top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent3bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent3bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent3bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent4top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent4top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent4top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent4bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent4bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent4bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+/*foaj data*/
+.foajdata 
+{
+    height: 150%;
+    width: 100%;
+    background-color: #b6daec;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foajdatasection 
+{
+    width: 90%;
+    height: 90%;
+    border-top: 1px solid black;
+}
+.foajdatasectiontop 
+{
+    width: 100%;
+    height: 75%;
+}
+.foajdatasectionbottom 
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.foajdatasectionbottomcontent 
+{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.foajdatasectionbottomcontent p 
+{
+    width: 80%;
+    color: #00341a;
+    font-size: 14px;
+    font-family: Poppins,'san-serif';
+    font-weight: 300;
+}
+[dir="rtl"] .foajdatasectionbottomcontent p 
+{
+    width: 80%;
+    color: #00341a;
+    font-size: 16px;
+    font-family: Poppins,'san-serif';
+    font-weight: 300;
+    text-align: justify;
+}
+.foajdatasectiontoprow1 
+{
+    width: 100%;
+    height: 28.33%;
+    padding-left: 10%;
+}
+.foajdatasectiontoprow1content 
+{
+    width: 70%;
+    height: 100%;
+   border-bottom: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.foajdatasectiontoprow1content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+}
+[dir="rtl"] .foajdatasectiontoprow1content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+}
+.foajdatasectiontoprow1content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow2 
+{
+    width: 100%;
+    height: 28.33%;
+}
+.foajdatasectiontoprow2content 
+{
+    width: 90%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 85%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 85%;
+    text-align: left;
+}
+.foajdatasectiontoprow2content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow3 
+{
+    width: 100%;
+    height: 28.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.foajdatasectiontoprow3content 
+{
+    width: 70%;
+    height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 80%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 80%;
+    text-align: left;
+}
+.foajdatasectiontoprow3content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow4
+{
+    width: 100%;
+    height: 15%;
+}
+.foajdatasectiontoprow4content 
+{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.foajdatasectiontoprow4content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+}
+.foajdatasectiontoprow4content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+
+/*foajbanner*/
+.foajbanner 
+{
+width: 100%;
+height: 150%;
+}
+.foajbanner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
 
     .footersection 
     {
@@ -2082,7 +2967,428 @@ align-items: center;
      object-position: center;
  }
 
- 
+
+ /*foaj count section*/
+.foajcount 
+{
+    width: 100%;
+    height: 35%;
+    background-color: #00341a;
+    display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+}
+.foajcountcontent1 
+{
+width: 15%;
+height: 75%;
+}
+.foajcountcontent2
+{
+    width: 15%;
+    height: 75%;
+}
+.foajcountcontent3
+{
+    width: 15%;
+    height: 75%;
+}
+.foajcountcontent4
+{
+    width: 15%;
+    height: 75%;
+}
+
+.foajcountcontent1top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent1top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent1top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent1bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent1bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent1bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent2top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent2top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent2top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent2bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+[dir="ltr"] .foajcountcontent2bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent2bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent3top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent3top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent3top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent3bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent3bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent3bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent4top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent4top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent4top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent4bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent4bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent4bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+/*foaj data*/
+.foajdata 
+{
+    height: 150%;
+    width: 100%;
+    background-color: #b6daec;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foajdatasection 
+{
+    width: 90%;
+    height: 90%;
+    border-top: 1px solid black;
+}
+.foajdatasectiontop 
+{
+    width: 100%;
+    height: 75%;
+}
+.foajdatasectionbottom 
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.foajdatasectionbottomcontent 
+{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.foajdatasectionbottomcontent p 
+{
+    width: 80%;
+    color: #00341a;
+    font-size: 14px;
+    font-family: Poppins,'san-serif';
+    font-weight: 300;
+}
+.foajdatasectiontoprow1 
+{
+    width: 100%;
+    height: 28.33%;
+    padding-left: 10%;
+}
+.foajdatasectiontoprow1content 
+{
+    width: 70%;
+    height: 100%;
+   border-bottom: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.foajdatasectiontoprow1content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+}
+.foajdatasectiontoprow1content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow2 
+{
+    width: 100%;
+    height: 28.33%;
+}
+.foajdatasectiontoprow2content 
+{
+    width: 90%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 85%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 85%;
+    text-align: left;
+}
+.foajdatasectiontoprow2content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow3 
+{
+    width: 100%;
+    height: 28.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.foajdatasectiontoprow3content 
+{
+    width: 70%;
+    height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow3content 
+{
+    width: 70%;
+    height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 80%;
+}
+
+.foajdatasectiontoprow3content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow4
+{
+    width: 100%;
+    height: 15%;
+}
+.foajdatasectiontoprow4content 
+{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.foajdatasectiontoprow4content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+}
+.foajdatasectiontoprow4content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+
+/*foajbanner*/
+.foajbanner 
+{
+width: 100%;
+height: 50%;
+}
+.foajbanner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+/*footer section*/ 
     .footersection 
     {
         width: 100%;
@@ -2545,7 +3851,441 @@ align-items: center;
     object-position: center;
 }
 
+/*foaj count section*/
+.foajcount 
+{
+    width: 100%;
+    height: 35%;
+    background-color: #00341a;
+    display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+}
+.foajcountcontent1 
+{
+width: 15%;
+height: 75%;
+}
+.foajcountcontent2
+{
+    width: 15%;
+    height: 75%;
+}
+.foajcountcontent3
+{
+    width: 15%;
+    height: 75%;
+}
+.foajcountcontent4
+{
+    width: 15%;
+    height: 75%;
+}
 
+.foajcountcontent1top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent1top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent1top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent1bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent1bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent1bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent2top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent2top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent2top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent2bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+[dir="ltr"] .foajcountcontent2bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent2bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent3top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent3top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent3top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent3bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent3bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent3bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent4top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent4top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent4top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent4bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent4bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent4bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+/*foaj data*/
+.foajdata 
+{
+    height: 150%;
+    width: 100%;
+    background-color: #b6daec;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foajdatasection 
+{
+    width: 90%;
+    height: 90%;
+    border-top: 1px solid black;
+}
+.foajdatasectiontop 
+{
+    width: 100%;
+    height: 75%;
+}
+.foajdatasectionbottom 
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.foajdatasectionbottomcontent 
+{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.foajdatasectionbottomcontent p 
+{
+    width: 80%;
+    color: #00341a;
+    font-size: 14px;
+    font-family: Poppins,'san-serif';
+    font-weight: 300;
+}
+[dir="rtl"] .foajdatasectionbottomcontent p 
+{
+    width: 80%;
+    color: #00341a;
+    font-size: 18px;
+    font-family: Poppins,'san-serif';
+    font-weight: 300;
+    text-align: justify;
+}
+.foajdatasectiontoprow1 
+{
+    width: 100%;
+    height: 28.33%;
+    padding-left: 10%;
+}
+.foajdatasectiontoprow1content 
+{
+    width: 70%;
+    height: 100%;
+   border-bottom: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.foajdatasectiontoprow1content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+}
+.foajdatasectiontoprow1content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow2 
+{
+    width: 100%;
+    height: 28.33%;
+}
+.foajdatasectiontoprow2content 
+{
+    width: 90%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 85%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 85%;
+    text-align: left;
+}
+.foajdatasectiontoprow2content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow3 
+{
+    width: 100%;
+    height: 28.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.foajdatasectiontoprow3content 
+{
+    width: 70%;
+    height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow3content 
+{
+    width: 70%;
+    height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 80%;
+}
+[dir="rtl"] .foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+    width: 80%;
+}
+.foajdatasectiontoprow3content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow4
+{
+    width: 100%;
+    height: 15%;
+}
+.foajdatasectiontoprow4content 
+{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.foajdatasectiontoprow4content h1
+{
+    font-family: "PPEiko";
+    font-size: 3em;
+    color: #00341A;
+}
+.foajdatasectiontoprow4content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+
+/*foajbanner*/
+.foajbanner 
+{
+width: 100%;
+height: 50%;
+}
+.foajbanner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/*footer section*/
     .footersection 
     {
         width: 100%;
@@ -2933,14 +4673,14 @@ align-items: center;
     font-family: "PPEiko";
     font-size: 3.5rem;
     color: #00341A;
-    line-height: auto;
+    line-height: 4rem;
 }
 [dir="rtl"] .foajaboutleftcontenttop h3 
 {
     font-family: "PPEiko";
     font-size: 3.6rem;
     color: #00341A;
-    line-height: 1em;
+    line-height: 4rem;
 }
 .foajaboutleftcontentbottom 
 {
@@ -3003,6 +4743,679 @@ align-items: center;
     object-fit: cover;
     object-position:center;
 }
+
+
+/*foaj count section*/
+.foajcount 
+{
+    width: 100%;
+    height: 50%;
+    background-color: #00341a;
+    display: flex;
+flex-direction: row;
+justify-content:start;
+align-content: center;
+flex-wrap: wrap;
+}
+.foajcountcontent1 
+{
+width: 35%;
+height: 40%;
+margin-left: 15px;
+margin-right: 0px;
+}
+[dir="rtl"] .foajcountcontent1 
+{
+width: 35%;
+height: 40%;
+margin-left: 0px;
+margin-right: 15px;
+}
+.foajcountcontent2
+{
+    width: 35%;
+    height: 40%;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+[dir="rtl"] .foajcountcontent2
+{
+    width: 35%;
+    height: 40%;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.foajcountcontent3
+{
+    width: 35%;
+    height: 40%;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+[dir="rtl"] .foajcountcontent3
+{
+    width: 35%;
+    height: 40%;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.foajcountcontent4
+{
+    width: 35%;
+    height: 40%;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+[dir="rtl"] .foajcountcontent4
+{
+    width: 35%;
+    height: 40%;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.foajcountcontent1top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent1top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent1top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent1bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent1bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent1bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent2top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent2top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent2top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent2bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+[dir="ltr"] .foajcountcontent2bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent2bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent3top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent3top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent3top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent3bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent3bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent3bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent4top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent4top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent4top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent4bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent4bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent4bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+
+
+/*foaj data*/
+.foajdata 
+{
+    height: 150%;
+    width: 100%;
+    background-color: #b6daec;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foajdatasection 
+{
+    width: 90%;
+    height: 90%;
+    border-top: 1px solid black;
+}
+.foajdatasectiontop 
+{
+    width: 100%;
+    height: 75%;
+}
+.foajdatasectionbottom 
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foajdatasectionbottomcontent 
+{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.foajdatasectionbottomcontent p 
+{
+    width: 100%;
+    color: #00341a;
+    font-size: 14px;
+    font-family: Poppins,'san-serif';
+    font-weight: 300;
+    text-align: justify;
+}
+.foajdatasectiontoprow1 
+{
+    width: 100%;
+    height: 28.33%;
+    padding-left: 10%;
+}
+.foajdatasectiontoprow1content 
+{
+    width: 70%;
+    height: 100%;
+   border-bottom: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.foajdatasectiontoprow1content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+}
+.foajdatasectiontoprow1content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow2 
+{
+    width: 100%;
+    height: 28.33%;
+}
+.foajdatasectiontoprow2content 
+{
+    width: 90%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+    width: 85%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+    width: 85%;
+    text-align: left;
+}
+.foajdatasectiontoprow2content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow3 
+{
+    width: 100%;
+    height: 25.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.foajdatasectiontoprow3content 
+{
+    width: 70%;
+    height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow3content 
+{
+    width: 70%;
+    height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+    width: 80%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+    width: 80%;
+    text-align: left;
+}
+.foajdatasectiontoprow3content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow4
+{
+    width: 100%;
+    height: 18%;
+    border-bottom: 1px solid black;
+}
+.foajdatasectiontoprow4content 
+{
+    width: 70%;
+    height: 100%;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+}
+.foajdatasectiontoprow4content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+}
+.foajdatasectiontoprow4content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+
+/*foajbanner*/
+.foajbanner 
+{
+width: 100%;
+height: 50%;
+}
+.foajbanner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/*foaj data*/
+.foajdata 
+{
+    height: 150%;
+    width: 100%;
+    background-color: #b6daec;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foajdatasection 
+{
+    width: 90%;
+    height: 90%;
+    border-top: 1px solid black;
+}
+.foajdatasectiontop 
+{
+    width: 100%;
+    height: 75%;
+}
+.foajdatasectionbottom 
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foajdatasectionbottomcontent 
+{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.foajdatasectionbottomcontent p 
+{
+    width: 100%;
+    color: #00341a;
+    font-size: 14px;
+    font-family: Poppins,'san-serif';
+    font-weight: 300;
+    text-align: justify;
+}
+.foajdatasectiontoprow1 
+{
+    width: 100%;
+    height: 28.33%;
+    padding-left: 10%;
+}
+.foajdatasectiontoprow1content 
+{
+    width: 70%;
+    height: 100%;
+   border-bottom: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.foajdatasectiontoprow1content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+}
+.foajdatasectiontoprow1content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow2 
+{
+    width: 100%;
+    height: 28.33%;
+}
+.foajdatasectiontoprow2content 
+{
+    width: 90%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+    width: 85%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+    width: 85%;
+    text-align: left;
+}
+.foajdatasectiontoprow2content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow3 
+{
+    width: 100%;
+    height: 25.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.foajdatasectiontoprow3content 
+{
+    width: 70%;
+    height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow3content 
+{
+    width: 70%;
+    height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+    width: 80%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+    width: 80%;
+    text-align: left;
+}
+.foajdatasectiontoprow3content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow4
+{
+    width: 100%;
+    height: 18%;
+    border-bottom: 1px solid black;
+}
+.foajdatasectiontoprow4content 
+{
+    width: 70%;
+    height: 100%;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+}
+.foajdatasectiontoprow4content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+}
+.foajdatasectiontoprow4content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+
+/*foajbanner*/
+.foajbanner 
+{
+width: 100%;
+height: 50%;
+}
+.foajbanner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 
     
     /*footersection*/
@@ -3363,7 +5776,7 @@ opacity: 0;
 /* foaj about */
 .foajabout 
 {
-    height: 110%;
+    height: 120%;
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
@@ -3408,14 +5821,14 @@ align-items: center;
     font-family: "PPEiko";
     font-size: 3.4rem;
     color: #00341A;
-    line-height: auto;
+    line-height: 4rem;
 }
 [dir="rtl"] .foajaboutleftcontenttop h3 
 {
     font-family: "PPEiko";
     font-size: 3.6rem;
     color: #00341A;
-    line-height: 1em;
+    line-height: 4rem;
 }
 .foajaboutleftcontentbottom 
 {
@@ -3437,7 +5850,7 @@ align-items: center;
     display: flex;
     justify-content: start;
     align-items: start;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 0px;
     padding-right: 10px;
 }
@@ -3477,6 +5890,471 @@ align-items: center;
     height: 100%;
     object-fit: cover;
     object-position:center;
+}
+
+/*foaj count section*/
+.foajcount 
+{
+    width: 100%;
+    height: 50%;
+    background-color: #00341a;
+    display: flex;
+flex-direction: row;
+justify-content:start;
+align-content: center;
+flex-wrap: wrap;
+}
+.foajcountcontent1 
+{
+width: 35%;
+height: 40%;
+margin-left: 15px;
+margin-right: 0px;
+}
+[dir="rtl"] .foajcountcontent1 
+{
+width: 35%;
+height: 40%;
+margin-left: 0px;
+margin-right: 15px;
+}
+.foajcountcontent2
+{
+    width: 35%;
+    height: 40%;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+[dir="rtl"] .foajcountcontent2
+{
+    width: 35%;
+    height: 40%;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.foajcountcontent3
+{
+    width: 35%;
+    height: 40%;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+[dir="rtl"] .foajcountcontent3
+{
+    width: 35%;
+    height: 40%;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.foajcountcontent4
+{
+    width: 35%;
+    height: 40%;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+[dir="rtl"] .foajcountcontent4
+{
+    width: 35%;
+    height: 40%;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.foajcountcontent1top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent1top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent1top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent1bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent1bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent1bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent2top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent2top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent2top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent2bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+[dir="ltr"] .foajcountcontent2bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent2bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent3top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent3top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent3top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent3bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent3bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent3bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.foajcountcontent4top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+[dir="rtl"] .foajcountcontent4top 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.foajcountcontent4top h1 
+{
+    color: #b6daec;
+    font-size: 32px;
+    font-family: Poppins,'san-serif';
+}
+.foajcountcontent4bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+[dir="rtl"] .foajcountcontent4bottom
+{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.foajcountcontent4bottom div 
+{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+/*foaj data*/
+.foajdata 
+{
+    height: 150%;
+    width: 100%;
+    background-color: #b6daec;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foajdatasection 
+{
+    width: 90%;
+    height: 90%;
+    border-top: 1px solid black;
+}
+.foajdatasectiontop 
+{
+    width: 100%;
+    height: 75%;
+}
+.foajdatasectionbottom 
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foajdatasectionbottomcontent 
+{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.foajdatasectionbottomcontent p 
+{
+    width: 100%;
+    color: #00341a;
+    font-size: 14px;
+    font-family: Poppins,'san-serif';
+    font-weight: 300;
+    text-align: justify;
+}
+.foajdatasectiontoprow1 
+{
+    width: 100%;
+    height: 28.33%;
+    padding-left: 10%;
+}
+.foajdatasectiontoprow1content 
+{
+    width: 70%;
+    height: 100%;
+   border-bottom: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.foajdatasectiontoprow1content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+}
+.foajdatasectiontoprow1content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow2 
+{
+    width: 100%;
+    height: 28.33%;
+}
+.foajdatasectiontoprow2content 
+{
+    width: 90%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+    width: 85%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow2content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+    width: 85%;
+    text-align: left;
+}
+.foajdatasectiontoprow2content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow3 
+{
+    width: 100%;
+    height: 25.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.foajdatasectiontoprow3content 
+{
+    width: 70%;
+    height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow3content 
+{
+    width: 70%;
+    height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+    width: 80%;
+    text-align: right;
+}
+[dir="rtl"] .foajdatasectiontoprow3content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+    width: 80%;
+    text-align: left;
+}
+.foajdatasectiontoprow3content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+.foajdatasectiontoprow4
+{
+    width: 100%;
+    height: 18%;
+    border-bottom: 1px solid black;
+}
+.foajdatasectiontoprow4content 
+{
+    width: 70%;
+    height: 100%;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+}
+.foajdatasectiontoprow4content h1
+{
+    font-family: "PPEiko";
+    font-size: 1.8em;
+    color: #00341A;
+}
+.foajdatasectiontoprow4content h1 span
+{
+font-size: 22px;
+font-family: Poppins,'san-serif';
+font-weight: 300;
+font-style: italic;
+}
+
+/*foajbanner*/
+.foajbanner 
+{
+width: 100%;
+height: 50%;
+}
+.foajbanner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 
