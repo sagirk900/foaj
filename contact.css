@@ -227,6 +227,16 @@ label {
     font-size: 15px; /* Adjust font size */
     opacity: 1; /* Ensure it's fully visible */
     font-family: Poppins,'san-serif';
+    text-align: left;
+    left: 0;
+}
+[dir="rtl"] label {
+    padding: 1rem .75rem; /* Change placeholder text color */
+    font-size: 15px; /* Adjust font size */
+    opacity: 1; /* Ensure it's fully visible */
+    font-family: Poppins,'san-serif';
+    text-align: right;
+    right: 0;
 }
 .submitcol 
 {
@@ -900,17 +910,22 @@ display: flex;
 justify-content: start;
 align-items: start;
 }
+.addresscontentleft a 
+{
+    width: 80%;
+    height: 70%;
+}
 .addresscontentleft a img 
 {
-    width:80%;
-    height: 80%;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .addresscontentright 
 {
     width: 60%;
     height: 100%;
-    object-fit: cover;
-    object-position: center;
 }
 .addresscontentemail
 {
@@ -1546,10 +1561,15 @@ display: flex;
 justify-content: start;
 align-items: start;
 }
+.addresscontentleft a 
+{
+    width: 70%;
+    height: 60%;
+}
 .addresscontentleft a img 
 {
-    width:80%;
-    height: 80%;
+    width:100%;
+    height: 100%;
 }
 .addresscontentright 
 {
