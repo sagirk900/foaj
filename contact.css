@@ -155,6 +155,278 @@ opacity: 0;
     border-top: 1px solid #00341a;
 }
 
+
+/*contact banner*/
+.contactbanner 
+{
+    height: 60%;
+    width: 100%;
+}
+.contactbanner img 
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*contact form*/
+.contactform 
+{
+    width: 100%;
+    height: 70%;
+    background-color: #eae9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactformcontent 
+{
+    width: 80%;
+    height: 75%;
+    border-top: 1px solid black;
+}
+.formheader 
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.formheader h1 
+{
+    font-family: "PPEiko";
+    font-size: 3rem;
+    color: #00341A;
+}
+.myform 
+{
+    width: 100%;
+    height: 80%;
+}
+input[type="text"], input[type="email"], #message{
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #000; /* Only bottom border */
+    outline: none !important; /* Force remove outline */
+    background-color: #eae9e6; /* Set background color */
+    font-size: 16px;
+    transition: border-bottom 0.3s ease-in-out; /* Smooth effect */
+}
+
+/* When input is active (clicked or being typed in) */
+input[type="text"]:active, input[type="email"]:active,
+input[type="text"]:focus, input[type="email"]:focus, #message:focus {
+    border-bottom: 1px solid black; /* Change bottom border color */
+    outline: none !important; /* Ensure outline is removed */
+    background-color: #eae9e6 !important;
+    box-shadow: none !important;
+}
+
+label {
+    padding: 1rem .75rem; /* Change placeholder text color */
+    font-size: 15px; /* Adjust font size */
+    opacity: 1; /* Ensure it's fully visible */
+    font-family: Poppins,'san-serif';
+}
+.submitcol 
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.submit
+{
+padding: 5px 40px;
+border-radius: 20px;
+text-transform: capitalize;
+border: 1px solid #00341A;
+color: #00341A;
+transition: all 0.1s ease-in;
+font-size: 16px;
+font-family: Poppins,'san-serif';
+}
+.submit:hover
+{
+    background-color: #00341A;
+    color: white;
+}
+
+/*address section*/
+.addresssection 
+{
+    width: 100%;
+    height: 50%;
+    background-color: #00341a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addresscontent 
+{
+    width: 80%;
+    height: 80%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentleft 
+{
+width: 40%;
+height: 100%;
+padding-top: 5px;
+display: flex;
+justify-content: start;
+align-items: start;
+}
+.addresscontentleft a img 
+{
+    width:80%;
+    height: 80%;
+}
+.addresscontentright 
+{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.addresscontentemail
+{
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addcontentemailleft
+{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.addcontentemailleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addcontentemailright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.addcontentemailright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.addresscontentaddress
+{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentaddressleft
+{
+width: 50%;
+height: 100%;
+display: flex;
+justify-content: start;
+align-items: end;
+}
+.addresscontentaddressleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentaddressright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.addresscontentaddressright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.addresscontentsocial
+{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentsocialleft
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.addresscontentsocialleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentsocialright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.addresscontentsocialright a 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+.addresscontentsocialright a:hover 
+{
+    color: #b6daec;
+}
+.addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 15px;
+    padding-right: 0px;
+}
+[dir="rtl"] .addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+/*footer section*/
 .footersection 
 {
     width: 100%;
@@ -504,6 +776,280 @@ padding-right: 0px;
         border-top: 1px solid #00341a;
     }
     
+
+
+    /*contact banner*/
+.contactbanner 
+{
+    height: 60%;
+    width: 100%;
+}
+.contactbanner img 
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*contact form*/
+.contactform 
+{
+    width: 100%;
+    height: 70%;
+    background-color: #eae9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactformcontent 
+{
+    width: 80%;
+    height: 75%;
+    border-top: 1px solid black;
+}
+.formheader 
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.formheader h1 
+{
+    font-family: "PPEiko";
+    font-size: 3rem;
+    color: #00341A;
+    font-weight: 100;
+}
+.myform 
+{
+    width: 100%;
+    height: 80%;
+}
+input[type="text"], input[type="email"], #message{
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #000; /* Only bottom border */
+    outline: none !important; /* Force remove outline */
+    background-color: #eae9e6; /* Set background color */
+    font-size: 16px;
+    transition: border-bottom 0.3s ease-in-out; /* Smooth effect */
+}
+
+/* When input is active (clicked or being typed in) */
+input[type="text"]:active, input[type="email"]:active,
+input[type="text"]:focus, input[type="email"]:focus, #message:focus {
+    border-bottom: 1px solid black; /* Change bottom border color */
+    outline: none !important; /* Ensure outline is removed */
+    background-color: #eae9e6 !important;
+    box-shadow: none !important;
+}
+
+label {
+    padding: 1rem .75rem; /* Change placeholder text color */
+    font-size: 16px; /* Adjust font size */
+    opacity: 1; /* Ensure it's fully visible */
+    font-family: Poppins,'san-serif';
+}
+.submitcol 
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.submit
+{
+padding: 5px 40px;
+border-radius: 20px;
+text-transform: capitalize;
+border: 1px solid #00341A;
+color: #00341A;
+transition: all 0.1s ease-in;
+}
+.submit:hover
+{
+    background-color: #00341A;
+    color: white;
+}
+
+
+/*address section*/
+.addresssection 
+{
+    width: 100%;
+    height: 50%;
+    background-color: #00341a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addresscontent 
+{
+    width: 80%;
+    height: 80%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentleft 
+{
+width: 40%;
+height: 100%;
+padding-top: 5px;
+display: flex;
+justify-content: start;
+align-items: start;
+}
+.addresscontentleft a img 
+{
+    width:80%;
+    height: 80%;
+}
+.addresscontentright 
+{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.addresscontentemail
+{
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addcontentemailleft
+{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.addcontentemailleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addcontentemailright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.addcontentemailright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.addresscontentaddress
+{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentaddressleft
+{
+width: 50%;
+height: 100%;
+display: flex;
+justify-content: start;
+align-items: end;
+}
+.addresscontentaddressleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentaddressright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.addresscontentaddressright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.addresscontentsocial
+{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentsocialleft
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.addresscontentsocialleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentsocialright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.addresscontentsocialright a 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+.addresscontentsocialright a:hover 
+{
+    color: #b6daec;
+}
+.addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 15px;
+    padding-right: 0px;
+}
+[dir="rtl"] .addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+
+/*footer section*/
     .footersection 
     {
         width: 100%;
@@ -874,6 +1420,282 @@ padding-right: 0px;
         border-top: 1px solid #00341a;
     }
     
+
+
+    /*contact banner*/
+.contactbanner 
+{
+    height: 50%;
+    width: 100%;
+}
+.contactbanner img 
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*contact form*/
+.contactform 
+{
+    width: 100%;
+    height: 70%;
+    background-color: #eae9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactformcontent 
+{
+    width: 70%;
+    height: 75%;
+    border-top: 1px solid black;
+}
+.formheader 
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.formheader h1 
+{
+    font-family: "PPEiko";
+    font-size: 3rem;
+    color: #00341A;
+}
+.myform 
+{
+    width: 100%;
+    height: 80%;
+}
+input[type="text"], input[type="email"], #message{
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #000; /* Only bottom border */
+    outline: none !important; /* Force remove outline */
+    background-color: #eae9e6; /* Set background color */
+    font-size: 16px;
+    transition: border-bottom 0.3s ease-in-out; /* Smooth effect */
+}
+
+/* When input is active (clicked or being typed in) */
+input[type="text"]:active, input[type="email"]:active,
+input[type="text"]:focus, input[type="email"]:focus, #message:focus {
+    border-bottom: 1px solid black; /* Change bottom border color */
+    outline: none !important; /* Ensure outline is removed */
+    background-color: #eae9e6 !important;
+    box-shadow: none !important;
+}
+
+label {
+    padding: 1rem .75rem; /* Change placeholder text color */
+    font-size: 16px; /* Adjust font size */
+    opacity: 1; /* Ensure it's fully visible */
+    font-family: Poppins,'san-serif';
+}
+.submitcol 
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.submit
+{
+padding: 5px 40px;
+border-radius: 20px;
+text-transform: capitalize;
+border: 1px solid #00341A;
+color: #00341A;
+transition: all 0.1s ease-in;
+font-size: 16px;
+font-family: Poppins,'san-serif';
+}
+.submit:hover
+{
+    background-color: #00341A;
+    color: white;
+}
+
+
+
+/*address section*/
+.addresssection 
+{
+    width: 100%;
+    height: 50%;
+    background-color: #00341a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addresscontent 
+{
+    width: 80%;
+    height: 80%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentleft 
+{
+width: 40%;
+height: 100%;
+padding-top: 5px;
+display: flex;
+justify-content: start;
+align-items: start;
+}
+.addresscontentleft a img 
+{
+    width:80%;
+    height: 80%;
+}
+.addresscontentright 
+{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.addresscontentemail
+{
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addcontentemailleft
+{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.addcontentemailleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addcontentemailright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.addcontentemailright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.addresscontentaddress
+{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentaddressleft
+{
+width: 50%;
+height: 100%;
+display: flex;
+justify-content: start;
+align-items: end;
+}
+.addresscontentaddressleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentaddressright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.addresscontentaddressright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.addresscontentsocial
+{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentsocialleft
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.addresscontentsocialleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentsocialright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.addresscontentsocialright a 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+.addresscontentsocialright a:hover 
+{
+    color: #b6daec;
+}
+.addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 15px;
+    padding-right: 0px;
+}
+[dir="rtl"] .addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+
+/*footer section*/
     .footersection 
     {
         width: 100%;
@@ -1218,6 +2040,304 @@ padding-right: 0px;
         border-top: 1px solid #00341a;
     }
     
+
+    /*contact banner*/
+.contactbanner 
+{
+    height: 30%;
+    width: 100%;
+}
+.contactbanner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+     /*contact form*/
+.contactform 
+{
+    width: 100%;
+    height: auto;
+    background-color: #eae9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contactformcontent 
+{
+    width: 70%;
+    height: auto;
+    border-top: 1px solid black;
+}
+.formheader 
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.formheader h1 
+{
+    font-family: "PPEiko";
+    font-size: 3rem;
+    color: #00341A;
+}
+.myform 
+{
+    width: 100%;
+    height: auto;
+}
+input[type="text"], input[type="email"], #message{
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #000; /* Only bottom border */
+    outline: none !important; /* Force remove outline */
+    background-color: #eae9e6; /* Set background color */
+    font-size: 16px;
+    transition: border-bottom 0.3s ease-in-out; /* Smooth effect */
+}
+
+/* When input is active (clicked or being typed in) */
+input[type="text"]:active, input[type="email"]:active,
+input[type="text"]:focus, input[type="email"]:focus, #message:focus {
+    border-bottom: 1px solid black; /* Change bottom border color */
+    outline: none !important; /* Ensure outline is removed */
+    background-color: #eae9e6 !important;
+    box-shadow: none !important;
+}
+
+label {
+    padding: 1rem .75rem; /* Change placeholder text color */
+    font-size: 16px; /* Adjust font size */
+    opacity: 1; /* Ensure it's fully visible */
+    font-family: Poppins,'san-serif';
+}
+.submitcol 
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.submit
+{
+padding: 5px 40px;
+border-radius: 20px;
+text-transform: capitalize;
+border: 1px solid #00341A;
+color: #00341A;
+transition: all 0.1s ease-in;
+font-family: Poppins,'san-serif';
+font-size: 14px;
+}
+.submit:hover
+{
+    background-color: #00341A;
+    color: white;
+}
+
+
+
+/*address section*/
+.addresssection 
+{
+    width: 100%;
+    height: 50%;
+    background-color: #00341a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addresscontent 
+{
+    width: 80%;
+    height: 80%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentleft 
+{
+width: 40%;
+height: 100%;
+padding-top: 5px;
+display: flex;
+justify-content: start;
+align-items: start;
+}
+.addresscontentleft a 
+{
+   width: 80%; 
+   height: 30%;
+}
+.addresscontentleft a img 
+{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.addresscontentright 
+{
+    width: 60%;
+    height: 100%;
+}
+.addresscontentemail
+{
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addcontentemailleft
+{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.addcontentemailleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addcontentemailright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.addcontentemailright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.addresscontentaddress
+{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentaddressleft
+{
+width: 30%;
+height: 100%;
+display: flex;
+justify-content: start;
+align-items: end;
+}
+.addresscontentaddressleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentaddressright
+{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.addresscontentaddressright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    width: 90%;
+    text-align: right;
+}
+[dir="rtl"] .addresscontentaddressright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    width: 90%;
+    text-align: left;
+}
+
+
+.addresscontentsocial
+{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentsocialleft
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.addresscontentsocialleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentsocialright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.addresscontentsocialright a 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+.addresscontentsocialright a:hover 
+{
+    color: #b6daec;
+}
+.addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 15px;
+    padding-right: 0px;
+}
+[dir="rtl"] .addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+
+
+/*footer section*/
     .footersection 
     {
         width: 100%;
@@ -1555,6 +2675,301 @@ padding-right: 0px;
         color: black;
         border-top: 1px solid #00341a;
     }
+
+/*contact banner*/
+.contactbanner 
+{
+    height: 30%;
+    width: 100%;
+}
+.contactbanner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+    /*contact form*/
+.contactform 
+{
+    width: 100%;
+    height: auto;
+    background-color: #eae9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contactformcontent 
+{
+    width: 70%;
+    height: auto;
+    border-top: 1px solid black;
+}
+.formheader 
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.formheader h1 
+{
+    font-family: "PPEiko";
+    font-size: 3rem;
+    color: #00341A;
+}
+.myform 
+{
+    width: 100%;
+    height: auto;
+}
+input[type="text"], input[type="email"], #message{
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #000; /* Only bottom border */
+    outline: none !important; /* Force remove outline */
+    background-color: #eae9e6; /* Set background color */
+    font-size: 16px;
+    transition: border-bottom 0.3s ease-in-out; /* Smooth effect */
+}
+
+/* When input is active (clicked or being typed in) */
+input[type="text"]:active, input[type="email"]:active,
+input[type="text"]:focus, input[type="email"]:focus, #message:focus {
+    border-bottom: 1px solid black; /* Change bottom border color */
+    outline: none !important; /* Ensure outline is removed */
+    background-color: #eae9e6 !important;
+    box-shadow: none !important;
+}
+
+label {
+    padding: 1rem .75rem; /* Change placeholder text color */
+    font-size: 16px; /* Adjust font size */
+    opacity: 1; /* Ensure it's fully visible */
+    font-family: Poppins,'san-serif';
+}
+.submitcol 
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.submit
+{
+padding: 5px 40px;
+border-radius: 20px;
+text-transform: capitalize;
+border: 1px solid #00341A;
+color: #00341A;
+transition: all 0.1s ease-in;
+font-size: 14px;
+font-family: Poppins,'san-serif';
+}
+.submit:hover
+{
+    background-color: #00341A;
+    color: white;
+}
+
+
+/*address section*/
+.addresssection 
+{
+    width: 100%;
+    height: 50%;
+    background-color: #00341a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addresscontent 
+{
+    width: 80%;
+    height: 80%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentleft 
+{
+width: 40%;
+height: 100%;
+padding-top: 5px;
+display: flex;
+justify-content: start;
+align-items: start;
+}
+.addresscontentleft a 
+{
+   width: 80%; 
+   height: 30%;
+}
+.addresscontentleft a img 
+{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.addresscontentright 
+{
+    width: 60%;
+    height: 100%;
+}
+.addresscontentemail
+{
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addcontentemailleft
+{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.addcontentemailleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addcontentemailright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.addcontentemailright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.addresscontentaddress
+{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentaddressleft
+{
+width: 30%;
+height: 100%;
+display: flex;
+justify-content: start;
+align-items: end;
+}
+.addresscontentaddressleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentaddressright
+{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.addresscontentaddressright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    width: 90%;
+    text-align: right;
+}
+[dir="rtl"] .addresscontentaddressright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    width: 90%;
+    text-align: left;
+}
+
+
+.addresscontentsocial
+{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.addresscontentsocialleft
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.addresscontentsocialleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentsocialright
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.addresscontentsocialright a 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+.addresscontentsocialright a:hover 
+{
+    color: #b6daec;
+}
+.addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 15px;
+    padding-right: 0px;
+}
+[dir="rtl"] .addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+
+/*footer section*/
     .footersection 
     {
         width: 100%;
@@ -1894,7 +3309,284 @@ padding-right: 0px;
         border-top: 1px solid #00341a;
     }
 
-   
+   /*contact form*/
+
+
+.contactform 
+{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    background-color: #eae9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactformcontent 
+{
+    width: 70%;
+    height: auto;
+    border-top: 1px solid black;
+}
+.formheader 
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.formheader h1 
+{
+    font-family: "PPEiko";
+    font-size: 2rem;
+    color: #00341A;
+}
+.myform 
+{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input[type="text"], input[type="email"], #message{
+    width: 100%;
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #000; /* Only bottom border */
+    outline: none !important; /* Force remove outline */
+    background-color: #eae9e6; /* Set background color */
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: border-bottom 0.3s ease-in-out; /* Smooth effect */
+}
+
+/* When input is active (clicked or being typed in) */
+input[type="text"]:active, input[type="email"]:active,
+input[type="text"]:focus, input[type="email"]:focus, #message:focus {
+    border-bottom: 1px solid black; /* Change bottom border color */
+    outline: none !important; /* Ensure outline is removed */
+    background-color: #eae9e6 !important;
+    box-shadow: none !important;
+}
+
+label {
+    padding: 1rem .75rem; /* Change placeholder text color */
+    font-size: 15px; /* Adjust font size */
+    opacity: 1; /* Ensure it's fully visible */
+    font-family: Poppins,'san-serif';
+}
+.submitcol 
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.submit
+{
+padding: 5px 40px;
+border-radius: 20px;
+text-transform: capitalize;
+border: 1px solid #00341A;
+color: #00341A;
+transition: all 0.1s ease-in;
+font-size: 14px;
+font-family: Poppins,'san-serif';
+}
+.submit:hover
+{
+    background-color: #00341A;
+    color: white;
+}
+
+
+
+/*address section*/
+.addresssection 
+{
+    width: 100%;
+    height: 120%;
+    background-color: #00341a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addresscontent 
+{
+    width: 70%;
+    height: 80%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+.addresscontentleft 
+{
+width: 100%;
+height: 30%;
+padding-top: 5px;
+display: flex;
+justify-content: start;
+align-items: start;
+}
+.addresscontentleft a
+{
+    width: 100%;
+    height: 100%;
+}
+.addresscontentleft a img 
+{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.addresscontentright 
+{
+    width: 100%;
+    height: 70%;
+}
+.addresscontentemail
+{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.addcontentemailleft
+{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.addcontentemailleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addcontentemailright
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addcontentemailright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.addresscontentaddress
+{
+    width: 100%;
+    height: 33%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+.addresscontentaddressleft
+{
+width: 100%;
+height: 50%;
+display: flex;
+justify-content: center;
+align-items: end;
+}
+.addresscontentaddressleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentaddressright
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addresscontentaddressright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    width: 80%;
+    text-align: center;
+    
+}
+
+
+.addresscontentsocial
+{
+    width: 100%;
+    height: 33%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+.addresscontentsocialleft
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.addresscontentsocialleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentsocialright
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.addresscontentsocialright a 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+.addresscontentsocialright a:hover 
+{
+    color: #b6daec;
+}
+.addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 15px;
+    padding-right: 0px;
+}
+[dir="rtl"] .addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+
     
     /*footersection*/
     .footersection 
@@ -2250,6 +3942,297 @@ opacity: 0;
     color: black;
     border-top: 1px solid #00341a;
 }
+
+/*contact banner*/
+.contactbanner 
+{
+    height: 30%;
+    width: 100%;
+}
+.contactbanner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*contact form*/
+
+
+.contactform 
+{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    background-color: #eae9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactformcontent 
+{
+    width: 70%;
+    height: auto;
+    border-top: 1px solid black;
+}
+.formheader 
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.formheader h1 
+{
+    font-family: "PPEiko";
+    font-size: 2rem;
+    color: #00341A;
+}
+.myform 
+{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input[type="text"], input[type="email"], #message{
+    width: 100%;
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #000; /* Only bottom border */
+    outline: none !important; /* Force remove outline */
+    background-color: #eae9e6; /* Set background color */
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: border-bottom 0.3s ease-in-out; /* Smooth effect */
+}
+
+/* When input is active (clicked or being typed in) */
+input[type="text"]:active, input[type="email"]:active,
+input[type="text"]:focus, input[type="email"]:focus, #message:focus {
+    border-bottom: 1px solid black; /* Change bottom border color */
+    outline: none !important; /* Ensure outline is removed */
+    background-color: #eae9e6 !important;
+    box-shadow: none !important;
+}
+
+label {
+    padding: 1rem .75rem; /* Change placeholder text color */
+    font-size: 15px; /* Adjust font size */
+    opacity: 1; /* Ensure it's fully visible */
+    font-family: Poppins,'san-serif';
+}
+.submitcol 
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.submit
+{
+padding: 5px 40px;
+border-radius: 20px;
+text-transform: capitalize;
+border: 1px solid #00341A;
+color: #00341A;
+transition: all 0.1s ease-in;
+font-size: 14px;
+font-family: Poppins,'san-serif';
+}
+.submit:hover
+{
+    background-color: #00341A;
+    color: white;
+}
+
+
+/*address section*/
+.addresssection 
+{
+    width: 100%;
+    height: 120%;
+    background-color: #00341a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addresscontent 
+{
+    width: 70%;
+    height: 80%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+.addresscontentleft 
+{
+width: 100%;
+height: 30%;
+padding-top: 5px;
+display: flex;
+justify-content: start;
+align-items: start;
+}
+.addresscontentleft a
+{
+    width: 100%;
+    height: 100%;
+}
+.addresscontentleft a img 
+{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.addresscontentright 
+{
+    width: 100%;
+    height: 70%;
+}
+.addresscontentemail
+{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.addcontentemailleft
+{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.addcontentemailleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addcontentemailright
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addcontentemailright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.addresscontentaddress
+{
+    width: 100%;
+    height: 33%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+.addresscontentaddressleft
+{
+width: 100%;
+height: 50%;
+display: flex;
+justify-content: center;
+align-items: end;
+}
+.addresscontentaddressleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentaddressright
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addresscontentaddressright p 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    width: 80%;
+    text-align: center;
+    
+}
+
+
+.addresscontentsocial
+{
+    width: 100%;
+    height: 33%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+.addresscontentsocialleft
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.addresscontentsocialleft p 
+{
+    color: white;
+    font-family: Poppins,'san-serif';
+    font-size: 18px;
+    font-weight: 300;
+}
+.addresscontentsocialright
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.addresscontentsocialright a 
+{
+    color: #b6daec;
+    font-family: Poppins,'san-serif';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+.addresscontentsocialright a:hover 
+{
+    color: #b6daec;
+}
+.addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 15px;
+    padding-right: 0px;
+}
+[dir="rtl"] .addresscontentsocialright a:nth-child(2)
+{
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
 
 /*footersection*/
 .footersection 
