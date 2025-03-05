@@ -34,7 +34,7 @@ function Direction() {
         if (currentDir === 'ltr') 
         {
             document.body.setAttribute('dir', 'rtl');
-            tooglebuttonfooter.textContent="english"
+            tooglebuttonfooter.textContent="EN"
             com.textContent="فواج";
             grp.textContent="المشاريع";
             prj.textContent="شركات";
@@ -79,7 +79,7 @@ function Direction() {
         else 
         {
             document.body.setAttribute('dir', 'ltr'); 
-            tooglebuttonfooter.textContent="arabic"
+            tooglebuttonfooter.textContent="AR"
             com.textContent="Foaj";
             grp.textContent="Projects";
             prj.textContent="Companies";

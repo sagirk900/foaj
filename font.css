@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Salma Arabic';
+    src: url('fonts/SalmaArabic-Medium.woff2') format('woff2'),
+        url('fonts/SalmaArabic-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Salma Arabic';
+    src: url('fonts/SalmaArabic-Light.woff2') format('woff2'),
+        url('fonts/SalmaArabic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('fonts/GraphikArabic-Regular.woff2') format('woff2'),
+        url('fonts/GraphikArabic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('fonts/GraphikArabic-Light.woff2') format('woff2'),
+        url('fonts/GraphikArabic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'PP Eiko';
+    src: url('fonts/PPEiko-Bold.woff2') format('woff2'),
+        url('fonts/PPEiko-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PP Eiko';
+    src: url('fonts/PPEiko-Medium.woff2') format('woff2'),
+        url('fonts/PPEiko-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

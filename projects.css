@@ -10,6 +10,54 @@ html,body
     height: 100%;
     overflow-x: hidden;
 }
+@font-face {
+    font-family: 'PP Eiko';
+    src: url('fonts/PPEiko-Medium.woff2') format('woff2'),
+        url('fonts/PPEiko-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PP Eiko';
+    src: url('fonts/PPEiko-Bold.woff2') format('woff2'),
+        url('fonts/PPEiko-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Salma Arabic';
+    src: url('fonts/SalmaArabic-Light.woff2') format('woff2'),
+        url('fonts/SalmaArabic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('fonts/GraphikArabic-Light.woff2') format('woff2'),
+        url('fonts/GraphikArabic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('fonts/GraphikArabic-Regular.woff2') format('woff2'),
+        url('fonts/GraphikArabic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Salma Arabic';
+    src: url('fonts/SalmaArabic-Medium.woff2') format('woff2'),
+        url('fonts/SalmaArabic-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 .menu 
 {
     width: 100%;
@@ -453,205 +501,226 @@ align-items: center;
 
 /* footer section */
 .footersection 
-{
-    width: 100%;
-    height: 50%;
-    background-color: #b6daec;
+    {
+        width: 100%;
+        height: 50%;
+        background-color: #b6daec;
+        display: flex;
+    }
+    .footerlogo
+    {
+    width: 20%;
+    height: 100%;
     display: flex;
-}
-.footerlogo
-{
-width: 20%;
-height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.footerlogo img 
-{
-    width: 80%;
-    height: 80%;
-}
-.footermenu
-{
-width: 50%;
-height: 100%;
-}
-
-.footermenutop 
-{
-    width: 60%;
+    justify-content: center;
+    align-items: center;
+    }
+    .footerlogo img 
+    {
+        width: 80%;
+        height: 80%;
+    }
+    .footermenu
+    {
+    width: 50%;
+    height: 100%;
+    }
+    
+    .footermenutop 
+    {
+        width: 60%;
+        height: 75%;
+        padding-top: 10px;
+    }
+    .footermenutop a 
+    {
+        text-decoration: none;
+        font-family: 'PP Eiko';
+        color: #00341a;
+        padding: 0px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    [dir="rtl"] .footermenutop a 
+    {
+        text-decoration: none;
+        font-family: 'Graphik Arabic';
+        color: #00341a;
+        padding: 0px 10px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .footermenutop a:hover 
+    {
+        color: #00341a;
+    }
+    .footermenubottom
+    {
+        width: 100%;
+        height: 25%;
+    }
+    .footermenubottom h6
+    {
+        color: #00341a;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        font-family: 'PP Eiko';
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .footermenubottom p 
+    {
+        color: #00341a;
+        width: 100%;
+        font-family: 'Graphik Arabic';
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .footercopyright
+    {
+    width: 30%;
+    height: 100%;
+    
+    }
+    .footercpyrighttop 
+    {
+    width: 100%;
     height: 75%;
-    padding-top: 10px;
-}
-.footermenutop a 
-{
-    text-decoration: none;
-    font-family: 'Poppins', serif;
-    color: #00341a;
-    padding: 0px 10px;
-    font-size: 16px;
-    font-weight: 400;
-}
-.footermenutop a:hover 
-{
-    color: #00341a;
-}
-.footermenubottom
-{
+    display: flex;
+    }
+    
+    [dir="rtl"] .footercpyrighttop 
+    {
+        width: 100%;
+        height: 75%;
+        display: flex;
+    }
+    .footercpyrighttopleft 
+    {
+        width: 0%;
+        height: 0%;
+        opacity: 0;
+       
+    }
+    .footercpyrighttopleft  h6
+    {
+        color: #00341a;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        font-family: 'PP Eiko';
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .footercpyrighttopleft  p 
+    {
+        color: #00341a;
+        width: 100%;
+        font-family: 'PP Eiko';
+        font-weight: normal;
+        font-size: 16px;
+    }
+    .footercpyrighttopright
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        padding-right: 10px;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    [dir="rtl"] .footercpyrighttopright
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+    .footercpyrighttopright button 
+    {
+        background-color: #81c2e5;
+        color: #0a3d62; /* Darker text for contrast */
+        border: none;
+        padding: 5px 10px 5px 10px;
+        font-size: 16px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        font-family: 'PP Eiko';
+        font-weight: 500;
+        text-transform: capitalize;
+        height: fit-content;
+    
+    }
+    .footercpyrighttop button:hover 
+    {
+        background-color: #00341a; /* Change background on hover */
+        transform: scale(1.1); /* Slightly increase size */
+        color: white;
+    }
+    .footercopyrightbottom
+    {
     width: 100%;
     height: 25%;
-}
-.footermenubottom h6
-{
-    color: #00341a;
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Poppins',serif;
-    font-size: 18px;
-}
-.footermenubottom p 
-{
-    color: #00341a;
-    width: 100%;
-    font-family: 'Poppins',serif;
-    font-size: 16px;
-}
-.footercopyright
-{
-width: 30%;
-height: 100%;
-
-}
-.footercpyrighttop 
-{
-width: 100%;
-height: 75%;
-display: flex;
-}
-
-[dir="rtl"] .footercpyrighttop 
-{
-    width: 100%;
-    height: 75%;
     display: flex;
-}
-.footercpyrighttopleft 
-{
-    width: 0%;
-    height: 0%;
-    opacity: 0;
-   
-}
-.footercpyrighttopleft  h6
-{
-    color: #00341a;
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Poppins',serif;
-    font-size: 18px;
-}
-.footercpyrighttopleft  p 
-{
-    color: #00341a;
-    width: 100%;
-    font-family: 'Poppins',serif;
-    font-size: 16px;
-}
-.footercpyrighttopright
-{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: end;
-    padding-right: 10px;
-    padding-left: 0px;
+    justify-content: flex-end;
+    font-size: 12px;
     padding-top: 10px;
-}
-[dir="rtl"] .footercpyrighttopright
-{
+    padding-right: 10px;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    }
+    
+    [dir="rtl"] .footercopyrightbottom
+    {
     width: 100%;
-    height: 100%;
+    height: 25%;
     display: flex;
-    justify-content: start;
-    padding-right: 0px;
+    justify-content: flex-start;
+    font-size: 12px;
     padding-top: 10px;
-}
-.footercpyrighttopright button 
-{
-    background-color: #81c2e5;
-    color: #0a3d62; /* Darker text for contrast */
-    border: none;
-    padding: 10px 15px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 8px;
-transition: all 0.3s ease;
-font-family: "PPEiko";
-text-transform: capitalize;
-height: 18%;
-
-}
-.footercpyrighttop button:hover 
-{
-    background-color: #00341a; /* Change background on hover */
-    transform: scale(1.1); /* Slightly increase size */
-    color: white;
-}
-.footercopyrightbottom
-{
-width: 100%;
-height: 25%;
-display: flex;
-justify-content: flex-end;
-font-size: 12px;
-padding-top: 10px;
-padding-right: 10px;
-}
-
-[dir="rtl"] .footercopyrightbottom
-{
-width: 100%;
-height: 25%;
-display: flex;
-justify-content: flex-start;
-font-size: 12px;
-padding-top: 10px;
-padding-right: 0px;
-}
-
-.footercopyrightbottom .linkdin 
-{
-    padding-right: 10px;
-    padding-left: 0px;
-}
-[dir="rtl"] .footercopyrightbottom .linkdin 
-{
     padding-right: 0px;
-    padding-left: 10px;
-}
-.footercopyrightbottom .xfoaj
-{
-    padding-right: 10px;
-    padding-left: 0px;
-}
-[dir="rtl"] .footercopyrightbottom .xfoaj
-{
-    padding-right: 0px;
-    padding-left: 10px;
-}
-.footercopyrightbottom .rightsreserve
-{
-    padding-left: 10px;
-    padding-right: 0px;
-}
-[dir="rtl"] .footercopyrightbottom .rightsreserve
-{
-    padding-left: 0;
-    padding-right: 10px;
-}
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    }
+    
+    .footercopyrightbottom .linkdin 
+    {
+        padding-right: 10px;
+        padding-left: 0px;
+    }
+    [dir="rtl"] .footercopyrightbottom .linkdin 
+    {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .footercopyrightbottom .xfoaj
+    {
+        padding-right: 10px;
+        padding-left: 0px;
+    }
+    [dir="rtl"] .footercopyrightbottom .xfoaj
+    {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .footercopyrightbottom .rightsreserve
+    {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    [dir="rtl"] .footercopyrightbottom .rightsreserve
+    {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    .footercopyrightbottom span 
+    {
+        font-size: 14px;
+    }
 
 /* Extra Large Screens (4K, TVs, Ultra-Wide, mac pro) */
 @media only screen and (min-width: 1400px) and (max-width:2000px) {
@@ -1096,226 +1165,227 @@ align-items: center;
 
 
 /*footer section*/
-    .footersection 
-    {
-        width: 100%;
-        height: 50%;
-        background-color: #b6daec;
-        display: flex;
-    }
-    .footerlogo
-    {
-    width: 20%;
-    height: 100%;
+.footersection 
+{
+    width: 100%;
+    height: 50%;
+    background-color: #b6daec;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    .footerlogo img 
-    {
-        width: 80%;
-        height: 80%;
-    }
-    .footermenu
-    {
-    width: 50%;
-    height: 100%;
-    }
-    
-    .footermenutop 
-    {
-        width: 60%;
-        height: 75%;
-        padding-top: 10px;
-    }
-    .footermenutop a 
-    {
-        text-decoration: none;
-        font-family: 'Poppins', serif;
-        color: #00341a;
-        padding: 0px 10px;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .footermenutop a:hover 
-    {
-        color: #00341a;
-    }
-    .footermenubottom
-    {
-        width: 100%;
-        height: 25%;
-    }
-    .footermenubottom h6
-    {
-        color: #00341a;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        font-family: 'Poppins',serif;
-        font-size: 18px;
-    }
-    .footermenubottom p 
-    {
-        color: #00341a;
-        width: 100%;
-        font-family: 'Poppins',serif;
-        font-size: 16px;
-    }
-    .footercopyright
-    {
-    width: 30%;
-    height: 100%;
-    
-    }
-    .footercpyrighttop 
-    {
+}
+.footerlogo
+{
+width: 20%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footerlogo img 
+{
+    width: 80%;
+    height: 80%;
+}
+.footermenu
+{
+width: 50%;
+height: 100%;
+}
+
+.footermenutop 
+{
+    width: 60%;
+    height: 75%;
+    padding-top: 10px;
+}
+.footermenutop a 
+{
+    text-decoration: none;
+    font-family: 'PP Eiko';
+    color: #00341a;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+[dir="rtl"] .footermenutop a 
+{
+    text-decoration: none;
+    font-family: 'Graphik Arabic';
+    color: #00341a;
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.footermenutop a:hover 
+{
+    color: #00341a;
+}
+.footermenubottom
+{
+    width: 100%;
+    height: 25%;
+}
+.footermenubottom h6
+{
+    color: #00341a;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'PP Eiko';
+    font-weight: bold;
+    font-size: 15px;
+}
+.footermenubottom p 
+{
+    color: #00341a;
+    width: 100%;
+    font-family: 'Graphik Arabic';
+    font-size: 14px;
+    font-weight: 300;
+}
+.footercopyright
+{
+width: 30%;
+height: 100%;
+
+}
+.footercpyrighttop 
+{
+width: 100%;
+height: 75%;
+display: flex;
+}
+
+[dir="rtl"] .footercpyrighttop 
+{
     width: 100%;
     height: 75%;
     display: flex;
-    }
-    
-    [dir="rtl"] .footercpyrighttop 
-    {
-        width: 100%;
-        height: 75%;
-        display: flex;
-    }
-    .footercpyrighttopleft 
-    {
-        width: 0%;
-        height: 0%;
-        opacity: 0;
-       
-    }
-    .footercpyrighttopleft  h6
-    {
-        color: #00341a;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        font-family: 'Poppins',serif;
-        font-size: 18px;
-    }
-    .footercpyrighttopleft  p 
-    {
-        color: #00341a;
-        width: 100%;
-        font-family: 'Poppins',serif;
-        font-size: 16px;
-    }
-    .footercpyrighttopright
-    {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: end;
-        padding-right: 10px;
-        padding-left: 0px;
-        padding-top: 10px;
-    }
-    [dir="rtl"] .footercpyrighttopright
-    {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-start;
-        padding-right: 0px;
-        padding-left: 10px;
-        padding-top: 10px;
-    }
-    .footercpyrighttopright button 
-    {
-        background-color: #81c2e5;
-        color: #0a3d62; /* Darker text for contrast */
-        border: none;
-        padding: 10px 15px;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 8px;
-        transition: all 0.3s ease;
-        font-family: "PPEiko";
-        text-transform: capitalize;
-        height: 18%;
-    
-    }
-    [dir="rtl"] .footercpyrighttopright button 
-    {
-        background-color: #81c2e5;
-        color: #0a3d62; /* Darker text for contrast */
-        border: none;
-        padding: 10px 15px;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 8px;
-        transition: all 0.3s ease;
-        font-family: "PPEiko";
-        text-transform: capitalize;
-        height: 18%;
-
-    }
-    .footercpyrighttop button:hover 
-    {
-        background-color: #00341a; /* Change background on hover */
-        transform: scale(1.1); /* Slightly increase size */
-        color: white;
-    }
-    .footercopyrightbottom
-    {
+}
+.footercpyrighttopleft 
+{
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+   
+}
+.footercpyrighttopleft  h6
+{
+    color: #00341a;
     width: 100%;
-    height: 25%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'PP Eiko';
+    font-weight: normal;
+    font-size: 18px;
+}
+.footercpyrighttopleft  p 
+{
+    color: #00341a;
+    width: 100%;
+    font-family: 'PP Eiko';
+    font-weight: normal;
+    font-size: 16px;
+}
+.footercpyrighttopright
+{
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: flex-end;
-    font-size: 12px;
-    padding-top: 10px;
+    justify-content: end;
     padding-right: 10px;
-    }
-    
-    [dir="rtl"] .footercopyrightbottom
-    {
-    width: 100%;
-    height: 25%;
-    display: flex;
-    justify-content: flex-start;
-    font-size: 12px;
+    padding-left: 0px;
     padding-top: 10px;
+}
+[dir="rtl"] .footercpyrighttopright
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
     padding-right: 0px;
-    }
-    
-    .footercopyrightbottom .linkdin 
-    {
-        padding-right: 10px;
-        padding-left: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .linkdin 
-    {
-        padding-right: 0px;
-        padding-left: 10px;
-    }
-    .footercopyrightbottom .xfoaj
-    {
-        padding-right: 10px;
-        padding-left: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .xfoaj
-    {
-        padding-right: 0px;
-        padding-left: 10px;
-    }
-    .footercopyrightbottom .rightsreserve
-    {
-        padding-left: 10px;
-        padding-right: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .rightsreserve
-    {
-        padding-left: 0;
-        padding-right: 10px;
-    }
-    .footercopyrightbottom span 
-    {
-        font-size: 14px;
-    }
+    padding-top: 10px;
+}
+.footercpyrighttopright button 
+{
+    background-color: #81c2e5;
+color: #0a3d62; /* Darker text for contrast */
+border: none;
+padding: 5px 10px 5px 10px;
+font-size: 16px;
+border-radius: 8px;
+transition: all 0.3s ease;
+font-family: 'PP Eiko';
+font-weight: 500;
+text-transform: capitalize;
+height: fit-content;
+
+}
+.footercpyrighttop button:hover 
+{
+    background-color: #00341a; /* Change background on hover */
+    transform: scale(1.1); /* Slightly increase size */
+    color: white;
+}
+.footercopyrightbottom
+{
+width: 100%;
+height: 25%;
+display: flex;
+justify-content: flex-end;
+font-size: 12px;
+padding-top: 10px;
+padding-right: 10px;
+font-family: 'Graphik Arabic';
+font-weight: normal;
+}
+
+[dir="rtl"] .footercopyrightbottom
+{
+width: 100%;
+height: 25%;
+display: flex;
+justify-content: flex-start;
+font-size: 12px;
+padding-top: 10px;
+padding-right: 0px;
+font-family: 'Graphik Arabic';
+font-weight: normal;
+}
+
+.footercopyrightbottom .linkdin 
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .linkdin 
+{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.footercopyrightbottom .xfoaj
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .xfoaj
+{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.footercopyrightbottom .rightsreserve
+{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .rightsreserve
+{
+    padding-left: 0;
+    padding-right: 10px;
+}
+.footercopyrightbottom span 
+{
+    font-size: 14px;
+}
 }
 
 /* Laptops( mac air old) */
@@ -1761,211 +1831,229 @@ align-items: center;
 }
 
  /*footer section*/
-    .footersection 
-    {
-        width: 100%;
-        height: 50%;
-        background-color: #b6daec;
-        display: flex;
-    }
-    .footerlogo
-    {
-    width: 30%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    .footerlogo img 
-    {
-        width: 80%;
-        height: 80%;
-    }
-    .footermenu
-    {
-    width: 40%;
-    height: 100%;
-    }
+ .footersection 
+ {
+     width: 100%;
+     height: 50%;
+     background-color: #b6daec;
+     display: flex;
+ }
+ .footerlogo
+ {
+ width: 30%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ .footerlogo img 
+ {
+     width: 80%;
+     height: 80%;
+ }
+ .footermenu
+ {
+ width: 40%;
+ height: 100%;
+ }
+ 
+ .footermenutop 
+ {
+     width: 100%;
+     height: 75%;
+     display: flex;
+     justify-content: start;
+     padding-top: 10px;
+ }
+ .footermenutop a 
+ {
+     text-decoration: none;
+     font-family: 'PP Eiko';
+     color: #00341a;
+     padding: 0px 10px;
+     font-size: 15px;
+     font-weight: 500;
+ }
+ [dir="rtl"] .footermenutop a 
+ {
+     text-decoration: none;
+     font-family: 'Graphik Arabic';
+     color: #00341a;
+     padding: 0px 10px;
+     font-size: 16px;
+     font-weight: normal;
+ }
+ .footermenutop a:hover 
+ {
+     color: #00341a;
+ }
+ .footermenubottom
+ {
+     width: 100%;
+     height: 25%;
+ }
+ .footermenubottom h6
+ {
+     color: #00341a;
+     width: 100%;
+     padding: 0%;
+     margin: 0%;
+     font-family: 'PP Eiko';
+     font-weight: bold;
+     font-size: 15px;
+ }
+ .footermenubottom p 
+ {
+     color: #00341a;
+     width: 100%;
+     font-family: 'Graphik Arabic';
+     font-size: 14px;
+     font-weight: 300;
+  }
+ 
+ .footercopyright
+ {
+ width: 30%;
+ height: 100%;
+ }
+ .footercpyrighttop 
+ {
+ width: 100%;
+ height: 75%;
+ display: flex;
+ }
+ 
+ [dir="rtl"] .footercpyrighttop 
+ {
+     width: 100%;
+     height: 75%;
+     display: flex;
+ }
+ .footercpyrighttopleft 
+ {
+     width: 0%;
+     height: 0%;
+     opacity: 0;
     
-    .footermenutop 
-    {
-        width: 100%;
-        height: 75%;
-        display: flex;
-        justify-content: start;
-        padding-top: 10px;
-    }
-    .footermenutop a 
-    {
-        text-decoration: none;
-        font-family: 'Poppins', serif;
-        color: #00341a;
-        padding: 0px 10px;
-        font-size: 17px;
-        font-weight: 400;
-    }
-    .footermenutop a:hover 
-    {
-        color: #00341a;
-    }
-    .footermenubottom
-    {
-        width: 100%;
-        height: 25%;
-    }
-    .footermenubottom h6
-    {
-        color: #00341a;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        font-family: 'Poppins',serif;
-        font-size: 18px;
-    }
-    .footermenubottom p 
-    {
-        color: #00341a;
-        width: 100%;
-        font-family: 'Poppins',serif;
-        font-size: 16px;
-    }
-    .footercopyright
-    {
-    width: 30%;
-    height: 100%;
-    }
-    .footercpyrighttop 
-    {
-    width: 100%;
-    height: 75%;
-    display: flex;
-    }
-    
-    [dir="rtl"] .footercpyrighttop 
-    {
-        width: 100%;
-        height: 75%;
-        display: flex;
-    }
-    .footercpyrighttopleft 
-    {
-        width: 0%;
-        height: 0%;
-        opacity: 0;
-       
-    }
-    .footercpyrighttopleft  h6
-    {
-        color: #00341a;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        font-family: 'Poppins',serif;
-        font-size: 18px;
-    }
-    .footercpyrighttopleft  p 
-    {
-        color: #00341a;
-        width: 100%;
-        font-family: 'Poppins',serif;
-        font-size: 16px;
-    }
-    .footercpyrighttopright
-    {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: end;
-        padding-right: 10px;
-        padding-left: 0px;
-        padding-top: 10px;
-    }
-    [dir="rtl"] .footercpyrighttopright
-    {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: start;
-        padding-right: 0px;
-        padding-top: 10px;
-    }
-    .footercpyrighttopright button 
-    {
-        background-color: #81c2e5;
-        color: #0a3d62; /* Darker text for contrast */
-        border: none;
-        padding: 10px 15px;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 8px;
-    transition: all 0.3s ease;
-    font-family: "PPEiko";
-    text-transform: capitalize;
-    height: 18%;
-    
-    }
-    .footercpyrighttop button:hover 
-    {
-        background-color: #00341a; /* Change background on hover */
-        transform: scale(1.1); /* Slightly increase size */
-        color: white;
-    }
-    .footercopyrightbottom
-    {
-    width: 100%;
-    height: 25%;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 12px;
-    padding-top: 10px;
-    padding-right: 10px;
-    }
-    
-    [dir="rtl"] .footercopyrightbottom
-    {
-    width: 100%;
-    height: 25%;
-    display: flex;
-    justify-content: flex-start;
-    font-size: 12px;
-    padding-top: 10px;
-    padding-right: 0px;
-    }
-    
-    .footercopyrightbottom .linkdin 
-    {
-        padding-right: 10px;
-        padding-left: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .linkdin 
-    {
-        padding-right: 0px;
-        padding-left: 10px;
-    }
-    .footercopyrightbottom .xfoaj
-    {
-        padding-right: 10px;
-        padding-left: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .xfoaj
-    {
-        padding-right: 0px;
-        padding-left: 10px;
-    }
-    .footercopyrightbottom .rightsreserve
-    {
-        padding-left: 10px;
-        padding-right: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .rightsreserve
-    {
-        padding-left: 0;
-        padding-right: 10px;
-    }
-    .footercopyrightbottom span 
-    {
-        font-size: 15px;
-    }
+ }
+ .footercpyrighttopleft  h6
+ {
+     color: #00341a;
+     width: 100%;
+     padding: 0%;
+     margin: 0%;
+     font-family: 'Poppins',serif;
+     font-size: 18px;
+ }
+ .footercpyrighttopleft  p 
+ {
+     color: #00341a;
+     width: 100%;
+     font-family: 'Poppins',serif;
+     font-size: 16px;
+ }
+ .footercpyrighttopright
+ {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: end;
+     padding-right: 10px;
+     padding-left: 0px;
+     padding-top: 10px;
+ }
+ [dir="rtl"] .footercpyrighttopright
+ {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: start;
+     padding-right: 0px;
+     padding-top: 10px;
+ }
+
+
+ .footercpyrighttopright button 
+ {
+     background-color: #81c2e5;
+ color: #0a3d62; /* Darker text for contrast */
+ border: none;
+padding: 5px 10px 5px 10px;
+ font-size: 16px;
+ border-radius: 8px;
+transition: all 0.3s ease;
+font-family: 'PP Eiko';
+font-weight: 500;
+text-transform: capitalize;
+height: fit-content;
+ 
+ }
+ .footercpyrighttop button:hover 
+ {
+     background-color: #00341a; /* Change background on hover */
+     transform: scale(1.1); /* Slightly increase size */
+     color: white;
+ }
+ .footercopyrightbottom
+ {
+ width: 100%;
+ height: 25%;
+ display: flex;
+ justify-content: flex-end;
+ font-size: 12px;
+ padding-top: 10px;
+ padding-right: 10px;
+ font-family: 'Graphik Arabic';
+font-weight: normal;
+ }
+ 
+ [dir="rtl"] .footercopyrightbottom
+ {
+ width: 100%;
+ height: 25%;
+ display: flex;
+ justify-content: flex-start;
+ font-size: 12px;
+ padding-top: 10px;
+ padding-right: 0px;
+ font-family: 'Graphik Arabic';
+font-weight: normal;
+ }
+ 
+ .footercopyrightbottom .linkdin 
+ {
+     padding-right: 10px;
+     padding-left: 0px;
+ }
+ [dir="rtl"] .footercopyrightbottom .linkdin 
+ {
+     padding-right: 0px;
+     padding-left: 10px;
+ }
+ .footercopyrightbottom .xfoaj
+ {
+     padding-right: 10px;
+     padding-left: 0px;
+ }
+ [dir="rtl"] .footercopyrightbottom .xfoaj
+ {
+     padding-right: 0px;
+     padding-left: 10px;
+ }
+ .footercopyrightbottom .rightsreserve
+ {
+     padding-left: 10px;
+     padding-right: 0px;
+ }
+ [dir="rtl"] .footercopyrightbottom .rightsreserve
+ {
+     padding-left: 0;
+     padding-right: 10px;
+ }
+ .footercopyrightbottom span 
+ {
+     font-size: 15px;
+ }
 }
 
 /* ipad pro and nest hub */
@@ -2412,207 +2500,222 @@ align-items: center;
     object-position: center;
 }
 
-
-    .footersection 
-    {
-        width: 100%;
-        height: 50%;
-        background-color: #b6daec;
-        display: flex;
-    }
-    .footerlogo
-    {
-    width: 20%;
-    height: 100%;
+.footersection 
+{
+    width: 100%;
+    height: 50%;
+    background-color: #b6daec;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    .footerlogo img 
-    {
-        width: 80%;
-        height: 80%;
-    }
-    .footermenu
-    {
-    width: 50%;
-    height: 100%;
-    }
-    
-    .footermenutop 
-    {
-        width: 60%;
-        height: 75%;
-        padding-top: 10px;
-    }
-    .footermenutop a 
-    {
-        text-decoration: none;
-        font-family: 'Poppins', serif;
-        color: #00341a;
-        padding: 0px 10px;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .footermenutop a:hover 
-    {
-        color: #00341a;
-    }
-    .footermenubottom
-    {
-        width: 100%;
-        height: 25%;
-    }
-    .footermenubottom h6
-    {
-        color: #00341a;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        font-family: 'Poppins',serif;
-        font-size: 18px;
-    }
-    .footermenubottom p 
-    {
-        color: #00341a;
-        width: 100%;
-        font-family: 'Poppins',serif;
-        font-size: 16px;
-    }
-    .footercopyright
-    {
-    width: 30%;
-    height: 100%;
-    
-    }
-    .footercpyrighttop 
-    {
+}
+.footerlogo
+{
+width: 20%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footerlogo img 
+{
+    width: 80%;
+    height: 80%;
+}
+.footermenu
+{
+width: 50%;
+height: 100%;
+}
+
+.footermenutop 
+{
+    width: 60%;
+    height: 75%;
+    padding-top: 10px;
+}
+.footermenutop a 
+{
+    text-decoration: none;
+    font-family: 'PP Eiko';
+    color: #00341a;
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+[dir="rtl"] .footermenutop a 
+{
+    text-decoration: none;
+    font-family: 'Graphik Arabic';
+    color: #00341a;
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.footermenutop a:hover 
+{
+    color: #00341a;
+}
+.footermenubottom
+{
+    width: 100%;
+    height: 25%;
+}
+.footermenubottom h6
+{
+    color: #00341a;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'PP Eiko';
+    font-weight: bold;
+    font-size: 18px;
+}
+.footermenubottom p 
+{
+    color: #00341a;
+    width: 100%;
+    font-family: 'Salma Arabic';
+    font-weight: 300;
+    font-size: 16px;
+}
+.footercopyright
+{
+width: 30%;
+height: 100%;
+
+}
+.footercpyrighttop 
+{
+width: 100%;
+height: 75%;
+display: flex;
+}
+
+[dir="rtl"] .footercpyrighttop 
+{
     width: 100%;
     height: 75%;
     display: flex;
-    }
-    
-    [dir="rtl"] .footercpyrighttop 
-    {
-        width: 100%;
-        height: 75%;
-        display: flex;
-    }
-    .footercpyrighttopleft 
-    {
-        width: 0%;
-        height: 0%;
-        opacity: 0;
-       
-    }
-    .footercpyrighttopleft  h6
-    {
-        color: #00341a;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        font-family: 'Poppins',serif;
-        font-size: 18px;
-    }
-    .footercpyrighttopleft  p 
-    {
-        color: #00341a;
-        width: 100%;
-        font-family: 'Poppins',serif;
-        font-size: 16px;
-    }
-    .footercpyrighttopright
-    {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: end;
-        padding-right: 10px;
-        padding-left: 0px;
-        padding-top: 10px;
-    }
-    [dir="rtl"] .footercpyrighttopright
-    {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: start;
-        padding-right: 0px;
-        padding-top: 10px;
-    }
-    .footercpyrighttopright button 
-    {
-        background-color: #81c2e5;
-        color: #0a3d62; /* Darker text for contrast */
-        border: none;
-        padding: 10px 15px;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 8px;
-    transition: all 0.3s ease;
-    font-family: "PPEiko";
-    text-transform: capitalize;
-    height: 18%;
-    
-    }
-    .footercpyrighttop button:hover 
-    {
-        background-color: #00341a; /* Change background on hover */
-        transform: scale(1.1); /* Slightly increase size */
-        color: white;
-    }
-    .footercopyrightbottom
-    {
+}
+.footercpyrighttopleft 
+{
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+   
+}
+.footercpyrighttopleft  h6
+{
+    color: #00341a;
     width: 100%;
-    height: 25%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins',serif;
+    font-size: 18px;
+}
+.footercpyrighttopleft  p 
+{
+    color: #00341a;
+    width: 100%;
+    font-family: 'Poppins',serif;
+    font-size: 16px;
+}
+.footercpyrighttopright
+{
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: flex-end;
-    font-size: 12px;
-    padding-top: 10px;
+    justify-content: end;
     padding-right: 10px;
-    }
-    
-    [dir="rtl"] .footercopyrightbottom
-    {
-    width: 100%;
-    height: 25%;
-    display: flex;
-    justify-content: flex-start;
-    font-size: 12px;
+    padding-left: 0px;
     padding-top: 10px;
+}
+[dir="rtl"] .footercpyrighttopright
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
     padding-right: 0px;
-    }
-    
-    .footercopyrightbottom .linkdin 
-    {
-        padding-right: 10px;
-        padding-left: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .linkdin 
-    {
-        padding-right: 0px;
-        padding-left: 10px;
-    }
-    .footercopyrightbottom .xfoaj
-    {
-        padding-right: 10px;
-        padding-left: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .xfoaj
-    {
-        padding-right: 0px;
-        padding-left: 10px;
-    }
-    .footercopyrightbottom .rightsreserve
-    {
-        padding-left: 10px;
-        padding-right: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .rightsreserve
-    {
-        padding-left: 0;
-        padding-right: 10px;
-    }
+    padding-top: 10px;
+}
+.footercpyrighttopright button 
+{
+    background-color: #81c2e5;
+color: #0a3d62; /* Darker text for contrast */
+border: none;
+padding: 5px 10px 5px 10px;
+font-size: 16px;
+border-radius: 8px;
+transition: all 0.3s ease;
+font-family: 'PP Eiko';
+font-weight: 500;
+text-transform: capitalize;
+height: fit-content;
+
+}
+.footercpyrighttop button:hover 
+{
+    background-color: #00341a; /* Change background on hover */
+    transform: scale(1.1); /* Slightly increase size */
+    color: white;
+}
+.footercopyrightbottom
+{
+width: 100%;
+height: 25%;
+display: flex;
+justify-content: flex-end;
+font-size: 12px;
+padding-top: 10px;
+padding-right: 10px;
+font-family: 'Graphik Arabic';
+font-weight: normal;
+}
+
+[dir="rtl"] .footercopyrightbottom
+{
+width: 100%;
+height: 25%;
+display: flex;
+justify-content: flex-start;
+font-size: 12px;
+padding-top: 10px;
+padding-right: 0px;
+font-family: 'Graphik Arabic';
+font-weight: normal;
+}
+
+.footercopyrightbottom .linkdin 
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .linkdin 
+{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.footercopyrightbottom .xfoaj
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .xfoaj
+{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.footercopyrightbottom .rightsreserve
+{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .rightsreserve
+{
+    padding-left: 0;
+    padding-right: 10px;
+}
+
 }
 
 /* Tablets (iPads mini & Tablets) */
@@ -3059,212 +3162,228 @@ align-items: center;
     object-position: center;
 }
 
-    .footersection 
-    {
-        width: 100%;
-        height: 30%;
-        background-color: #b6daec;
-        display: flex;
-    }
-    .footerlogo
-    {
-        width: 25%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .footerlogo img 
-    {
-        width: 80%;
-        height: 80%;
-    }
-    .footermenu
-    {
-        width: 40%;
-        height: 100%;
-    }
-    
-    .footermenutop 
-    {
-        width: 100%;
-        height: 75%;
-        padding-top: 10px;
-        display:flex;
-    }
-    .footermenutop a 
-    {
-        text-decoration: none;
-        font-family: 'Poppins', serif;
-        color: #00341a;
-        padding: 0px 10px;
-        font-size: 15px;
-        font-weight: 400;
-    }
-    .footermenutop a:hover 
-    {
-        color: #00341a;
-    }
-    .footermenubottom
-    {
-        width: 100%;
-        height: 25%;
+.footersection 
+{
+    width: 100%;
+    height: 30%;
+    background-color: #b6daec;
+    display: flex;
+}
+.footerlogo
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerlogo img 
+{
+    width: 80%;
+    height: 80%;
+}
+.footermenu
+{
+    width: 40%;
+    height: 100%;
+}
 
-    }
-    .footermenubottom h6
-    {
-        color: #00341a;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        font-family: 'Poppins',serif;
-        font-size: 18px;
-    }
-    .footermenubottom p 
-    {
-        color: #00341a;
-        width: 100%;
-        font-family: 'Poppins',serif;
-        font-size: 16px;
-    }
-    .footercopyright
-    {
-        width: 35%;
-        height: 100%;
-    }
-    .footercpyrighttop 
-    {
-        width: 100%;
-        height: 75%;
-        display: flex;
-    }
+.footermenutop 
+{
+    width: 100%;
+    height: 75%;
+    padding-top: 10px;
+    display:flex;
+}
+.footermenutop a 
+{
+    text-decoration: none;
+    font-family: 'PP Eiko';
+    color: #00341a;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+[dir="rtl"]  .footermenutop a 
+{
+    text-decoration: none;
+    font-family: 'Graphik Arabic';
+    color: #00341a;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.footermenutop a:hover 
+{
+    color: #00341a;
+}
+.footermenubottom
+{
+    width: 100%;
+    height: 25%;
+
+}
+.footermenubottom h6
+{
+    color: #00341a;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'PP Eiko';
+    font-weight: bold;
+    font-size: 18px;
+}
+.footermenubottom p 
+{
+    color: #00341a;
+    width: 100%;
+    font-family: 'Salma Arabic';
+    font-weight: 300;
+    font-size: 16px;
+}
+.footercopyright
+{
+    width: 35%;
+    height: 100%;
+}
+.footercpyrighttop 
+{
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+
+[dir="rtl"] .footercpyrighttop 
+{
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+.footercpyrighttopleft 
+{
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+   
+}
+.footercpyrighttopleft  h6
+{
+    color: #00341a;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins',serif;
+    font-size: 18px;
+}
+.footercpyrighttopleft  p 
+{
+    color: #00341a;
+    width: 100%;
+    font-family: 'Poppins',serif;
+    font-size: 16px;
+}
+.footercpyrighttopright
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+[dir="rtl"] .footercpyrighttopright
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+.footercpyrighttopright button 
+{
+    background-color: #81c2e5;
+color: #0a3d62; /* Darker text for contrast */
+border: none;
+padding: 5px 10px 5px 10px;
+font-size: 16px;
+border-radius: 8px;
+transition: all 0.3s ease;
+font-family: 'PP Eiko';
+font-weight: 500;
+text-transform: capitalize;
+height: fit-content;
     
-    [dir="rtl"] .footercpyrighttop 
-    {
-        width: 100%;
-        height: 75%;
-        display: flex;
-    }
-    .footercpyrighttopleft 
-    {
-        width: 0%;
-        height: 0%;
-        opacity: 0;
-       
-    }
-    .footercpyrighttopleft  h6
-    {
-        color: #00341a;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        font-family: 'Poppins',serif;
-        font-size: 18px;
-    }
-    .footercpyrighttopleft  p 
-    {
-        color: #00341a;
-        width: 100%;
-        font-family: 'Poppins',serif;
-        font-size: 16px;
-    }
-    .footercpyrighttopright
-    {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: end;
-        padding-right: 10px;
-        padding-left: 0px;
-        padding-top: 10px;
-    }
-    [dir="rtl"] .footercpyrighttopright
-    {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: start;
-        padding-right: 0px;
-        padding-top: 10px;
-    }
-    .footercpyrighttopright button 
-    {
-        background-color: #81c2e5;
-        color: #0a3d62; /* Darker text for contrast */
-        border: none;
-        padding: 10px 15px;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 8px;
-        transition: all 0.3s ease;
-        font-family: "PPEiko";
-        text-transform: capitalize;
-        height: 18%;
-    
-    }
-    .footercpyrighttop button:hover 
-    {
-        background-color: #00341a; /* Change background on hover */
-        transform: scale(1.1); /* Slightly increase size */
-        color: white;
-    }
-    .footercopyrightbottom
-    {
-        width: 100%;
-        height: 25%;
-        display: flex;
-        justify-content: flex-end;
-        font-size: 12px;
-        padding-top: 10px;
-        padding-right: 10px;
-    }
-    
-    [dir="rtl"] .footercopyrightbottom
-    {
-        width: 100%;
-        height: 25%;
-        display: flex;
-        justify-content: flex-start;
-        font-size: 12px;
-        padding-top: 10px;
-        padding-right: 0px;
-    }
-    
-    .footercopyrightbottom .linkdin 
-    {
-        padding-right: 10px;
-        padding-left: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .linkdin 
-    {
-        padding-right: 0px;
-        padding-left: 10px;
-    }
-    .footercopyrightbottom .xfoaj
-    {
-        padding-right: 10px;
-        padding-left: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .xfoaj
-    {
-        padding-right: 0px;
-        padding-left: 10px;
-    }
-    
-    .footercopyrightbottom .rightsreserve
-    {
-        padding-left: 10px;
-        padding-right: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .rightsreserve
-    {
-        padding-left: 0;
-        padding-right: 10px;
-    }
-    .footercopyrightbottom span 
-    {
-        font-size: 10px;
-    }
+
+}
+.footercpyrighttop button:hover 
+{
+    background-color: #00341a; /* Change background on hover */
+    transform: scale(1.1); /* Slightly increase size */
+    color: white;
+}
+.footercopyrightbottom
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+}
+
+[dir="rtl"] .footercopyrightbottom
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 0px;
+    font-family: 'Graphik Arabic';
+  font-weight: normal;
+}
+
+.footercopyrightbottom .linkdin 
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .linkdin 
+{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.footercopyrightbottom .xfoaj
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .xfoaj
+{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+
+.footercopyrightbottom .rightsreserve
+{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .rightsreserve
+{
+    padding-left: 0;
+    padding-right: 10px;
+}
+.footercopyrightbottom span 
+{
+    font-size: 10px;
+}
     
 }
 
@@ -3749,11 +3868,21 @@ align-items: center;
     .footermenutop a 
     {
         text-decoration: none;
-        font-family: 'Poppins', serif;
+        font-family: 'PP Eiko';
         color: #00341a;
         padding: 0px 10px;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 500;
+        padding: 10px 10px;
+    }
+    [dir="rtl"] .footermenutop a 
+    {
+        text-decoration: none;
+        font-family: 'Graphik Arabic';
+        color: #00341a;
+        padding: 0px 10px;
+        font-size: 14px;
+        font-weight: 300;
         padding: 10px 10px;
     }
     .footermenutop a:hover 
@@ -3828,14 +3957,16 @@ align-items: center;
         width: 100%;
         padding: 0%;
         margin: 0%;
-        font-family: 'Poppins',serif;
+        font-family: 'PP Eiko';
+        font-weight: bold;
         font-size: 14px;
     }
     .footercpyrighttopleft  p 
     {
         color: #00341a;
         width: 100%;
-        font-family: 'Poppins',serif;
+        font-family: 'Graphik Arabic';
+        font-weight: 300;
         font-size: 13px;
     }
     .footercpyrighttopright
@@ -3861,15 +3992,16 @@ align-items: center;
     .footercpyrighttopright button 
     {
         background-color: #81c2e5;
-        color: #0a3d62; /* Darker text for contrast */
-        border: none;
-        padding: 20px 15px;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 8px;
-    transition: all 0.3s ease;
-    font-family: "PPEiko";
-    text-transform: capitalize;
+    color: #0a3d62; /* Darker text for contrast */
+    border: none;
+  padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    border-radius: 8px;
+transition: all 0.3s ease;
+font-family: 'PP Eiko';
+font-weight: 500;
+text-transform: capitalize;
+height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3887,6 +4019,8 @@ align-items: center;
     height: 30%;
     display: flex;
     justify-content: center;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 12px;
     padding-top: 10px;
     padding-right: 10px;
@@ -3901,6 +4035,8 @@ align-items: center;
     font-size: 12px;
     padding-top: 10px;
     padding-right: 0px;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     }
     
     .footercopyrightbottom .linkdin 
@@ -4405,11 +4541,21 @@ align-items: center;
 .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Poppins', serif;
+    font-family: 'PP Eiko';
+    font-weight: 500;
     color: #00341a;
     padding: 0px 10px;
     font-size: 14px;
-    font-weight: 400;
+    padding: 10px 10px;
+}
+[dir="rtl"] .footermenutop a 
+{
+    text-decoration: none;
+    font-family: 'Graphik Arabic';
+    color: #00341a;
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 300;
     padding: 10px 10px;
 }
 .footermenutop a:hover 
@@ -4484,14 +4630,16 @@ display: flex;
     width: 100%;
     padding: 0%;
     margin: 0%;
-    font-family: 'Poppins',serif;
+    font-family: 'PP Eiko';
+    font-weight: 500;
     font-size: 14px;
 }
 .footercpyrighttopleft  p 
 {
     color: #00341a;
     width: 100%;
-    font-family: 'Poppins',serif;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
     font-size: 13px;
 }
 .footercpyrighttopright
@@ -4519,13 +4667,14 @@ display: flex;
     background-color: #81c2e5;
     color: #0a3d62; /* Darker text for contrast */
     border: none;
-    padding: 20px 15px;
+  padding: 5px 10px 5px 10px;
     font-size: 16px;
-    font-weight: bold;
     border-radius: 8px;
 transition: all 0.3s ease;
-font-family: "PPEiko";
+font-family: 'PP Eiko';
+font-weight: 500;
 text-transform: capitalize;
+height: fit-content;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -4544,6 +4693,8 @@ height: 30%;
 display: flex;
 justify-content: center;
 font-size: 12px;
+font-family: 'Graphik Arabic';
+font-weight: normal;
 padding-top: 10px;
 padding-right: 10px;
 }
@@ -4557,6 +4708,8 @@ justify-content: center;
 font-size: 12px;
 padding-top: 10px;
 padding-right: 0px;
+font-family: 'Graphik Arabic';
+font-weight: normal;
 }
 
 .footercopyrightbottom .linkdin 

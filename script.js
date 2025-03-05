@@ -29,8 +29,8 @@ function Direction() {
         if (currentDir === 'ltr') 
         {
             document.body.setAttribute('dir', 'rtl');
-             tooglebuttonfooter.textContent="english"
-             toggleButton.textContent="english"
+             tooglebuttonfooter.textContent="EN"
+             toggleButton.textContent="EN"
             banfootp.textContent="( Test Launch )";
             com.textContent="فواج";
             grp.textContent="المشاريع";
@@ -59,8 +59,8 @@ function Direction() {
         else 
         {
             document.body.setAttribute('dir', 'ltr'); 
-            tooglebuttonfooter.textContent="arabic"
-            toggleButton.textContent="arabic"
+            tooglebuttonfooter.textContent="AR"
+            toggleButton.textContent="AR"
             banfootp.textContent="( Experimental Launch )"
             com.textContent="Foaj";
             grp.textContent="Projects";
@@ -94,7 +94,7 @@ function Direction() {
         if (currentDir === 'ltr') 
         {
             document.body.setAttribute('dir', 'rtl');
-            toggleButton.textContent="english"
+            toggleButton.textContent="EN"
             banfootp.textContent="( Test Launch )";
             com.textContent="فواج";
             grp.textContent="المشاريع";
@@ -115,7 +115,7 @@ function Direction() {
             brandarrowicon.classList.remove('fa-arrow-right')
             brandbottomleftcontent.textContent="بقوة الخبرة ومنهجية التخطيط تُصنع التجارب الاتصالية المختلفة، منظومة متكاملة من 10 شركات في مختلف المجالات، بقيادات وطنّية ذات خبرة و +500 كفاءة.";
             mores.textContent="تعرّف أكثر";
-            tooglebuttonfooter.textContent="english";
+            tooglebuttonfooter.textContent="EN";
             footfoaj.textContent="فواج";
             footproj.textContent="المشاريع";
             footcomp.textContent="شركات";
@@ -124,7 +124,7 @@ function Direction() {
         else 
         {
             document.body.setAttribute('dir', 'ltr'); 
-            toggleButton.textContent="arabic"
+            toggleButton.textContent="AR"
             banfootp.textContent="( Experimental Launch )"
             com.textContent="Foaj";
             grp.textContent="Projects";
@@ -144,7 +144,7 @@ function Direction() {
             brandarrowicon.classList.remove('fa-arrow-left');
             brandbottomleftcontent.textContent="Unique communication experiences are crafted with expertise and solid planning. An integrated system of 10 companies in various fields, led by experienced national leaders and +500 competent professionals.";
             mores.textContent="More";
-            tooglebuttonfooter.textContent="arabic";
+            tooglebuttonfooter.textContent="AR";
             footfoaj.textContent="Foaj";
             footproj.textContent="Projects";
             footcomp.textContent="Companies";
