@@ -27,14 +27,6 @@ html,body
     font-display: swap;
 }
 @font-face {
-    font-family: 'Salma Arabic';
-    src: url('fonts/SalmaArabic-Light.woff2') format('woff2'),
-        url('fonts/SalmaArabic-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
     font-family: 'Graphik Arabic';
     src: url('fonts/GraphikArabic-Light.woff2') format('woff2'),
         url('fonts/GraphikArabic-Light.woff') format('woff');
@@ -58,7 +50,14 @@ html,body
     font-style: normal;
     font-display: swap;
 }
-
+@font-face {
+    font-family: 'Salma Arabic';
+    src: url('fonts/SalmaArabic-Light.woff2') format('woff2'),
+        url('fonts/SalmaArabic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
 .banner 
     {
@@ -137,10 +136,10 @@ html,body
         width: 100%;
         height: 16%;
         display: flex;
-        justify-content: flex-end;
+        justify-content: start;
         align-items: center;
-        padding-right:0%;
-        padding-left: 1%;
+        padding-right:5%;
+        padding-left: 0%;
     }
     .banfooterpara 
     {
@@ -241,9 +240,9 @@ html,body
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
-        font-family: 300;
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -659,18 +658,19 @@ html,body
     {
         text-decoration: none;
         font-family: 'PP Eiko';
+        font-weight: 500;
         color: #00341a;
         padding: 0px 10px;
-        font-size: 15px;
-        font-weight: 500;
+        font-size: 14px;
     }
     [dir="rtl"] .footermenutop a 
     {
         text-decoration: none;
-        font-family: 'Graphik Arabic';
+        font-family: 'Salma Arabic';
+        font-family: 500;
         color: #00341a;
         padding: 0px 10px;
-        font-size: 16px;
+        font-size: 17px;
         font-weight: normal;
     }
     .footermenutop a:hover 
@@ -924,10 +924,10 @@ html,body
         width: 100%;
         height: 16%;
         display: flex;
-        justify-content: flex-end;
+        justify-content: start;
         align-items: center;
-        padding-right:0%;
-        padding-left: 1%;
+        padding-right:5%;
+        padding-left: 0%;
     }
     .banfooterpara 
     {
@@ -1028,9 +1028,9 @@ html,body
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
-        font-family: 300;
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -1448,16 +1448,17 @@ html,body
         font-family: 'PP Eiko';
         color: #00341a;
         padding: 0px 10px;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
     }
     [dir="rtl"] .footermenutop a 
     {
         text-decoration: none;
-        font-family: 'Graphik Arabic';
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         color: #00341a;
         padding: 0px 10px;
-        font-size: 16px;
+        font-size: 17px;
         font-weight: normal;
     }
     .footermenutop a:hover 
@@ -1712,10 +1713,10 @@ height: fit-content;
         width: 100%;
         height: 16%;
         display: flex;
-        justify-content: flex-end;
+        justify-content: start;
         align-items: center;
-        padding-right:0%;
-        padding-left: 1%;
+        padding-right:5%;
+        padding-left: 0%;
     }
     .banfooterpara 
     {
@@ -1818,9 +1819,9 @@ height: fit-content;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
-        font-family: 300;
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -2239,16 +2240,17 @@ height: fit-content;
         font-family: 'PP Eiko';
         color: #00341a;
         padding: 0px 10px;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
     }
     [dir="rtl"] .footermenutop a 
     {
         text-decoration: none;
-        font-family: 'Graphik Arabic';
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         color: #00341a;
         padding: 0px 10px;
-        font-size: 16px;
+        font-size: 17px;
         font-weight: normal;
     }
     .footermenutop a:hover 
@@ -2541,12 +2543,28 @@ font-weight: normal;
         justify-content: end;
         align-items: center;
     }
+    [dir="rtl"]  .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
     .menuleftimg img 
     {
         width: 50%;
         height: 50%;
     }
     .menuleftcontent 
+    {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    [dir="rtl"]  .menuleftcontent 
     {
         width: 60%;
         height: 100%;
@@ -2596,9 +2614,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: 'Graphik Arabic';
-        font-weight: 300;
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-family: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -3012,17 +3030,17 @@ font-weight: normal;
         font-family: 'PP Eiko';
         color: #00341a;
         padding: 0px 10px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
     }
     [dir="rtl"] .footermenutop a 
     {
         text-decoration: none;
-        font-family: 'Graphik Arabic';
+        font-family: 'Salma Arabic';
         color: #00341a;
         padding: 0px 10px;
-        font-size: 16px;
-        font-weight: normal;
+        font-size: 17px;
+        font-weight: 500;
     }
     .footermenutop a:hover 
     {
@@ -3292,7 +3310,7 @@ font-weight: normal;
     
     .menuleft 
     {
-        width: 40%;
+        width: 50%;
         height: 100%;
         display: flex;
         justify-content: flex-start;
@@ -3306,12 +3324,33 @@ font-weight: normal;
         justify-content: center;
         align-items: center;
     }
+    [dir] .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .menuleftimg img 
     {
         width: 60%;
         height: 60%;
     }
+    [dir="rtl"] .menuleftimg img 
+    {
+        width: 60%;
+        height: 60%;
+    }
     .menuleftcontent 
+    {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    [dir="rtl"]  .menuleftcontent 
     {
         width: 60%;
         height: 100%;
@@ -3339,7 +3378,7 @@ font-weight: normal;
     }
     .menuright 
     {
-        width: 60%;
+        width: 50%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -3349,7 +3388,7 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 13.5px;
+        font-size: 14px;
         font-family: 'PP Eiko';
         font-weight: 500;
         padding: 10px;
@@ -3361,9 +3400,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: 'Graphik Arabic';
-        font-weight: 300;
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -3780,17 +3819,17 @@ font-weight: normal;
         font-family: 'PP Eiko';
         color: #00341a;
         padding: 0px 10px;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
     }
     [dir="rtl"]  .footermenutop a 
     {
         text-decoration: none;
-        font-family: 'Graphik Arabic';
+        font-family: 'Salma Arabic';
         color: #00341a;
         padding: 0px 10px;
-        font-size: 15px;
-        font-weight: normal;
+        font-size: 17px;
+        font-weight: 500;
     }
     .footermenutop a:hover 
     {
@@ -4076,6 +4115,14 @@ height: fit-content;
         justify-content: center;
         align-items: center;
     }
+    [dir="rtl"] .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .menuleftimg img 
     {
         width: 70%;
@@ -4174,7 +4221,7 @@ height: fit-content;
         height: 100%;
         text-decoration: none;
         color: #054a28;
-        font-size: 12px;
+        font-size: 14px;
         font-family: 'PP Eiko';
         font-weight: 500;
         height: 50%;
@@ -4187,9 +4234,9 @@ height: fit-content;
         height: 100%;
         text-decoration: none;
         color: #054a28;
-        font-size: 12px;
-        font-family: 'Graphik Arabic';
-        font-weight: 300;
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         height: 50%;
         text-align: center;
         transition: all 0.1s ease-in-out;
@@ -4587,11 +4634,11 @@ height: fit-content;
     [dir="rtl"] .footermenutop a 
     {
         text-decoration: none;
-        font-family: 'Graphik Arabic';
+        font-family: 'Salma Arabic';
         color: #00341a;
         padding: 0px 10px;
-        font-size: 14px;
-        font-weight: 300;
+        font-size: 17px;
+        font-weight: 500;
         padding: 10px 10px;
     }
     .footermenutop a:hover 
@@ -4888,6 +4935,14 @@ text-transform: capitalize;
     justify-content: center;
     align-items: center;
 }
+[dir="rtl"] .menuleftimg 
+{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .menuleftimg img 
 {
     width: 70%;
@@ -4986,7 +5041,7 @@ opacity: 0;
     height: 100%;
     text-decoration: none;
     color: #054a28;
-    font-size: 10px;
+    font-size: 14px;
     font-family: 'PP Eiko';
     font-weight: 500;
     height: 50%;
@@ -4999,9 +5054,9 @@ opacity: 0;
     height: 100%;
     text-decoration: none;
     color: #054a28;
-    font-size: 10px;
-    font-family: 'Graphik Arabic';
-    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     height: 50%;
     text-align: center;
     transition: all 0.1s ease-in-out;
@@ -5396,11 +5451,11 @@ align-items: center;
 [dir="rtl"] .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 17px;
+    font-weight: 500;
     padding: 10px 10px;
 }
 .footermenutop a:hover 

@@ -115,13 +115,14 @@ html,body
     font-size: 14px;
     text-transform: capitalize;
     color: #00341A;
-    font-family: "PPEiko";
+    font-family: "PP Eiko";
+    font-weight: bold;
 }
 .menuleftcontent p:nth-child(2)
 {
-    font-family: "Helvetica";
+    font-family: 'Graphik Arabic';
     font-size: 13px;
-    font-weight: 100;
+    font-weight: 300;
     text-transform: capitalize;
     color: #00341a;
     margin: 0%;
@@ -139,7 +140,8 @@ html,body
     text-decoration: none;
     color: #054a28;
     font-size: 14px;
-    font-family: "Poppins", serif;
+    font-family: 'PP Eiko';
+    font-weight: 500;
     padding: 10px;
     height: 50%;
     text-align: center;
@@ -149,8 +151,9 @@ html,body
 {
     text-decoration: none;
     color: #054a28;
-    font-size: 14px;
-    font-family: "Graphik";
+    font-size: 17px;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     padding: 10px;
     height: 50%;
     text-align: center;
@@ -228,7 +231,7 @@ align-items: center;
 .foajaboutleftcontenttop
 {
     width: 100%;
-    height: 65%;
+    height: 70%;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -245,22 +248,24 @@ align-items: center;
 }
 .foajaboutleftcontenttop h3 
 {
-    font-family: "PPEiko";
-    font-size: 5rem;
+    font-family: 'PP Eiko';
+    font-weight: bold;
+    font-size: 4rem;
     color: #00341A;
-    line-height: 1em;
+    line-height: 1.2em;
 }
 [dir="rtl"] .foajaboutleftcontenttop h3 
 {
-    font-family: "PPEiko";
-    font-size: 3.6rem;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    font-size: 4rem;
     color: #00341A;
-    line-height: 1em;
+    line-height: 1.3em;
 }
 .foajaboutleftcontentbottom 
 {
     width: 85%;
-    height: 35%;
+    height: 30%;
     border-top: 1px solid black;
     display: flex;
     justify-content: start;
@@ -280,16 +285,16 @@ align-items: center;
 .foajaboutleftcontentbottom p 
 {
     color: #00341A;
-    font-family: "Poppins", serif;
+    font-family: 'Graphik Arabic';
     font-weight: 300;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.3em;
 }
 [dir="rtl"] .foajaboutleftcontentbottom p 
 {
     color: #00341A;
-    font-family: "Poppins", serif;
-    font-weight: lighter;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
     font-size: 16px;
     line-height: 1.5em;
 }
@@ -314,6 +319,7 @@ align-items: center;
     object-fit: cover;
     object-position: center;
 }
+
 
 /*foaj count section*/
 .foajcount 
@@ -768,20 +774,21 @@ height: 100%;
 }
 .footermenutop a 
 {
-    text-decoration: none;
-    font-family: 'PP Eiko';
-    color: #00341a;
-    padding: 0px 10px;
-    font-size: 15px;
-    font-weight: 500;
+        text-decoration: none;
+        font-family: 'PP Eiko';
+        font-weight: 500;
+        color: #00341a;
+        padding: 0px 10px;
+        font-size: 14px;
 }
 [dir="rtl"] .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
+    font-family: 500;
     color: #00341a;
     padding: 0px 10px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: normal;
 }
 .footermenutop a:hover 
@@ -1015,13 +1022,14 @@ font-weight: normal;
         font-size: 14px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: 'Graphik Arabic';
         font-size: 13px;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: capitalize;
         color: #00341a;
         margin: 0%;
@@ -1039,7 +1047,8 @@ font-weight: normal;
         text-decoration: none;
         color: #054a28;
         font-size: 14px;
-        font-family: "Poppins", serif;
+        font-family: 'PP Eiko';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -1049,8 +1058,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -1129,11 +1139,11 @@ align-items: center;
 .foajaboutleftcontenttop
 {
     width: 100%;
-    height: 65%;
+    height: 70%;
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-bottom: 0px;
+    padding-bottom: 0px;;
 }
 [dir="rtl"] .foajaboutleftcontenttop
 {
@@ -1146,27 +1156,30 @@ align-items: center;
 }
 .foajaboutleftcontenttop h3 
 {
-    font-family: "PPEiko";
-    font-size: 4.5rem;
+    font-family: 'PP Eiko';
+    font-weight: bold;
+    font-size: 4rem;
     color: #00341A;
-    line-height: 1em;
+    line-height: 1.2em;
 }
 [dir="rtl"] .foajaboutleftcontenttop h3 
 {
-    font-family: "PPEiko";
-    font-size: 3.6rem;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    font-size: 4rem;
     color: #00341A;
-    line-height: 1em;
+    line-height: 1.3em;
 }
 .foajaboutleftcontentbottom 
 {
     width: 85%;
-    height: 35%;
+    height: 30%;
     border-top: 1px solid black;
     display: flex;
     justify-content: start;
     align-items: center;
     padding-top: 0px;
+    
 }
 [dir="rtl"] .foajaboutleftcontentbottom 
 {
@@ -1181,16 +1194,16 @@ align-items: center;
 .foajaboutleftcontentbottom p 
 {
     color: #00341A;
-    font-family: "Poppins", serif;
+    font-family: 'Graphik Arabic';
     font-weight: 300;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.3em;
 }
 [dir="rtl"] .foajaboutleftcontentbottom p 
 {
     color: #00341A;
-    font-family: "Poppins", serif;
-    font-weight: lighter;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
     font-size: 16px;
     line-height: 1.5em;
 }
@@ -1687,17 +1700,18 @@ height: 100%;
     font-family: 'PP Eiko';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
 }
 [dir="rtl"] .footermenutop a 
 {
-    text-decoration: none;
-    font-family: 'Graphik Arabic';
-    color: #00341a;
-    padding: 0px 10px;
-    font-size: 16px;
-    font-weight: normal;
+       text-decoration: none;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
+        color: #00341a;
+        padding: 0px 10px;
+        font-size: 17px;
+        font-weight: normal;
 }
 .footermenutop a:hover 
 {
@@ -1932,13 +1946,14 @@ font-weight: normal;
         font-size: 14px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: 'Graphik Arabic';
         font-size: 13px;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: capitalize;
         color: #00341a;
         margin: 0%;
@@ -1956,7 +1971,8 @@ font-weight: normal;
         text-decoration: none;
         color: #054a28;
         font-size: 14px;
-        font-family: "Poppins", serif;
+        font-family: 'PP Eiko';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -1966,8 +1982,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -2045,7 +2062,7 @@ align-items: center;
 .foajaboutleftcontenttop
 {
     width: 100%;
-    height: 65%;
+    height: 70%;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -2062,22 +2079,24 @@ align-items: center;
 }
 .foajaboutleftcontenttop h3 
 {
-    font-family: "PPEiko";
-    font-size: 4.5rem;
+    font-family: 'PP Eiko';
+    font-weight: bold;
+    font-size: 4rem;
     color: #00341A;
-    line-height: 1em;
+    line-height: 1.2em;
 }
 [dir="rtl"] .foajaboutleftcontenttop h3 
 {
-    font-family: "PPEiko";
-    font-size: 3rem;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    font-size: 4rem;
     color: #00341A;
     line-height: 1.3em;
 }
 .foajaboutleftcontentbottom 
 {
-    width: 90%;
-    height: 35%;
+    width: 85%;
+    height: 30%;
     border-top: 1px solid black;
     display: flex;
     justify-content: start;
@@ -2097,17 +2116,17 @@ align-items: center;
 .foajaboutleftcontentbottom p 
 {
     color: #00341A;
-    font-family: "Poppins", serif;
+    font-family: 'Graphik Arabic';
     font-weight: 300;
-    font-size: 16.5px;
+    font-size: 16px;
     line-height: 1.3em;
 }
 [dir="rtl"] .foajaboutleftcontentbottom p 
 {
     color: #00341A;
-    font-family: "Poppins", serif;
-    font-weight: lighter;
-    font-size: 15px;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
+    font-size: 16px;
     line-height: 1.5em;
 }
 .foajaboutright 
@@ -2606,16 +2625,17 @@ height: 100%;
     font-family: 'PP Eiko';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
 }
 [dir="rtl"] .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     color: #00341a;
     padding: 0px 10px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: normal;
 }
 .footermenutop a:hover 
@@ -2821,6 +2841,14 @@ font-weight: normal;
         justify-content: end;
         align-items: center;
     }
+    [dir="rtl"]  .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
     .menuleftimg img 
     {
         width: 50%;
@@ -2840,11 +2868,13 @@ font-weight: normal;
         font-size: 14px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: 'Graphik Arabic';
+        font-weight: 300;
         font-size: 13px;
         font-weight: 100;
         text-transform: capitalize;
@@ -2864,7 +2894,8 @@ font-weight: normal;
         text-decoration: none;
         color: #054a28;
         font-size: 14px;
-        font-family: "Poppins", serif;
+        font-family: 'PP Eiko';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -2874,8 +2905,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-family: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -2954,82 +2986,88 @@ font-weight: normal;
  .foajaboutleftcontenttop
  {
      width: 100%;
-     height: 65%;
+     height: 75%;
      display: flex;
-     justify-content: start;
-     align-items: end;
-     padding-bottom: 10px;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 0px;
      padding-right: 0px;
      padding-top: 0px;
-     padding-left: 10px;
+     padding-left: 0px;
  }
  [dir="rtl"] .foajaboutleftcontenttop
  {
      width: 100%;
-     height: 65%;
+     height: 75%;
      display: flex;
-     justify-content: start;
-     align-items: end;
-     padding-bottom: 10px;
-     padding-right: 10px;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 0px;
+     padding-right: 0px;
      padding-top: 0px;
      padding-left: 0px;
  }
  .foajaboutleftcontenttop h3 
  {
-     font-family: "PPEiko";
+     font-family: "PP Eiko";
+     font-weight: bold;
      font-size: 4rem;
      color: #00341A;
-     line-height: 1em;
+     line-height: 1.2em;
+     width: 90%;
  }
  [dir="rtl"] .foajaboutleftcontenttop h3 
  {
-     font-family: "PPEiko";
-     font-size: 3.4rem;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+     font-size: 5rem;
      color: #00341A;
      line-height: 1em;
+     width: 90%;
  }
  .foajaboutleftcontentbottom 
  {
-     width: 85%;
-     height: 35%;
+     width: 100%;
+     height: 25%;
      border-top: 1px solid black;
      display: flex;
-     justify-content: start;
-     align-items: start;
+     justify-content: center;
+     align-items: center;
      padding-bottom: 0px;
      padding-right: 0px;
-     padding-top: 10px;
-     padding-left: 10px;
+     padding-top: 0px;
+     padding-left: 0px;
  }
  [dir="rtl"] .foajaboutleftcontentbottom 
  {
      width: 85%;
-     height: 35%;
+     height: 25%;
      border-top: 1px solid black;
      display: flex;
-     justify-content: start;
-     align-items: start;
+     justify-content: center;
+     align-items: center;
      padding-bottom: 0px;
-     padding-right: 10px;
-     padding-top: 10px;
+     padding-right: 0px;
+     padding-top: 0px;
      padding-left: 0px;
  }
  .foajaboutleftcontentbottom p 
  {
      color: #00341A;
-     font-family: "Poppins", serif;
+     font-family: 'Graphik Arabic';
      font-weight: 300;
      font-size: 13px;
      line-height: 1.3em;
+     width: 90%;
  }
  [dir="rtl"] .foajaboutleftcontentbottom p 
  {
      color: #00341A;
-     font-family: "Poppins", serif;
-     font-weight: lighter;
+     font-family: 'Graphik Arabic';
+     font-weight: 300;
      font-size: 16px;
      line-height: 1.5em;
+     width: 90%;
  }
  .foajaboutright 
  {
@@ -3042,7 +3080,7 @@ font-weight: normal;
  
  .foajaboutrightcontent 
  {
-     width: 80%;
+     width: 90%;
      height: 80%;
  }
  .foajaboutrightcontent img 
@@ -3513,17 +3551,17 @@ height: 100%;
     font-family: 'PP Eiko';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 [dir="rtl"] .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 17px;
+    font-weight: 500;
 }
 .footermenutop a:hover 
 {
@@ -3707,7 +3745,7 @@ font-weight: normal;
     
     .menuleft 
     {
-        width: 40%;
+        width: 50%;
         height: 100%;
         display: flex;
         justify-content: flex-start;
@@ -3721,12 +3759,33 @@ font-weight: normal;
         justify-content: center;
         align-items: center;
     }
+    [dir] .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .menuleftimg img 
     {
         width: 60%;
         height: 60%;
     }
+    [dir="rtl"] .menuleftimg img 
+    {
+        width: 60%;
+        height: 60%;
+    }
     .menuleftcontent 
+    {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    [dir="rtl"]  .menuleftcontent 
     {
         width: 60%;
         height: 100%;
@@ -3740,20 +3799,21 @@ font-weight: normal;
         font-size: 14px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: "Graphik Arabic";
         font-size: 13px;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: capitalize;
         color: #00341a;
         margin: 0%;
     }
     .menuright 
     {
-        width: 60%;
+        width: 50%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -3763,8 +3823,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 13.5px;
-        font-family: "Poppins", serif;
+        font-size: 14px;
+        font-family: 'PP Eiko';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -3774,8 +3835,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -3856,7 +3918,7 @@ align-items: center;
     height: 65%;
     display: flex;
     justify-content: start;
-    align-items: end;
+    align-items: center;
     padding-bottom: 10px;
     padding-right: 0px;
     padding-top: 0px;
@@ -3876,17 +3938,19 @@ align-items: center;
 }
 .foajaboutleftcontenttop h3 
 {
-    font-family: "PPEiko";
-    font-size: 3.5rem;
+    font-family: "PP Eiko";
+    font-weight: bold;
+    font-size: 3rem;
     color: #00341A;
-    line-height: 1em;
+    line-height: 1.1em;
 }
 [dir="rtl"] .foajaboutleftcontenttop h3 
 {
-    font-family: "PPEiko";
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     font-size: 3.6rem;
     color: #00341A;
-    line-height: 1em;
+    line-height: 0.9em;
 }
 .foajaboutleftcontentbottom 
 {
@@ -3895,7 +3959,7 @@ align-items: center;
     border-top: 1px solid black;
     display: flex;
     justify-content: start;
-    align-items: start;
+    align-items: center;
     padding-bottom: 0px;
     padding-right: 0px;
     padding-top: 10px;
@@ -3917,7 +3981,7 @@ align-items: center;
 .foajaboutleftcontentbottom p 
 {
     color: #00341A;
-    font-family: "Poppins", serif;
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 14px;
     line-height: 1.3em;
@@ -3925,8 +3989,8 @@ align-items: center;
 [dir="rtl"] .foajaboutleftcontentbottom p 
 {
     color: #00341A;
-    font-family: "Poppins", serif;
-    font-weight: lighter;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
     font-size: 13px;
     line-height: 1.5em;
 }
@@ -3941,8 +4005,8 @@ align-items: center;
 
 .foajaboutrightcontent 
 {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 70%;
 }
 .foajaboutrightcontent img 
 {
@@ -4423,20 +4487,20 @@ height: 50%;
 .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'PP Eiko';
-    color: #00341a;
-    padding: 0px 10px;
-    font-size: 15px;
-    font-weight: 500;
+        font-family: 'PP Eiko';
+        color: #00341a;
+        padding: 0px 10px;
+        font-size: 14px;
+        font-weight: 500;
 }
 [dir="rtl"]  .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 15px;
-    font-weight: normal;
+    font-size: 17px;
+    font-weight: 500;
 }
 .footermenutop a:hover 
 {
@@ -4633,10 +4697,18 @@ height: fit-content;
         justify-content: center;
         align-items: center;
     }
+    [dir="rtl"] .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .menuleftimg img 
     {
-        width: 80%;
-        height: 80%;
+        width: 70%;
+        height: 70%;
     }
     .menuleftcontent 
     {
@@ -4652,13 +4724,14 @@ height: fit-content;
         font-size: 13px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: 'Graphik Arabic';
         font-size: 12px;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: capitalize;
         color: #00341a;
         margin: 0%;
@@ -4730,8 +4803,22 @@ height: fit-content;
         height: 100%;
         text-decoration: none;
         color: #054a28;
-        font-size: 12px;
-        font-family: "Poppins", serif;
+        font-size: 14px;
+        font-family: 'PP Eiko';
+        font-weight: 500;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    [dir="rtl"] .smalldevicemenu a 
+    {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #054a28;
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         height: 50%;
         text-align: center;
         transition: all 0.1s ease-in-out;
@@ -4741,6 +4828,7 @@ height: fit-content;
         color: black;
         border-top: 1px solid #00341a;
     }
+
 
    /* foaj about */
 .foajabout 
@@ -4753,7 +4841,7 @@ height: fit-content;
 .foajaboutleft 
 {
 width: 100%;
-height: 60%;
+height: 70%;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -4787,15 +4875,17 @@ align-items: center;
 }
 .foajaboutleftcontenttop h3 
 {
-    font-family: "PPEiko";
-    font-size: 3.5rem;
+    font-family: "PP Eiko";
+    font-weight: bold;
+    font-size: 3.3rem;
     color: #00341A;
     line-height: 4rem;
 }
 [dir="rtl"] .foajaboutleftcontenttop h3 
 {
-    font-family: "PPEiko";
-    font-size: 3.6rem;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    font-size: 4rem;
     color: #00341A;
     line-height: 4rem;
 }
@@ -4826,7 +4916,7 @@ align-items: center;
 .foajaboutleftcontentbottom p 
 {
     color: #00341A;
-    font-family: "Poppins", serif;
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 15px;
     line-height: 1.5em;
@@ -4834,15 +4924,15 @@ align-items: center;
 [dir="rtl"] .foajaboutleftcontentbottom p 
 {
     color: #00341A;
-    font-family: "Poppins", serif;
-    font-weight: lighter;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
     font-size: 17px;
     line-height: 1.5em;
 }
 .foajaboutright 
 {
     width: 100%;
-    height: 50%;
+    height: 40%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -5586,11 +5676,11 @@ height: 50%;
     [dir="rtl"] .footermenutop a 
     {
         text-decoration: none;
-        font-family: 'Graphik Arabic';
+        font-family: 'Salma Arabic';
         color: #00341a;
         padding: 0px 10px;
-        font-size: 14px;
-        font-weight: 300;
+        font-size: 17px;
+        font-weight: 500;
         padding: 10px 10px;
     }
     .footermenutop a:hover 
@@ -5782,131 +5872,153 @@ height: fit-content;
   /* Smartphones (small) */
 @media only screen and (min-width: 200px) and (max-width: 400px) {
     
-.menuleft 
-{
-    width: 70%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.menuleftimg 
-{
-    width: 40%;
+    .menuleft 
+    {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    [dir="rtl"] .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menuleftimg img 
+    {
+        width: 70%;
+        height: 70%;
+    }
+    .menuleftcontent 
+    {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menuleftcontent p:nth-child(1)
+    {
+        margin: 0%;
+        font-size: 13px;
+        text-transform: capitalize;
+        color: #00341A;
+        font-family: "PP Eiko";
+        font-weight: bold;
+    }
+    .menuleftcontent p:nth-child(2)
+    {
+        font-family: 'Graphik Arabic';
+        font-size: 12px;
+        font-weight: 300;
+        text-transform: capitalize;
+        color: #00341a;
+        margin: 0%;
+    }
+    .menuright 
+    {
+        width: 0%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        visibility: hidden;
+    }
+    .menuright a 
+    {
+        text-decoration: none;
+        color: #054a28;
+        font-size: 14px;
+        font-family: "Poppins", serif;
+        padding: 10px;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    [dir="rtl"] .menuright a 
+    {
+        text-decoration: none;
+        color: #054a28;
+        font-size: 14px;
+        font-family: "Graphik";
+        padding: 10px;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    .menuright a:hover 
+    {
+        color: black;
+        border-top: 1px solid #00341a;
+    }
+    .hamburgers 
+    {
+    width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.menuleftimg img 
-{
-    width: 80%;
-    height: 80%;
-}
-.menuleftcontent 
-{
-    width: 60%;
-    height: 100%;
+    visibility: visible;
+    }
+    .hamburgers i 
+    {
+        padding: 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .smalldevicemenu 
+    {
+        width: 100%;
+        height: 100%;
+        background-color: #eae9e6;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.menuleftcontent p:nth-child(1)
-{
-    margin: 0%;
-    font-size: 13px;
-    text-transform: capitalize;
-    color: #00341A;
-    font-family: "PPEiko";
-}
-.menuleftcontent p:nth-child(2)
-{
-    font-family: "Helvetica";
-    font-size: 12px;
-    font-weight: 100;
-    text-transform: capitalize;
-    color: #00341a;
-    margin: 0%;
-}
-.menuright 
-{
-    width: 0%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    visibility: hidden;
-}
-.menuright a 
-{
-    text-decoration: none;
-    color: #054a28;
-    font-size: 14px;
-    font-family: "Poppins", serif;
-    padding: 10px;
-    height: 50%;
-    text-align: center;
-    transition: all 0.1s ease-in-out;
-}
-[dir="rtl"] .menuright a 
-{
-    text-decoration: none;
-    color: #054a28;
-    font-size: 14px;
-    font-family: "Graphik";
-    padding: 10px;
-    height: 50%;
-    text-align: center;
-    transition: all 0.1s ease-in-out;
-}
-.menuright a:hover 
-{
-    color: black;
-    border-top: 1px solid #00341a;
-}
-.hamburgers 
-{
-width: 30%;
-height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-visibility: visible;
-}
-.hamburgers i 
-{
-    padding: 20px;
-    font-size: 20px;
-    cursor: pointer;
-}
-.smalldevicemenu 
-{
-    width: 100%;
-    height: 100%;
-    background-color: #eae9e6;
-display: flex;
-justify-content: space-around;
-align-items: center;
-opacity: 0;
-}
-.smalldevicemenu a 
-{
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    color: #054a28;
-    font-size: 10px;
-    font-family: "Poppins", serif;
-    height: 50%;
-    text-align: center;
-    transition: all 0.1s ease-in-out;
-}
-.smalldevicemenu a:hover 
-{
-    color: black;
-    border-top: 1px solid #00341a;
-}
-
+    opacity: 0;
+    }
+    .smalldevicemenu a 
+    {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #054a28;
+        font-size: 14px;
+        font-family: 'PP Eiko';
+        font-weight: 500;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    [dir="rtl"] .smalldevicemenu a 
+    {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #054a28;
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    .smalldevicemenu a:hover 
+    {
+        color: black;
+        border-top: 1px solid #00341a;
+    }
 /* foaj about */
 .foajabout 
 {
@@ -5953,14 +6065,16 @@ align-items: center;
 .foajaboutleftcontenttop h3 
 {
     font-family: "PPEiko";
+    font-weight: bold;
     font-size: 3.4rem;
     color: #00341A;
     line-height: 4rem;
 }
 [dir="rtl"] .foajaboutleftcontenttop h3 
 {
-    font-family: "PPEiko";
-    font-size: 3.6rem;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    font-size: 4rem;
     color: #00341A;
     line-height: 4rem;
 }
@@ -5991,7 +6105,7 @@ align-items: center;
 .foajaboutleftcontentbottom p 
 {
     color: #00341A;
-    font-family: "Poppins", serif;
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 15px;
     line-height: 1.5em;
@@ -5999,8 +6113,8 @@ align-items: center;
 [dir="rtl"] .foajaboutleftcontentbottom p 
 {
     color: #00341A;
-    font-family: "Poppins", serif;
-    font-weight: lighter;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
     font-size: 17px;
     line-height: 1.5em;
 }
@@ -6543,11 +6657,11 @@ align-items: center;
 [dir="rtl"] .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 17px;
+    font-weight: 500;
     padding: 10px 10px;
 }
 .footermenutop a:hover 
