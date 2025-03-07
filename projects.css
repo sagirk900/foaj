@@ -782,13 +782,14 @@ align-items: center;
         font-size: 14px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: 'Graphik Arabic';
         font-size: 13px;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: capitalize;
         color: #00341a;
         margin: 0%;
@@ -806,7 +807,8 @@ align-items: center;
         text-decoration: none;
         color: #054a28;
         font-size: 14px;
-        font-family: "Poppins", serif;
+        font-family: 'PP Eiko';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -816,8 +818,9 @@ align-items: center;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -871,6 +874,7 @@ align-items: center;
     }
     
 
+
     /*project content*/
 
 .projectcontent 
@@ -900,7 +904,7 @@ height: 80%;
 .projectcontenttopleftheading
 {
 width: 100%;
-height: 35%;
+height: 30%;
 display: flex;
 justify-content: start;
 align-items: start;
@@ -915,14 +919,16 @@ align-items: start;
 }
 .projectcontenttopleftheading h1 
 {
-    font-family: Poppins,'san-serif';
-    width: 70%;
+    font-family: 'PP Eiko';
+    font-weight: 500;
+    width: 80%;
     font-size: 2.5rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontenttopleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 70%;
     font-size: 2.5rem;
     color: #00341A;
@@ -939,20 +945,21 @@ align-items: start;
 }
 .projectcontenttoplefttitle h5 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontenttoplefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     color: #00341A;
 }
 .projectcontenttopleftcontent
 {
     width: 100%;
-    height: 35%;
+    height: 40%;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -968,14 +975,16 @@ align-items: start;
 .projectcontenttopleftcontent p
 {
  width: 70%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
 [dir="rtl"] .projectcontenttopleftcontent p
 {
  width: 70%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
@@ -1000,7 +1009,8 @@ align-items: start;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -1009,7 +1019,8 @@ align-items: start;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -1052,14 +1063,16 @@ height: 80%;
 }
 .projectcontentbottomleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'PP Eiko';
+    font-weight: 500;
     width: 70%;
     font-size: 2.5rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 70%;
     font-size: 2.5rem;
     color: #00341A;
@@ -1076,13 +1089,15 @@ height: 80%;
 }
 .projectcontentbottomlefttitle h5 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomlefttitle h5 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 1rem;
     color: #00341A;
 }
@@ -1105,14 +1120,16 @@ align-items: center;
 .projectcontentbottomleftcontent p
 {
  width: 70%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomleftcontent p
 {
  width: 70%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
@@ -1137,7 +1154,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -1146,7 +1164,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -1164,6 +1183,7 @@ align-items: center;
 }
 
 
+/*footer section*/
 /*footer section*/
 .footersection 
 {
@@ -1203,17 +1223,18 @@ height: 100%;
     font-family: 'PP Eiko';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
 }
 [dir="rtl"] .footermenutop a 
 {
-    text-decoration: none;
-    font-family: 'Graphik Arabic';
-    color: #00341a;
-    padding: 0px 10px;
-    font-size: 16px;
-    font-weight: normal;
+       text-decoration: none;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
+        color: #00341a;
+        padding: 0px 10px;
+        font-size: 17px;
+        font-weight: normal;
 }
 .footermenutop a:hover 
 {
@@ -1308,11 +1329,11 @@ display: flex;
 .footercpyrighttopright button 
 {
     background-color: #81c2e5;
-color: #0a3d62; /* Darker text for contrast */
-border: none;
-padding: 5px 10px 5px 10px;
-font-size: 16px;
-border-radius: 8px;
+    color: #0a3d62; /* Darker text for contrast */
+    border: none;
+  padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    border-radius: 8px;
 transition: all 0.3s ease;
 font-family: 'PP Eiko';
 font-weight: 500;
@@ -1448,13 +1469,14 @@ font-weight: normal;
         font-size: 14px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: 'Graphik Arabic';
         font-size: 13px;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: capitalize;
         color: #00341a;
         margin: 0%;
@@ -1472,7 +1494,8 @@ font-weight: normal;
         text-decoration: none;
         color: #054a28;
         font-size: 14px;
-        font-family: "Poppins", serif;
+        font-family: 'PP Eiko';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -1482,8 +1505,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -1535,7 +1559,6 @@ font-weight: normal;
         color: black;
         border-top: 1px solid #00341a;
     }
-    
 
 
     /*project content*/
@@ -1567,7 +1590,7 @@ height: 80%;
 .projectcontenttopleftheading
 {
 width: 100%;
-height: 35%;
+height: 30%;
 display: flex;
 justify-content: start;
 align-items: start;
@@ -1582,14 +1605,16 @@ align-items: start;
 }
 .projectcontenttopleftheading h1 
 {
-    font-family: Poppins,'san-serif';
-    width: 70%;
+    font-family: 'PP Eiko';
+    font-weight: 500;
+    width: 90%;
     font-size: 2.5rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontenttopleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 70%;
     font-size: 2.5rem;
     color: #00341A;
@@ -1606,20 +1631,22 @@ align-items: start;
 }
 .projectcontenttoplefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontenttoplefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 .projectcontenttopleftcontent
 {
     width: 100%;
-    height: 35%;
+    height: 40%;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -1635,14 +1662,16 @@ align-items: start;
 .projectcontenttopleftcontent p
 {
  width: 70%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
 [dir="rtl"] .projectcontenttopleftcontent p
 {
  width: 70%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
@@ -1667,7 +1696,8 @@ align-items: start;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -1676,7 +1706,8 @@ align-items: start;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -1719,14 +1750,16 @@ height: 80%;
 }
 .projectcontentbottomleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'PP Eiko';
+    font-weight: 500;
     width: 70%;
     font-size: 2.5rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 70%;
     font-size: 2.5rem;
     color: #00341A;
@@ -1743,14 +1776,16 @@ height: 80%;
 }
 .projectcontentbottomlefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomlefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 .projectcontentbottomleftcontent
@@ -1772,14 +1807,16 @@ align-items: center;
 .projectcontentbottomleftcontent p
 {
  width: 70%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+    font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomleftcontent p
 {
  width: 70%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+    font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
@@ -1804,7 +1841,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -1813,7 +1851,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -1832,228 +1871,229 @@ align-items: center;
 
  /*footer section*/
  .footersection 
- {
-     width: 100%;
-     height: 50%;
-     background-color: #b6daec;
-     display: flex;
- }
- .footerlogo
- {
- width: 30%;
- height: 100%;
- display: flex;
- justify-content: center;
- align-items: center;
- }
- .footerlogo img 
- {
-     width: 80%;
-     height: 80%;
- }
- .footermenu
- {
- width: 40%;
- height: 100%;
- }
- 
- .footermenutop 
- {
-     width: 100%;
-     height: 75%;
-     display: flex;
-     justify-content: start;
-     padding-top: 10px;
- }
- .footermenutop a 
- {
-     text-decoration: none;
-     font-family: 'PP Eiko';
-     color: #00341a;
-     padding: 0px 10px;
-     font-size: 15px;
-     font-weight: 500;
- }
- [dir="rtl"] .footermenutop a 
- {
-     text-decoration: none;
-     font-family: 'Graphik Arabic';
-     color: #00341a;
-     padding: 0px 10px;
-     font-size: 16px;
-     font-weight: normal;
- }
- .footermenutop a:hover 
- {
-     color: #00341a;
- }
- .footermenubottom
- {
-     width: 100%;
-     height: 25%;
- }
- .footermenubottom h6
- {
-     color: #00341a;
-     width: 100%;
-     padding: 0%;
-     margin: 0%;
-     font-family: 'PP Eiko';
-     font-weight: bold;
-     font-size: 15px;
- }
- .footermenubottom p 
- {
-     color: #00341a;
-     width: 100%;
-     font-family: 'Graphik Arabic';
-     font-size: 14px;
-     font-weight: 300;
-  }
- 
- .footercopyright
- {
- width: 30%;
- height: 100%;
- }
- .footercpyrighttop 
- {
- width: 100%;
- height: 75%;
- display: flex;
- }
- 
- [dir="rtl"] .footercpyrighttop 
- {
-     width: 100%;
-     height: 75%;
-     display: flex;
- }
- .footercpyrighttopleft 
- {
-     width: 0%;
-     height: 0%;
-     opacity: 0;
-    
- }
- .footercpyrighttopleft  h6
- {
-     color: #00341a;
-     width: 100%;
-     padding: 0%;
-     margin: 0%;
-     font-family: 'Poppins',serif;
-     font-size: 18px;
- }
- .footercpyrighttopleft  p 
- {
-     color: #00341a;
-     width: 100%;
-     font-family: 'Poppins',serif;
-     font-size: 16px;
- }
- .footercpyrighttopright
- {
-     width: 100%;
-     height: 100%;
-     display: flex;
-     justify-content: end;
-     padding-right: 10px;
-     padding-left: 0px;
-     padding-top: 10px;
- }
- [dir="rtl"] .footercpyrighttopright
- {
-     width: 100%;
-     height: 100%;
-     display: flex;
-     justify-content: start;
-     padding-right: 0px;
-     padding-top: 10px;
+{
+    width: 100%;
+    height: 50%;
+    background-color: #b6daec;
+    display: flex;
+}
+.footerlogo
+{
+width: 30%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footerlogo img 
+{
+    width: 80%;
+    height: 80%;
+}
+.footermenu
+{
+width: 40%;
+height: 100%;
+}
+
+.footermenutop 
+{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: start;
+    padding-top: 10px;
+}
+.footermenutop a 
+{
+    text-decoration: none;
+    font-family: 'PP Eiko';
+    color: #00341a;
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+[dir="rtl"] .footermenutop a 
+{
+    text-decoration: none;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    color: #00341a;
+    padding: 0px 10px;
+    font-size: 17px;
+    font-weight: normal;
+}
+.footermenutop a:hover 
+{
+    color: #00341a;
+}
+.footermenubottom
+{
+    width: 100%;
+    height: 25%;
+}
+.footermenubottom h6
+{
+    color: #00341a;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'PP Eiko';
+    font-weight: bold;
+    font-size: 15px;
+}
+.footermenubottom p 
+{
+    color: #00341a;
+    width: 100%;
+    font-family: 'Graphik Arabic';
+    font-size: 14px;
+    font-weight: 300;
  }
 
+.footercopyright
+{
+width: 30%;
+height: 100%;
+}
+.footercpyrighttop 
+{
+width: 100%;
+height: 75%;
+display: flex;
+}
 
- .footercpyrighttopright button 
- {
-     background-color: #81c2e5;
- color: #0a3d62; /* Darker text for contrast */
- border: none;
-padding: 5px 10px 5px 10px;
- font-size: 16px;
- border-radius: 8px;
+[dir="rtl"] .footercpyrighttop 
+{
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+.footercpyrighttopleft 
+{
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+   
+}
+.footercpyrighttopleft  h6
+{
+    color: #00341a;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins',serif;
+    font-size: 18px;
+}
+.footercpyrighttopleft  p 
+{
+    color: #00341a;
+    width: 100%;
+    font-family: 'Poppins',serif;
+    font-size: 16px;
+}
+.footercpyrighttopright
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+[dir="rtl"] .footercpyrighttopright
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+
+
+.footercpyrighttopright button 
+{
+    background-color: #81c2e5;
+    color: #0a3d62; /* Darker text for contrast */
+    border: none;
+  padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    border-radius: 8px;
 transition: all 0.3s ease;
 font-family: 'PP Eiko';
 font-weight: 500;
 text-transform: capitalize;
 height: fit-content;
- 
- }
- .footercpyrighttop button:hover 
- {
-     background-color: #00341a; /* Change background on hover */
-     transform: scale(1.1); /* Slightly increase size */
-     color: white;
- }
- .footercopyrightbottom
- {
- width: 100%;
- height: 25%;
- display: flex;
- justify-content: flex-end;
- font-size: 12px;
- padding-top: 10px;
- padding-right: 10px;
- font-family: 'Graphik Arabic';
+
+}
+.footercpyrighttop button:hover 
+{
+    background-color: #00341a; /* Change background on hover */
+    transform: scale(1.1); /* Slightly increase size */
+    color: white;
+}
+.footercopyrightbottom
+{
+width: 100%;
+height: 25%;
+display: flex;
+justify-content: flex-end;
+font-size: 12px;
+padding-top: 10px;
+padding-right: 10px;
+font-family: 'Graphik Arabic';
 font-weight: normal;
- }
- 
- [dir="rtl"] .footercopyrightbottom
- {
- width: 100%;
- height: 25%;
- display: flex;
- justify-content: flex-start;
- font-size: 12px;
- padding-top: 10px;
- padding-right: 0px;
- font-family: 'Graphik Arabic';
+}
+
+[dir="rtl"] .footercopyrightbottom
+{
+width: 100%;
+height: 25%;
+display: flex;
+justify-content: flex-start;
+font-size: 12px;
+padding-top: 10px;
+padding-right: 0px;
+font-family: 'Graphik Arabic';
 font-weight: normal;
- }
- 
- .footercopyrightbottom .linkdin 
- {
-     padding-right: 10px;
-     padding-left: 0px;
- }
- [dir="rtl"] .footercopyrightbottom .linkdin 
- {
-     padding-right: 0px;
-     padding-left: 10px;
- }
- .footercopyrightbottom .xfoaj
- {
-     padding-right: 10px;
-     padding-left: 0px;
- }
- [dir="rtl"] .footercopyrightbottom .xfoaj
- {
-     padding-right: 0px;
-     padding-left: 10px;
- }
- .footercopyrightbottom .rightsreserve
- {
-     padding-left: 10px;
-     padding-right: 0px;
- }
- [dir="rtl"] .footercopyrightbottom .rightsreserve
- {
-     padding-left: 0;
-     padding-right: 10px;
- }
- .footercopyrightbottom span 
- {
-     font-size: 15px;
- }
+}
+
+.footercopyrightbottom .linkdin 
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .linkdin 
+{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.footercopyrightbottom .xfoaj
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .xfoaj
+{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.footercopyrightbottom .rightsreserve
+{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .rightsreserve
+{
+    padding-left: 0;
+    padding-right: 10px;
+}
+.footercopyrightbottom span 
+{
+    font-size: 15px;
+}
 }
 
 /* ipad pro and nest hub */
@@ -2085,6 +2125,14 @@ font-weight: normal;
         justify-content: end;
         align-items: center;
     }
+    [dir="rtl"]  .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
     .menuleftimg img 
     {
         width: 50%;
@@ -2104,11 +2152,13 @@ font-weight: normal;
         font-size: 14px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: 'Graphik Arabic';
+        font-weight: 300;
         font-size: 13px;
         font-weight: 100;
         text-transform: capitalize;
@@ -2128,7 +2178,8 @@ font-weight: normal;
         text-decoration: none;
         color: #054a28;
         font-size: 14px;
-        font-family: "Poppins", serif;
+        font-family: 'PP Eiko';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -2138,8 +2189,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-family: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -2192,7 +2244,6 @@ font-weight: normal;
         border-top: 1px solid #00341a;
     }
     
-
      /*project content*/
 
 .projectcontent 
@@ -2237,14 +2288,16 @@ align-items: center;
 }
 .projectcontenttopleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'PP Eiko';
+    font-weight: 500;
     width: 90%;
     font-size: 2.5rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontenttopleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 90%;
     font-size: 2.5rem;
     color: #00341A;
@@ -2264,14 +2317,16 @@ align-items: center;
 }
 .projectcontenttoplefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontenttoplefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 .projectcontenttopleftcontent
@@ -2293,14 +2348,16 @@ align-items: center;
 .projectcontenttopleftcontent p
 {
  width: 90%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
 [dir="rtl"] .projectcontenttopleftcontent p
 {
  width: 90%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 16px;
  color: #00341A;
 }
@@ -2325,7 +2382,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -2334,7 +2392,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -2383,15 +2442,17 @@ height: 80%;
 }
 .projectcontentbottomleftheading h1 
 {
-    font-family: Poppins,'san-serif';
-    width: 70%;
+    font-family:'PP Eiko';
+    font-weight: 500;
+    width: 80%;
     font-size: 2.5rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomleftheading h1 
 {
-    font-family: Poppins,'san-serif';
-    width: 70%;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    width: 80%;
     font-size: 2.5rem;
     color: #00341A;
 }
@@ -2413,14 +2474,16 @@ height: 80%;
 }
 .projectcontentbottomlefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomlefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 .projectcontentbottomleftcontent
@@ -2442,14 +2505,16 @@ align-items: center;
 .projectcontentbottomleftcontent p
 {
  width: 90%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomleftcontent p
 {
  width: 90%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+    font-weight: 300;
  font-size: 16px;
  color: #00341A;
 }
@@ -2474,7 +2539,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -2483,7 +2549,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -2538,17 +2605,17 @@ height: 100%;
     font-family: 'PP Eiko';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 [dir="rtl"] .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 17px;
+    font-weight: 500;
 }
 .footermenutop a:hover 
 {
@@ -2641,11 +2708,11 @@ display: flex;
 .footercpyrighttopright button 
 {
     background-color: #81c2e5;
-color: #0a3d62; /* Darker text for contrast */
-border: none;
-padding: 5px 10px 5px 10px;
-font-size: 16px;
-border-radius: 8px;
+    color: #0a3d62; /* Darker text for contrast */
+    border: none;
+  padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    border-radius: 8px;
 transition: all 0.3s ease;
 font-family: 'PP Eiko';
 font-weight: 500;
@@ -2715,7 +2782,10 @@ font-weight: normal;
     padding-left: 0;
     padding-right: 10px;
 }
-
+.footercopyrightbottom span 
+{
+    font-size: 10px;
+}
 }
 
 /* Tablets (iPads mini & Tablets) */
@@ -2733,7 +2803,7 @@ font-weight: normal;
     
     .menuleft 
     {
-        width: 40%;
+        width: 50%;
         height: 100%;
         display: flex;
         justify-content: flex-start;
@@ -2747,12 +2817,33 @@ font-weight: normal;
         justify-content: center;
         align-items: center;
     }
+    [dir] .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .menuleftimg img 
     {
         width: 60%;
         height: 60%;
     }
+    [dir="rtl"] .menuleftimg img 
+    {
+        width: 60%;
+        height: 60%;
+    }
     .menuleftcontent 
+    {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    [dir="rtl"]  .menuleftcontent 
     {
         width: 60%;
         height: 100%;
@@ -2766,20 +2857,21 @@ font-weight: normal;
         font-size: 14px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: "Graphik Arabic";
         font-size: 13px;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: capitalize;
         color: #00341a;
         margin: 0%;
     }
     .menuright 
     {
-        width: 60%;
+        width: 50%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -2789,8 +2881,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 13.5px;
-        font-family: "Poppins", serif;
+        font-size: 14px;
+        font-family: 'PP Eiko';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -2800,8 +2893,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -2855,6 +2949,7 @@ font-weight: normal;
     }
 
 
+
     /*project content*/
 
 .projectcontent 
@@ -2899,14 +2994,16 @@ align-items: center;
 }
 .projectcontenttopleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'PP Eiko';
+    font-weight: 500;
     width: 90%;
     font-size: 2.5rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontenttopleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 90%;
     font-size: 2.5rem;
     color: #00341A;
@@ -2926,13 +3023,15 @@ align-items: center;
 }
 .projectcontenttoplefttitle h5 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontenttoplefttitle h5 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 1rem;
     color: #00341A;
 }
@@ -2955,14 +3054,16 @@ align-items: center;
 .projectcontenttopleftcontent p
 {
  width: 90%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
 [dir="rtl"] .projectcontenttopleftcontent p
 {
  width: 90%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 16px;
  color: #00341A;
 }
@@ -2987,7 +3088,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -2996,7 +3098,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -3045,14 +3148,16 @@ height: 80%;
 }
 .projectcontentbottomleftheading h1 
 {
-    font-family: Poppins,'san-serif';
-    width: 70%;
+    font-family: 'PP Eiko';
+    font-weight: 500;
+    width: 60%;
     font-size: 2.5rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 70%;
     font-size: 2.5rem;
     color: #00341A;
@@ -3075,13 +3180,15 @@ height: 80%;
 }
 .projectcontentbottomlefttitle h5 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomlefttitle h5 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 1rem;
     color: #00341A;
 }
@@ -3104,14 +3211,16 @@ align-items: center;
 .projectcontentbottomleftcontent p
 {
  width: 90%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomleftcontent p
 {
  width: 90%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 16px;
  color: #00341A;
 }
@@ -3136,7 +3245,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -3145,7 +3255,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -3198,20 +3309,20 @@ align-items: center;
 .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'PP Eiko';
-    color: #00341a;
-    padding: 0px 10px;
-    font-size: 15px;
-    font-weight: 500;
+        font-family: 'PP Eiko';
+        color: #00341a;
+        padding: 0px 10px;
+        font-size: 14px;
+        font-weight: 500;
 }
 [dir="rtl"]  .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 15px;
-    font-weight: normal;
+    font-size: 17px;
+    font-weight: 500;
 }
 .footermenutop a:hover 
 {
@@ -3304,11 +3415,11 @@ align-items: center;
 .footercpyrighttopright button 
 {
     background-color: #81c2e5;
-color: #0a3d62; /* Darker text for contrast */
-border: none;
-padding: 5px 10px 5px 10px;
-font-size: 16px;
-border-radius: 8px;
+    color: #0a3d62; /* Darker text for contrast */
+    border: none;
+  padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    border-radius: 8px;
 transition: all 0.3s ease;
 font-family: 'PP Eiko';
 font-weight: 500;
@@ -3408,10 +3519,18 @@ height: fit-content;
         justify-content: center;
         align-items: center;
     }
+    [dir="rtl"] .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .menuleftimg img 
     {
-        width: 80%;
-        height: 80%;
+        width: 70%;
+        height: 70%;
     }
     .menuleftcontent 
     {
@@ -3427,13 +3546,14 @@ height: fit-content;
         font-size: 13px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: 'Graphik Arabic';
         font-size: 12px;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: capitalize;
         color: #00341a;
         margin: 0%;
@@ -3505,8 +3625,22 @@ height: fit-content;
         height: 100%;
         text-decoration: none;
         color: #054a28;
-        font-size: 12px;
-        font-family: "Poppins", serif;
+        font-size: 14px;
+        font-family: 'PP Eiko';
+        font-weight: 500;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    [dir="rtl"] .smalldevicemenu a 
+    {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #054a28;
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         height: 50%;
         text-align: center;
         transition: all 0.1s ease-in-out;
@@ -3558,20 +3692,22 @@ width: 100%;
 height: 35%;
 display: flex;
 justify-content: start;
-align-items: start;
+align-items: center;
 }
 .projectcontenttopleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'PP Eiko';
+    font-weight: 500;
     width: 90%;
     font-size: 2rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontenttopleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 90%;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #00341A;
 }
 .projectcontenttoplefttitle
@@ -3592,14 +3728,16 @@ align-items: start;
 }
 .projectcontenttoplefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontenttoplefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+ font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 .projectcontenttopleftcontent
@@ -3621,14 +3759,16 @@ align-items: start;
 .projectcontenttopleftcontent p
 {
  width: 100%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
 [dir="rtl"] .projectcontenttopleftcontent p
 {
  width: 100%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 16px;
  color: #00341A;
 }
@@ -3653,7 +3793,8 @@ align-items: start;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -3662,7 +3803,8 @@ align-items: start;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -3709,16 +3851,18 @@ height: 50%;
 }
 .projectcontentbottomleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'PP Eiko';
+    font-weight: 500;
     width: 80%;
-    font-size: 2.6rem;
+    font-size: 2rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomleftheading h1 
 {
-    font-family: Poppins,'san-serif';
-    width: 70%;
-    font-size: 2.5rem;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    width: 80%;
+    font-size: 3rem;
     color: #00341A;
 }
 .projectcontentbottomlefttitle
@@ -3739,14 +3883,16 @@ height: 50%;
 }
 .projectcontentbottomlefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomlefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 .projectcontentbottomleftcontent
@@ -3768,14 +3914,16 @@ align-items: center;
 .projectcontentbottomleftcontent p
 {
  width: 100%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 15px;
  color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomleftcontent p
 {
  width: 100%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 16px;
  color: #00341A;
 }
@@ -3800,7 +3948,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -3809,7 +3958,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -3878,11 +4028,11 @@ align-items: center;
     [dir="rtl"] .footermenutop a 
     {
         text-decoration: none;
-        font-family: 'Graphik Arabic';
+        font-family: 'Salma Arabic';
         color: #00341a;
         padding: 0px 10px;
-        font-size: 14px;
-        font-weight: 300;
+        font-size: 17px;
+        font-weight: 500;
         padding: 10px 10px;
     }
     .footermenutop a:hover 
@@ -4074,131 +4224,153 @@ height: fit-content;
   /* Smartphones (small) */
 @media only screen and (min-width: 200px) and (max-width: 400px) {
     
-.menuleft 
-{
-    width: 70%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.menuleftimg 
-{
-    width: 40%;
+    .menuleft 
+    {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    [dir="rtl"] .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menuleftimg img 
+    {
+        width: 70%;
+        height: 70%;
+    }
+    .menuleftcontent 
+    {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menuleftcontent p:nth-child(1)
+    {
+        margin: 0%;
+        font-size: 13px;
+        text-transform: capitalize;
+        color: #00341A;
+        font-family: "PP Eiko";
+        font-weight: bold;
+    }
+    .menuleftcontent p:nth-child(2)
+    {
+        font-family: 'Graphik Arabic';
+        font-size: 12px;
+        font-weight: 300;
+        text-transform: capitalize;
+        color: #00341a;
+        margin: 0%;
+    }
+    .menuright 
+    {
+        width: 0%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        visibility: hidden;
+    }
+    .menuright a 
+    {
+        text-decoration: none;
+        color: #054a28;
+        font-size: 14px;
+        font-family: "Poppins", serif;
+        padding: 10px;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    [dir="rtl"] .menuright a 
+    {
+        text-decoration: none;
+        color: #054a28;
+        font-size: 14px;
+        font-family: "Graphik";
+        padding: 10px;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    .menuright a:hover 
+    {
+        color: black;
+        border-top: 1px solid #00341a;
+    }
+    .hamburgers 
+    {
+    width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.menuleftimg img 
-{
-    width: 80%;
-    height: 80%;
-}
-.menuleftcontent 
-{
-    width: 60%;
-    height: 100%;
+    visibility: visible;
+    }
+    .hamburgers i 
+    {
+        padding: 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .smalldevicemenu 
+    {
+        width: 100%;
+        height: 100%;
+        background-color: #eae9e6;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.menuleftcontent p:nth-child(1)
-{
-    margin: 0%;
-    font-size: 13px;
-    text-transform: capitalize;
-    color: #00341A;
-    font-family: "PPEiko";
-}
-.menuleftcontent p:nth-child(2)
-{
-    font-family: "Helvetica";
-    font-size: 12px;
-    font-weight: 100;
-    text-transform: capitalize;
-    color: #00341a;
-    margin: 0%;
-}
-.menuright 
-{
-    width: 0%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    visibility: hidden;
-}
-.menuright a 
-{
-    text-decoration: none;
-    color: #054a28;
-    font-size: 14px;
-    font-family: "Poppins", serif;
-    padding: 10px;
-    height: 50%;
-    text-align: center;
-    transition: all 0.1s ease-in-out;
-}
-[dir="rtl"] .menuright a 
-{
-    text-decoration: none;
-    color: #054a28;
-    font-size: 14px;
-    font-family: "Graphik";
-    padding: 10px;
-    height: 50%;
-    text-align: center;
-    transition: all 0.1s ease-in-out;
-}
-.menuright a:hover 
-{
-    color: black;
-    border-top: 1px solid #00341a;
-}
-.hamburgers 
-{
-width: 30%;
-height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-visibility: visible;
-}
-.hamburgers i 
-{
-    padding: 20px;
-    font-size: 20px;
-    cursor: pointer;
-}
-.smalldevicemenu 
-{
-    width: 100%;
-    height: 100%;
-    background-color: #eae9e6;
-display: flex;
-justify-content: space-around;
-align-items: center;
-opacity: 0;
-}
-.smalldevicemenu a 
-{
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    color: #054a28;
-    font-size: 10px;
-    font-family: "Poppins", serif;
-    height: 50%;
-    text-align: center;
-    transition: all 0.1s ease-in-out;
-}
-.smalldevicemenu a:hover 
-{
-    color: black;
-    border-top: 1px solid #00341a;
-}
-
+    opacity: 0;
+    }
+    .smalldevicemenu a 
+    {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #054a28;
+        font-size: 14px;
+        font-family: 'PP Eiko';
+        font-weight: 500;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    [dir="rtl"] .smalldevicemenu a 
+    {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #054a28;
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    .smalldevicemenu a:hover 
+    {
+        color: black;
+        border-top: 1px solid #00341a;
+    }
 
 /*project content*/
 
@@ -4241,20 +4413,22 @@ width: 100%;
 height: 35%;
 display: flex;
 justify-content: start;
-align-items: start;
+align-items: center;
 }
 .projectcontenttopleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'PP Eiko';
+    font-weight: 500;
     width: 90%;
     font-size: 2rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontenttopleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 90%;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #00341A;
 }
 .projectcontenttoplefttitle
@@ -4275,14 +4449,16 @@ align-items: start;
 }
 .projectcontenttoplefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontenttoplefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 .projectcontenttopleftcontent
@@ -4304,14 +4480,16 @@ align-items: start;
 .projectcontenttopleftcontent p
 {
  width: 100%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 12px;
  color: #00341A;
 }
 [dir="rtl"] .projectcontenttopleftcontent p
 {
  width: 100%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 13px;
  color: #00341A;
 }
@@ -4336,7 +4514,8 @@ align-items: start;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -4345,7 +4524,8 @@ align-items: start;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -4385,18 +4565,23 @@ height: 50%;
 [dir="rtl"] .projectcontentbottomleftheading
 {
     width: 100%;
-    height: 35%;  
+    height: 35%; 
+    display: flex;
+    justify-content: start;
+    align-items: center; 
 }
 .projectcontentbottomleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'PP Eiko';
+    font-weight: 500;
     width: 90%;
     font-size: 2.1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomleftheading h1 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 90%;
     font-size: 2.5rem;
     color: #00341A;
@@ -4413,14 +4598,16 @@ height: 50%;
 }
 .projectcontentbottomlefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomlefttitle h5 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 1rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 1.1rem;
     color: #00341A;
 }
 .projectcontentbottomleftcontent
@@ -4442,14 +4629,16 @@ align-items: center;
 .projectcontentbottomleftcontent p
 {
  width: 100%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 12px;
  color: #00341A;
 }
 [dir="rtl"] .projectcontentbottomleftcontent p
 {
  width: 100%;   
- font-family: Poppins,'san-serif';
+ font-family: 'Graphik Arabic';
+ font-weight: 300;
  font-size: 13px;
  color: #00341A;
 }
@@ -4474,7 +4663,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -4483,7 +4673,8 @@ align-items: center;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 15px 15px 15px 15px;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 14px;
     color: #00341A;
 }
@@ -4551,11 +4742,11 @@ align-items: center;
 [dir="rtl"] .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 17px;
+    font-weight: 500;
     padding: 10px 10px;
 }
 .footermenutop a:hover 

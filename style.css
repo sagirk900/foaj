@@ -2718,7 +2718,7 @@ font-weight: normal;
     [dir="rtl"] .centersectioncontentleft 
     {
         height: 100%;
-        width: 45%;
+        width: 40%;
         display: flex;
         justify-content: start;
         align-items: center;
@@ -2732,7 +2732,7 @@ font-weight: normal;
     }
     [dir="rtl"] .centersectioncontentleft h1 
     {
-        font-size: 3rem;
+        font-size: 3.5rem;
         color: white;
         font-family: 'Salma Arabic';
         font-weight: 500;
@@ -2748,7 +2748,7 @@ font-weight: normal;
     [dir="rtl"] .centersectioncontentcenter 
     {
         height: 100%;
-        width: 45%;
+        width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -3504,7 +3504,7 @@ font-weight: normal;
     [dir="rtl"] .centersectioncontentleft 
     {
         height: 100%;
-        width: 45%;
+        width: 40%;
         display: flex;
         justify-content: start;
         align-items: center;
@@ -3519,7 +3519,7 @@ font-weight: normal;
     }
     [dir="rtl"] .centersectioncontentleft h1 
     {
-        font-size: 3.2rem;
+        font-size: 4rem;
         color: white;
         font-family: 'Salma Arabic';
         font-weight: 500;
@@ -3535,7 +3535,7 @@ font-weight: normal;
     [dir="rtl"] .centersectioncontentcenter 
     {
         height: 100%;
-        width: 45%;
+        width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -3551,7 +3551,7 @@ font-weight: normal;
     {
         font-family: 'Graphik Arabic';
         font-weight: 300;
-        font-size: 14px;
+        font-size: 16px;
         color: white;
         width: 80%;
     }
@@ -4315,7 +4315,7 @@ height: fit-content;
     }
     [dir="rtl"] .centersectioncontentleft h1 
     {
-        font-size: 2rem;
+        font-size: 3rem;
         color: white;
         font-family: 'Salma Arabic';
         font-weight: 500;
@@ -5132,7 +5132,7 @@ opacity: 0;
 }
 [dir="rtl"] .centersectioncontentleft h1 
 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     color: white;
     font-family: 'Salma Arabic';
     font-weight: 500;

@@ -3967,6 +3967,10 @@ font-weight: normal;
     padding-left: 0;
     padding-right: 10px;
 }
+.footercopyrightbottom span 
+{
+    font-size: 10px;
+}
 }
 
 /* Tablets (iPads mini & Tablets) */
