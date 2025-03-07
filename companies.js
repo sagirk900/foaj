@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
             smallcomp.textContent="شركات";
             smallcont.textContent="اتصال";
 
-            comhead.textContent="مجموعة الاتصالات المتكاملة";
+            comhead.textContent="مجموعة اتصالية شاملة تتضمن";
             comheadrightfirst.forEach((ele,index)=>{
                 if(index===0)
                 {
@@ -170,7 +170,7 @@ function Direction() {
             smallcomp.textContent="شركات";
             smallcont.textContent="اتصال";
 
-            comhead.textContent="مجموعة الاتصالات المتكاملة";
+            comhead.textContent="مجموعة اتصالية شاملة تتضمن";
             comheadrightfirst.forEach((ele,index)=>{
                 if(index===0)
                 {

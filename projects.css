@@ -1183,7 +1183,7 @@ align-items: center;
 }
 
 
-/*footer section*/
+
 /*footer section*/
 .footersection 
 {
@@ -3760,7 +3760,7 @@ align-items: center;
 {
  width: 100%;   
  font-family: 'Graphik Arabic';
- font-weight: 300;
+ font-weight: normal;
  font-size: 15px;
  color: #00341A;
 }
@@ -3768,7 +3768,7 @@ align-items: center;
 {
  width: 100%;   
  font-family: 'Graphik Arabic';
- font-weight: 300;
+ font-weight: normal;
  font-size: 16px;
  color: #00341A;
 }
@@ -3915,7 +3915,7 @@ align-items: center;
 {
  width: 100%;   
  font-family: 'Graphik Arabic';
- font-weight: 300;
+ font-weight: normal;
  font-size: 15px;
  color: #00341A;
 }
@@ -3923,7 +3923,7 @@ align-items: center;
 {
  width: 100%;   
  font-family: 'Graphik Arabic';
- font-weight: 300;
+ font-weight: normal;
  font-size: 16px;
  color: #00341A;
 }

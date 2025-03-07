@@ -5246,7 +5246,7 @@ align-items: center;
 {
     color: #00341A;
     font-family: 'Graphik Arabic';
-    font-weight: 300;
+    font-weight: normal;
     font-size: 15px;
     line-height: 1.5em;
 }
@@ -5254,7 +5254,7 @@ align-items: center;
 {
     color: #00341A;
     font-family: 'Graphik Arabic';
-    font-weight: 300;
+    font-weight: normal;
     font-size: 17px;
     line-height: 1.5em;
 }
@@ -5637,7 +5637,16 @@ margin-right: 15px;
     color: #00341a;
     font-size: 14px;
     font-family: 'Graphik Arabic';
-    font-weight: 300;
+    font-weight: normal;
+    text-align: justify;
+}
+[dir="rtl"] .foajdatasectionbottomcontent p 
+{
+    width: 100%;
+    color: #00341a;
+    font-size: 16px;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     text-align: justify;
 }
 .foajdatasectiontoprow1 
@@ -6309,7 +6318,7 @@ align-items: center;
 {
     color: #00341A;
     font-family: 'Graphik Arabic';
-    font-weight: 300;
+    font-weight: normal;
     font-size: 15px;
     line-height: 1.5em;
 }
@@ -6317,7 +6326,7 @@ align-items: center;
 {
     color: #00341A;
     font-family: 'Graphik Arabic';
-    font-weight: 300;
+    font-weight: normal;
     font-size: 17px;
     line-height: 1.5em;
 }
@@ -6699,7 +6708,16 @@ margin-right: 15px;
     color: #00341a;
     font-size: 14px;
     font-family: 'Graphik Arabic';
-    font-weight: 300;
+    font-weight: normal;
+    text-align: justify;
+}
+[dir="rtl"] .foajdatasectionbottomcontent p 
+{
+    width: 100%;
+    color: #00341a;
+    font-size: 15px;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     text-align: justify;
 }
 .foajdatasectiontoprow1 

@@ -4525,7 +4525,7 @@ height: fit-content;
         font-size: 18px;
         text-transform: capitalize;
         font-family: 'Graphik Arabic';
-        font-weight: 300;
+        font-weight: normal;
         width: 80%;
         text-align: left;
         color: #00341A;
@@ -4535,7 +4535,7 @@ height: fit-content;
         font-size: 17px;
         text-transform: capitalize;
         font-family: 'Graphik Arabic';
-        font-weight: 300;
+        font-weight: normal;
         width: 80%;
         text-align: right;
         color: #00341A;
@@ -4563,13 +4563,13 @@ height: fit-content;
     {
         font-size: 18px;
         font-family: 'Graphik Arabic';
-        font-weight: 300;
+        font-weight: normal;
     }
     [dir="rtl"] .brandlogobottomcontentright a span 
     {
         font-size: 18px;
         font-family: 'Graphik Arabic';
-        font-weight: 300;
+        font-weight: normal;
     }
     .brandlogobottomcontentright a i 
     {
@@ -5342,7 +5342,7 @@ border-top: 0.5px solid black;
     font-size: 15px;
     text-transform: capitalize;
     font-family: 'Graphik Arabic';
-    font-weight: 300;
+    font-weight: normal;
     width: 80%;
     text-align: left;
     color: #00341A;
@@ -5352,7 +5352,7 @@ border-top: 0.5px solid black;
     font-size: 17px;
     text-transform: capitalize;
     font-family: 'Graphik Arabic';
-    font-weight: 300;
+    font-weight: normal;
     width: 80%;
     text-align: right;
     color: #00341A;
@@ -5380,13 +5380,15 @@ border-top: 0.5px solid black;
 {
     font-size: 18px;
     font-family: 'Graphik Arabic';
-    font-weight: 300;
+    font-weight: normal;
+
 }
 [dir="rtl"] .brandlogobottomcontentright a span 
 {
     font-size: 18px;
     font-family: 'Graphik Arabic';
-    font-weight: 300;
+    font-weight: normal;
+
 }
 .brandlogobottomcontentright a i 
 {

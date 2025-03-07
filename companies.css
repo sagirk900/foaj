@@ -27,6 +27,14 @@ html,body
     font-display: swap;
 }
 @font-face {
+    font-family: 'PP Eiko';
+    src: url('fonts/PPEiko-Regular.woff2') format('woff2'),
+        url('fonts/PPEiko-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
     font-family: 'Salma Arabic';
     src: url('fonts/SalmaArabic-Light.woff2') format('woff2'),
         url('fonts/SalmaArabic-Light.woff') format('woff');
@@ -1109,13 +1117,14 @@ font-weight: normal;
         font-size: 14px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: 'Graphik Arabic';
         font-size: 13px;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: capitalize;
         color: #00341a;
         margin: 0%;
@@ -1133,7 +1142,8 @@ font-weight: normal;
         text-decoration: none;
         color: #054a28;
         font-size: 14px;
-        font-family: "Poppins", serif;
+        font-family: 'PP Eiko';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -1143,8 +1153,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -1229,10 +1240,19 @@ flex-direction: row;
 }
 .compheaderleft h3 
 {
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
     width: 85%;
     font-size: 3rem;
+    line-height: 4rem;
+    text-transform: capitalize;
+}
+[dir="rtl"] .compheaderleft h3 
+{
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    width: 85%;
+    font-size: 3.5rem;
     line-height: 4rem;
     text-transform: capitalize;
 }
@@ -1266,8 +1286,8 @@ align-items: start;
 .comheaderrightfirstleft p 
 {
     font-size: 30px;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Epiko';
+    font-weight: regular;
     font-style: italic;
 }
 .comheaderrightfirstright
@@ -1281,9 +1301,15 @@ align-items: start;
 }
 .comheaderrightfirstright div 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 12px;
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 13px;
+}
+[dir="rtl"] .comheaderrightfirstright div 
+{
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 .compheaderrightsecond
 {
@@ -1305,8 +1331,8 @@ height: 100%;
     height: 100%;
     font-size: 28px;
     font-style: italic;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'PP Eiko';
+    font-weight: regular;
     display: flex;
 align-items: center;
 justify-content: start;
@@ -1321,9 +1347,9 @@ justify-content: end;
 }
 .comheaderrightsecondright div 
 {
-    font-size: 12px;
-    font-family: Poppins,'san-serif';
-    font-weight: 300px;
+    font-size: 13px;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
 }
 
 
@@ -1378,15 +1404,15 @@ justify-content: end;
 .compcontentcenterrow1col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow1col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 20px;
 }
 .compcontentcenterrow2 
@@ -1425,15 +1451,15 @@ justify-content: end;
 .compcontentcenterrow2col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow2col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 20px;
 }
 
@@ -1474,16 +1500,16 @@ justify-content: end;
 .compcontentcenterrow3col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 
 [dir="rtl"] .compcontentcenterrow3col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 20px;
 }
 .compcontentcenterrow4 
@@ -1522,15 +1548,15 @@ justify-content: end;
 .compcontentcenterrow4col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow4col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 20px;
 }
 
@@ -1570,15 +1596,15 @@ justify-content: end;
 .compcontentcenterrow5col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow5col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 20px;
 }
 
@@ -1618,15 +1644,15 @@ justify-content: end;
 .compcontentcenterrow6col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow6col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 20px;
 }
 
@@ -1666,15 +1692,15 @@ justify-content: end;
 .compcontentcenterrow7col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow7col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 20px;
 }
 
@@ -1714,15 +1740,15 @@ justify-content: end;
 .compcontentcenterrow8col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow8col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 20px;
 }
 
@@ -1762,15 +1788,15 @@ justify-content: end;
 .compcontentcenterrow9col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow9col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 20px;
 }
 .compcontentcenterrow10 
@@ -1808,15 +1834,15 @@ justify-content: end;
 .compcontentcenterrow10col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow10col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 20px;
 }
 
@@ -1859,17 +1885,18 @@ height: 100%;
     font-family: 'PP Eiko';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
 }
 [dir="rtl"] .footermenutop a 
 {
-    text-decoration: none;
-    font-family: 'Graphik Arabic';
-    color: #00341a;
-    padding: 0px 10px;
-    font-size: 16px;
-    font-weight: normal;
+       text-decoration: none;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
+        color: #00341a;
+        padding: 0px 10px;
+        font-size: 17px;
+        font-weight: normal;
 }
 .footermenutop a:hover 
 {
@@ -1964,11 +1991,11 @@ display: flex;
 .footercpyrighttopright button 
 {
     background-color: #81c2e5;
-color: #0a3d62; /* Darker text for contrast */
-border: none;
-padding: 5px 10px 5px 10px;
-font-size: 16px;
-border-radius: 8px;
+    color: #0a3d62; /* Darker text for contrast */
+    border: none;
+  padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    border-radius: 8px;
 transition: all 0.3s ease;
 font-family: 'PP Eiko';
 font-weight: 500;
@@ -2104,13 +2131,14 @@ font-weight: normal;
         font-size: 14px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: 'Graphik Arabic';
         font-size: 13px;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: capitalize;
         color: #00341a;
         margin: 0%;
@@ -2128,7 +2156,8 @@ font-weight: normal;
         text-decoration: none;
         color: #054a28;
         font-size: 14px;
-        font-family: "Poppins", serif;
+        font-family: 'PP Eiko';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -2138,8 +2167,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -2191,7 +2221,7 @@ font-weight: normal;
         color: black;
         border-top: 1px solid #00341a;
     }
-    
+
 
     /*company heading*/
 .comheadimg 
@@ -2224,8 +2254,17 @@ flex-direction: row;
 }
 .compheaderleft h3 
 {
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
+    width: 85%;
+    font-size: 3rem;
+    line-height: 4rem;
+    text-transform: capitalize;
+}
+[dir="rtl"] .compheaderleft h3 
+{
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 85%;
     font-size: 3rem;
     line-height: 4rem;
@@ -2261,8 +2300,15 @@ align-items: start;
 .comheaderrightfirstleft p 
 {
     font-size: 30px;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
+    font-style: italic;
+}
+[dir="rtl"] .comheaderrightfirstleft p 
+{
+    font-size: 30px;
+    font-family: 'PP Eiko';
+    font-weight: regular;
     font-style: italic;
 }
 .comheaderrightfirstright
@@ -2276,9 +2322,15 @@ align-items: start;
 }
 .comheaderrightfirstright div 
 {
-    font-family: Poppins,'san-serif';
-    font-size: 12px;
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-size: 13px;
+    font-weight: normal;
+}
+[dir="rtl"] .comheaderrightfirstright div 
+{
+    font-family: 'Graphik Arabic';
+    font-size: 13px;
+    font-weight: normal;
 }
 .compheaderrightsecond
 {
@@ -2300,8 +2352,20 @@ height: 100%;
     height: 100%;
     font-size: 28px;
     font-style: italic;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
+    display: flex;
+align-items: center;
+justify-content: start;
+}
+[dir="rtl"] .comheaderrightsecondleft p 
+{
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'PP Eiko';
+    font-weight: regular;
     display: flex;
 align-items: center;
 justify-content: start;
@@ -2316,11 +2380,16 @@ justify-content: center;
 }
 .comheaderrightsecondright div 
 {
-    font-size: 12px;
-    font-family: Poppins,'san-serif';
-    font-weight: 300px;
+    font-family: 'Graphik Arabic';
+    font-size: 13px;
+    font-weight: normal;
 }
-
+[dir="rtl"] .comheaderrightsecondright div 
+{
+    font-family: 'Graphik Arabic';
+    font-size: 13px;
+    font-weight: normal;
+}
 /*comp content*/
 .compcontent 
 {
@@ -2372,11 +2441,17 @@ justify-content: center;
 .compcontentcenterrow1col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 15px;
 }
-
+[dir="rtl"] .compcontentcenterrow1col2content p 
+{
+    width: 70%;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
+    font-size: 18px;
+}
 .compcontentcenterrow2 
 {
     width: 100%;
@@ -2413,11 +2488,17 @@ justify-content: center;
 .compcontentcenterrow2col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 15px;
 }
-
+[dir="rtl"] .compcontentcenterrow2col2content p 
+{
+    width: 70%;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
+    font-size: 18px;
+}
 
 .compcontentcenterrow3
 {
@@ -2456,11 +2537,17 @@ justify-content: center;
 .compcontentcenterrow3col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 15px;
 }
-
+[dir="rtl"] .compcontentcenterrow3col2content p 
+{
+    width: 70%;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
+    font-size: 18px;
+}
 
 .compcontentcenterrow4 
 {
@@ -2498,11 +2585,17 @@ justify-content: center;
 .compcontentcenterrow4col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 15px;
 }
-
+[dir="rtl"] .compcontentcenterrow4col2content p 
+{
+    width: 70%;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
+    font-size: 18px;
+}
 
 .compcontentcenterrow5 
 {
@@ -2540,11 +2633,17 @@ justify-content: center;
 .compcontentcenterrow5col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 15px;
 }
-
+[dir="rtl"] .compcontentcenterrow5col2content p 
+{
+    width: 70%;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
+    font-size: 18px;
+}
 
 .compcontentcenterrow6 
 {
@@ -2582,11 +2681,17 @@ justify-content: center;
 .compcontentcenterrow6col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 15px;
 }
-
+[dir="rtl"] .compcontentcenterrow6col2content p 
+{
+    width: 70%;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
+    font-size: 18px;
+}
 
 .compcontentcenterrow7 
 {
@@ -2624,11 +2729,17 @@ justify-content: center;
 .compcontentcenterrow7col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 15px;
 }
-
+[dir="rtl"] .compcontentcenterrow7col2content p 
+{
+    width: 70%;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
+    font-size: 18px;
+}
 
 .compcontentcenterrow8 
 {
@@ -2666,11 +2777,17 @@ justify-content: center;
 .compcontentcenterrow8col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 15px;
 }
-
+[dir="rtl"] .compcontentcenterrow8col2content p 
+{
+    width: 70%;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
+    font-size: 18px;
+}
 
 .compcontentcenterrow9 
 {
@@ -2708,11 +2825,17 @@ justify-content: center;
 .compcontentcenterrow9col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 15px;
 }
-
+[dir="rtl"] .compcontentcenterrow9col2content p 
+{
+    width: 70%;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
+    font-size: 18px;
+}
 .compcontentcenterrow10 
 {
     width: 100%;
@@ -2748,11 +2871,17 @@ justify-content: center;
 .compcontentcenterrow10col2content p 
 {
     width: 70%;
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-weight: 300;
     font-size: 15px;
 }
-
+[dir="rtl"] .compcontentcenterrow10col2content p 
+{
+    width: 70%;
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
+    font-size: 18px;
+}
 
 /*footer section*/
 .footersection 
@@ -2795,16 +2924,17 @@ height: 100%;
     font-family: 'PP Eiko';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
 }
 [dir="rtl"] .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     color: #00341a;
     padding: 0px 10px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: normal;
 }
 .footermenutop a:hover 
@@ -2900,11 +3030,11 @@ display: flex;
 .footercpyrighttopright button 
 {
     background-color: #81c2e5;
-color: #0a3d62; /* Darker text for contrast */
-border: none;
-padding: 5px 10px 5px 10px;
-font-size: 16px;
-border-radius: 8px;
+    color: #0a3d62; /* Darker text for contrast */
+    border: none;
+  padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    border-radius: 8px;
 transition: all 0.3s ease;
 font-family: 'PP Eiko';
 font-weight: 500;
@@ -3010,6 +3140,14 @@ font-weight: normal;
         justify-content: end;
         align-items: center;
     }
+    [dir="rtl"]  .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
     .menuleftimg img 
     {
         width: 50%;
@@ -3029,11 +3167,13 @@ font-weight: normal;
         font-size: 14px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: 'Graphik Arabic';
+        font-weight: 300;
         font-size: 13px;
         font-weight: 100;
         text-transform: capitalize;
@@ -3053,7 +3193,8 @@ font-weight: normal;
         text-decoration: none;
         color: #054a28;
         font-size: 14px;
-        font-family: "Poppins", serif;
+        font-family: 'PP Eiko';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -3063,8 +3204,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-family: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -3149,10 +3291,19 @@ flex-direction: row;
 }
 .compheaderleft h3 
 {
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
     width: 90%;
     font-size: 2.5rem;
+    line-height: 4rem;
+    text-transform: capitalize;
+}
+[dir="rtl"] .compheaderleft h3 
+{
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    width: 90%;
+    font-size: 3rem;
     line-height: 4rem;
     text-transform: capitalize;
 }
@@ -3168,7 +3319,7 @@ flex-direction: row;
 .compheaderrightfirst 
 {
     width: 35%;
-    height: 20%;
+    height: 25%;
     border-bottom: 1px solid rgb(0, 0, 0);
     margin-left: 20px;
     margin-right: 20px;
@@ -3186,8 +3337,15 @@ align-items: start;
 .comheaderrightfirstleft p 
 {
     font-size: 30px;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
+    font-style: italic;
+}
+[dir="rtl"] .comheaderrightfirstleft p 
+{
+    font-size: 30px;
+    font-family: 'PP Eiko';
+    font-weight: regular;
     font-style: italic;
 }
 .comheaderrightfirstright
@@ -3201,9 +3359,15 @@ align-items: start;
 }
 .comheaderrightfirstright div 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-size: 13px;
-    font-weight: 300;
+    font-weight: normal;
+}
+[dir="rtl"] .comheaderrightfirstright div 
+{
+    font-family: 'Graphik Arabic';
+    font-size: 13px;
+    font-weight: normal;
 }
 .compheaderrightsecond
 {
@@ -3225,8 +3389,8 @@ height: 100%;
     height: 100%;
     font-size: 28px;
     font-style: italic;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
     display: flex;
 align-items: center;
 justify-content: start;
@@ -3241,11 +3405,16 @@ justify-content: end;
 }
 .comheaderrightsecondright div 
 {
+    font-family: 'Graphik Arabic';
     font-size: 13px;
-    font-family: Poppins,'san-serif';
-    font-weight: 300px;
+    font-weight: normal;
 }
-
+[dir="rtl"] .comheaderrightsecondright div 
+{
+    font-family: 'Graphik Arabic';
+    font-size: 13px;
+    font-weight: normal;
+}
 /*comp content*/
 .compcontent 
 {
@@ -3297,8 +3466,8 @@ justify-content: end;
 .compcontentcenterrow1col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
     text-transform: capitalize;
     text-align: justify;
@@ -3306,8 +3475,8 @@ justify-content: end;
 [dir="rtl"] .compcontentcenterrow1col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -3348,8 +3517,8 @@ justify-content: end;
 .compcontentcenterrow2col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
     text-transform: capitalize;
     text-align: justify;
@@ -3357,8 +3526,8 @@ justify-content: end;
 [dir="rtl"] .compcontentcenterrow2col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -3403,15 +3572,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow3col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -3455,15 +3624,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow4col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -3507,15 +3676,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow5col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -3559,15 +3728,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow6col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -3611,15 +3780,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow7col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -3663,15 +3832,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow8col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -3715,15 +3884,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow9col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -3767,15 +3936,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow10col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -3820,17 +3989,17 @@ height: 100%;
     font-family: 'PP Eiko';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 [dir="rtl"] .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 17px;
+    font-weight: 500;
 }
 .footermenutop a:hover 
 {
@@ -3923,11 +4092,11 @@ display: flex;
 .footercpyrighttopright button 
 {
     background-color: #81c2e5;
-color: #0a3d62; /* Darker text for contrast */
-border: none;
-padding: 5px 10px 5px 10px;
-font-size: 16px;
-border-radius: 8px;
+    color: #0a3d62; /* Darker text for contrast */
+    border: none;
+  padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    border-radius: 8px;
 transition: all 0.3s ease;
 font-family: 'PP Eiko';
 font-weight: 500;
@@ -3997,6 +4166,10 @@ font-weight: normal;
     padding-left: 0;
     padding-right: 10px;
 }
+.footercopyrightbottom span 
+{
+    font-size: 10px;
+}
 }
 
 /* Tablets (iPads mini & Tablets) */
@@ -4014,7 +4187,7 @@ font-weight: normal;
     
     .menuleft 
     {
-        width: 40%;
+        width: 50%;
         height: 100%;
         display: flex;
         justify-content: flex-start;
@@ -4028,12 +4201,33 @@ font-weight: normal;
         justify-content: center;
         align-items: center;
     }
+    [dir] .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .menuleftimg img 
     {
         width: 60%;
         height: 60%;
     }
+    [dir="rtl"] .menuleftimg img 
+    {
+        width: 60%;
+        height: 60%;
+    }
     .menuleftcontent 
+    {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    [dir="rtl"]  .menuleftcontent 
     {
         width: 60%;
         height: 100%;
@@ -4047,20 +4241,21 @@ font-weight: normal;
         font-size: 14px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: "Graphik Arabic";
         font-size: 13px;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: capitalize;
         color: #00341a;
         margin: 0%;
     }
     .menuright 
     {
-        width: 60%;
+        width: 50%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -4070,8 +4265,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 13.5px;
-        font-family: "Poppins", serif;
+        font-size: 14px;
+        font-family: 'PP Eiko';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -4081,8 +4277,9 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #054a28;
-        font-size: 14px;
-        font-family: "Graphik";
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         padding: 10px;
         height: 50%;
         text-align: center;
@@ -4136,6 +4333,7 @@ font-weight: normal;
     }
 
 
+
     /*company heading*/
 .comheadimg 
 {
@@ -4167,8 +4365,17 @@ flex-direction: row;
 }
 .compheaderleft h3 
 {
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
+    width: 90%;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    text-transform: capitalize;
+}
+[dir="rtl"] .compheaderleft h3 
+{
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 90%;
     font-size: 2.5rem;
     line-height: 4rem;
@@ -4204,8 +4411,15 @@ align-items: start;
 .comheaderrightfirstleft p 
 {
     font-size: 30px;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
+    font-style: italic;
+}
+[dir="rtl"] .comheaderrightfirstleft p 
+{
+    font-size: 30px;
+    font-family: 'PP Eiko';
+    font-weight: regular;
     font-style: italic;
 }
 .comheaderrightfirstright
@@ -4219,9 +4433,15 @@ align-items: start;
 }
 .comheaderrightfirstright div 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-size: 13px;
-    font-weight: 300;
+    font-weight: normal;
+}
+[dir="rtl"] .comheaderrightfirstright div 
+{
+    font-family: 'Graphik Arabic';
+    font-size: 14px;
+    font-weight: normal;
 }
 .compheaderrightsecond
 {
@@ -4243,8 +4463,20 @@ height: 100%;
     height: 100%;
     font-size: 28px;
     font-style: italic;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
+    display: flex;
+align-items: center;
+justify-content: start;
+}
+[dir="rtl"] .comheaderrightsecondleft p 
+{
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'PP Eiko';
+    font-weight: regular;
     display: flex;
 align-items: center;
 justify-content: start;
@@ -4259,9 +4491,15 @@ justify-content: end;
 }
 .comheaderrightsecondright div 
 {
+    font-family: 'Graphik Arabic';
     font-size: 13px;
-    font-family: Poppins,'san-serif';
-    font-weight: 300px;
+    font-weight: normal;
+}
+[dir="rtl"] .comheaderrightsecondright div 
+{
+    font-family: 'Graphik Arabic';
+    font-size: 14px;
+    font-weight: normal;
 }
 
 /*comp content*/
@@ -4295,8 +4533,8 @@ justify-content: end;
 }
 .compcontentcenterrow1col1 img
 {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 .compcontentcenterrow1col2 
 {
@@ -4315,8 +4553,8 @@ justify-content: end;
 .compcontentcenterrow1col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
     text-transform: capitalize;
     text-align: justify;
@@ -4325,8 +4563,8 @@ justify-content: end;
 [dir="rtl"] .compcontentcenterrow1col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -4348,8 +4586,8 @@ justify-content: end;
 }
 .compcontentcenterrow2col1 img
 {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 .compcontentcenterrow2col2 
 {
@@ -4368,8 +4606,8 @@ justify-content: end;
 .compcontentcenterrow2col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
     text-transform: capitalize;
     text-align: justify;
@@ -4378,8 +4616,8 @@ justify-content: end;
 [dir="rtl"] .compcontentcenterrow2col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -4400,8 +4638,8 @@ justify-content: end;
 }
 .compcontentcenterrow3col1 img
 {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 .compcontentcenterrow3col2 
 {
@@ -4423,15 +4661,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow3col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -4453,8 +4691,8 @@ justify-content: end;
 }
 .compcontentcenterrow4col1 img
 {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 .compcontentcenterrow4col2 
 {
@@ -4475,15 +4713,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow4col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -4505,8 +4743,8 @@ justify-content: end;
 }
 .compcontentcenterrow5col1 img
 {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 .compcontentcenterrow5col2 
 {
@@ -4527,15 +4765,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow5col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -4557,8 +4795,8 @@ justify-content: end;
 }
 .compcontentcenterrow6col1 img
 {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 .compcontentcenterrow6col2 
 {
@@ -4579,15 +4817,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow6col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -4609,8 +4847,8 @@ justify-content: end;
 }
 .compcontentcenterrow7col1 img
 {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 .compcontentcenterrow7col2 
 {
@@ -4631,15 +4869,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow7col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -4661,8 +4899,8 @@ justify-content: end;
 }
 .compcontentcenterrow8col1 img
 {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 .compcontentcenterrow8col2 
 {
@@ -4683,15 +4921,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow8col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -4713,8 +4951,8 @@ justify-content: end;
 }
 .compcontentcenterrow9col1 img
 {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 .compcontentcenterrow9col2 
 {
@@ -4735,15 +4973,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow9col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -4766,8 +5004,8 @@ justify-content: end;
 }
 .compcontentcenterrow10col1 img
 {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 .compcontentcenterrow10col2 
 {
@@ -4787,15 +5025,15 @@ justify-content: end;
     width: 80%;
     text-transform: capitalize;
     text-align: justify;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 15px;
 }
 [dir="rtl"] .compcontentcenterrow10col2content p 
 {
     width: 80%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -4839,20 +5077,20 @@ justify-content: end;
 .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'PP Eiko';
-    color: #00341a;
-    padding: 0px 10px;
-    font-size: 15px;
-    font-weight: 500;
+        font-family: 'PP Eiko';
+        color: #00341a;
+        padding: 0px 10px;
+        font-size: 14px;
+        font-weight: 500;
 }
 [dir="rtl"]  .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 15px;
-    font-weight: normal;
+    font-size: 17px;
+    font-weight: 500;
 }
 .footermenutop a:hover 
 {
@@ -4945,11 +5183,11 @@ justify-content: end;
 .footercpyrighttopright button 
 {
     background-color: #81c2e5;
-color: #0a3d62; /* Darker text for contrast */
-border: none;
-padding: 5px 10px 5px 10px;
-font-size: 16px;
-border-radius: 8px;
+    color: #0a3d62; /* Darker text for contrast */
+    border: none;
+  padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    border-radius: 8px;
 transition: all 0.3s ease;
 font-family: 'PP Eiko';
 font-weight: 500;
@@ -5049,10 +5287,18 @@ height: fit-content;
         justify-content: center;
         align-items: center;
     }
+    [dir="rtl"] .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .menuleftimg img 
     {
-        width: 80%;
-        height: 80%;
+        width: 70%;
+        height: 70%;
     }
     .menuleftcontent 
     {
@@ -5068,13 +5314,14 @@ height: fit-content;
         font-size: 13px;
         text-transform: capitalize;
         color: #00341A;
-        font-family: "PPEiko";
+        font-family: "PP Eiko";
+        font-weight: bold;
     }
     .menuleftcontent p:nth-child(2)
     {
-        font-family: "Helvetica";
+        font-family: 'Graphik Arabic';
         font-size: 12px;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: capitalize;
         color: #00341a;
         margin: 0%;
@@ -5146,8 +5393,22 @@ height: fit-content;
         height: 100%;
         text-decoration: none;
         color: #054a28;
-        font-size: 12px;
-        font-family: "Poppins", serif;
+        font-size: 14px;
+        font-family: 'PP Eiko';
+        font-weight: 500;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    [dir="rtl"] .smalldevicemenu a 
+    {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #054a28;
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
         height: 50%;
         text-align: center;
         transition: all 0.1s ease-in-out;
@@ -5157,7 +5418,6 @@ height: fit-content;
         color: black;
         border-top: 1px solid #00341a;
     }
-
 
 
    /*company heading*/
@@ -5189,14 +5449,30 @@ align-items: center;
     height: 70%;
     display: flex;
     justify-content: start;
-    align-items: end;
+    align-items: center;
+}
+[dir="rtl"] .compheaderleft 
+{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .compheaderleft h3 
 {
-    font-family: Poppins,'san-serif';
-    font-weight: 200;
+    font-family: 'PP Eiko';
+    font-weight: bold;
     width: 100%;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+[dir="rtl"] .compheaderleft h3 
+{
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    width: 100%;
+    font-size: 3rem;
     line-height: 3.5rem;
 }
 .compheaderright 
@@ -5226,8 +5502,20 @@ height: 100%;
 .comheaderrightfirstleft p 
 {
     font-size: 30px;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
+    font-style: italic;
+    width: 100%;
+    height: 100%;
+    display: flex;
+justify-content: start;
+align-items: center;
+}
+[dir="rtl"] .comheaderrightfirstleft p 
+{
+    font-size: 30px;
+    font-family: 'PP Eiko';
+    font-weight: regular;
     font-style: italic;
     width: 100%;
     height: 100%;
@@ -5246,9 +5534,15 @@ align-items: center;
 }
 .comheaderrightfirstright div 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-size: 12px;
-    font-weight: 300;
+    font-weight: normal;
+}
+[dir="rtl"] .comheaderrightfirstright div 
+{
+    font-family: 'Graphik Arabic';
+    font-size: 14px;
+    font-weight: normal;
 }
 .compheaderrightsecond
 {
@@ -5270,8 +5564,20 @@ height: 100%;
     height: 100%;
     font-size: 28px;
     font-style: italic;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+[dir="rtl"] .comheaderrightsecondleft p 
+{
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'PP Eiko';
+    font-weight: regular;
     display: flex;
 align-items: center;
 justify-content: center;
@@ -5282,13 +5588,19 @@ width: 50%;
 height: 100%;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: end;
 }
 .comheaderrightsecondright div 
 {
     font-size: 12px;
-    font-family: Poppins,'san-serif';
-    font-weight: 300px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+}
+[dir="rtl"] .comheaderrightsecondright div 
+{
+    font-size: 14px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
 }
 
 
@@ -5332,27 +5644,35 @@ justify-content: center;
 {
     width: 100%;
     height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .compcontentcenterrow1col2content 
 {
     width: 100%;
     height: 100%;
     border-bottom: 1px solid black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .compcontentcenterrow1col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow1col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
+
+
 .compcontentcenterrow2 
 {
     width: 100%;
@@ -5377,25 +5697,31 @@ justify-content: center;
 {
     width: 100%;
     height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .compcontentcenterrow2col2content 
 {
     width: 100%;
     height: 100%;
     border-bottom: 1px solid black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .compcontentcenterrow2col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 18px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow2col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 .compcontentcenterrow3 
@@ -5432,15 +5758,15 @@ justify-content: center;
 .compcontentcenterrow3col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow3col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 .compcontentcenterrow4
@@ -5477,15 +5803,15 @@ justify-content: center;
 .compcontentcenterrow4col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow4col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -5523,15 +5849,15 @@ justify-content: center;
 .compcontentcenterrow5col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow5col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 .compcontentcenterrow6 
@@ -5568,15 +5894,15 @@ justify-content: center;
 .compcontentcenterrow6col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow6col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -5614,15 +5940,15 @@ justify-content: center;
 .compcontentcenterrow7col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow7col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -5660,15 +5986,15 @@ justify-content: center;
 .compcontentcenterrow8col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow8col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -5707,15 +6033,15 @@ justify-content: center;
 .compcontentcenterrow9col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow9col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -5752,15 +6078,15 @@ justify-content: center;
 .compcontentcenterrow10col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow10col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -5816,11 +6142,11 @@ justify-content: center;
     [dir="rtl"] .footermenutop a 
     {
         text-decoration: none;
-        font-family: 'Graphik Arabic';
+        font-family: 'Salma Arabic';
         color: #00341a;
         padding: 0px 10px;
-        font-size: 14px;
-        font-weight: 300;
+        font-size: 17px;
+        font-weight: 500;
         padding: 10px 10px;
     }
     .footermenutop a:hover 
@@ -6012,131 +6338,153 @@ height: fit-content;
   /* Smartphones (small) */
 @media only screen and (min-width: 200px) and (max-width: 400px) {
     
-.menuleft 
-{
-    width: 70%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.menuleftimg 
-{
-    width: 40%;
+    .menuleft 
+    {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    [dir="rtl"] .menuleftimg 
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menuleftimg img 
+    {
+        width: 70%;
+        height: 70%;
+    }
+    .menuleftcontent 
+    {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menuleftcontent p:nth-child(1)
+    {
+        margin: 0%;
+        font-size: 13px;
+        text-transform: capitalize;
+        color: #00341A;
+        font-family: "PP Eiko";
+        font-weight: bold;
+    }
+    .menuleftcontent p:nth-child(2)
+    {
+        font-family: 'Graphik Arabic';
+        font-size: 12px;
+        font-weight: 300;
+        text-transform: capitalize;
+        color: #00341a;
+        margin: 0%;
+    }
+    .menuright 
+    {
+        width: 0%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        visibility: hidden;
+    }
+    .menuright a 
+    {
+        text-decoration: none;
+        color: #054a28;
+        font-size: 14px;
+        font-family: "Poppins", serif;
+        padding: 10px;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    [dir="rtl"] .menuright a 
+    {
+        text-decoration: none;
+        color: #054a28;
+        font-size: 14px;
+        font-family: "Graphik";
+        padding: 10px;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    .menuright a:hover 
+    {
+        color: black;
+        border-top: 1px solid #00341a;
+    }
+    .hamburgers 
+    {
+    width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.menuleftimg img 
-{
-    width: 80%;
-    height: 80%;
-}
-.menuleftcontent 
-{
-    width: 60%;
-    height: 100%;
+    visibility: visible;
+    }
+    .hamburgers i 
+    {
+        padding: 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .smalldevicemenu 
+    {
+        width: 100%;
+        height: 100%;
+        background-color: #eae9e6;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.menuleftcontent p:nth-child(1)
-{
-    margin: 0%;
-    font-size: 13px;
-    text-transform: capitalize;
-    color: #00341A;
-    font-family: "PPEiko";
-}
-.menuleftcontent p:nth-child(2)
-{
-    font-family: "Helvetica";
-    font-size: 12px;
-    font-weight: 100;
-    text-transform: capitalize;
-    color: #00341a;
-    margin: 0%;
-}
-.menuright 
-{
-    width: 0%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    visibility: hidden;
-}
-.menuright a 
-{
-    text-decoration: none;
-    color: #054a28;
-    font-size: 14px;
-    font-family: "Poppins", serif;
-    padding: 10px;
-    height: 50%;
-    text-align: center;
-    transition: all 0.1s ease-in-out;
-}
-[dir="rtl"] .menuright a 
-{
-    text-decoration: none;
-    color: #054a28;
-    font-size: 14px;
-    font-family: "Graphik";
-    padding: 10px;
-    height: 50%;
-    text-align: center;
-    transition: all 0.1s ease-in-out;
-}
-.menuright a:hover 
-{
-    color: black;
-    border-top: 1px solid #00341a;
-}
-.hamburgers 
-{
-width: 30%;
-height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-visibility: visible;
-}
-.hamburgers i 
-{
-    padding: 20px;
-    font-size: 20px;
-    cursor: pointer;
-}
-.smalldevicemenu 
-{
-    width: 100%;
-    height: 100%;
-    background-color: #eae9e6;
-display: flex;
-justify-content: space-around;
-align-items: center;
-opacity: 0;
-}
-.smalldevicemenu a 
-{
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    color: #054a28;
-    font-size: 10px;
-    font-family: "Poppins", serif;
-    height: 50%;
-    text-align: center;
-    transition: all 0.1s ease-in-out;
-}
-.smalldevicemenu a:hover 
-{
-    color: black;
-    border-top: 1px solid #00341a;
-}
-
+    opacity: 0;
+    }
+    .smalldevicemenu a 
+    {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #054a28;
+        font-size: 14px;
+        font-family: 'PP Eiko';
+        font-weight: 500;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    [dir="rtl"] .smalldevicemenu a 
+    {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #054a28;
+        font-size: 17px;
+        font-family: 'Salma Arabic';
+        font-weight: 500;
+        height: 50%;
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+    }
+    .smalldevicemenu a:hover 
+    {
+        color: black;
+        border-top: 1px solid #00341a;
+    }
 
 
 /*company heading*/
@@ -6168,12 +6516,20 @@ align-items: center;
     height: 70%;
     display: flex;
     justify-content: start;
-    align-items: end;
+    align-items: center;
+}
+[dir="rtl"] .compheaderleft 
+{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .compheaderleft h3 
 {
-    font-family: Poppins,'san-serif';
-    font-weight: 200;
+    font-family: 'PP Eiko';
+    font-weight: bold;
     width: 100%;
     font-size: 2.4rem;
     line-height: 3.5rem;
@@ -6181,8 +6537,8 @@ align-items: center;
 
 [dir="rtl"] .compheaderleft h3 
 {
-    font-family: Poppins,'san-serif';
-    font-weight: 200;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
     width: 100%;
     font-size: 4rem;
     line-height: 4rem;
@@ -6216,8 +6572,20 @@ height: 100%;
     font-size: 30px;
     width: 100%;
     height: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
+    font-style: italic;
+    display: flex;
+justify-content: start;
+align-items: center;
+}
+[dir="rtl"] .comheaderrightfirstleft p 
+{
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    font-family: 'PP Eiko';
+    font-weight: regular;
     font-style: italic;
     display: flex;
 justify-content: start;
@@ -6234,9 +6602,15 @@ align-items: center;
 }
 .comheaderrightfirstright div 
 {
-    font-family: Poppins,'san-serif';
+    font-family: 'Graphik Arabic';
     font-size: 12px;
-    font-weight: 300;
+    font-weight: normal;
+}
+[dir="rtl"] .comheaderrightfirstright div 
+{
+    font-family: 'Graphik Arabic';
+    font-size: 14px;
+    font-weight: normal;
 }
 .compheaderrightsecond
 {
@@ -6258,8 +6632,20 @@ height: 100%;
     height: 100%;
     font-size: 28px;
     font-style: italic;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: regular;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+[dir="rtl"] .comheaderrightsecondleft p 
+{
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'PP Eiko';
+    font-weight: regular;
     display: flex;
 align-items: center;
 justify-content: center;
@@ -6272,11 +6658,25 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+[dir="rtl"] .comheaderrightsecondright
+{
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: end;
+}
 .comheaderrightsecondright div 
 {
     font-size: 12px;
-    font-family: Poppins,'san-serif';
-    font-weight: 300px;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+}
+[dir="rtl"] .comheaderrightsecondright div 
+{
+    font-size: 14px;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
 }
 
 
@@ -6331,15 +6731,15 @@ justify-content: center;
 .compcontentcenterrow1col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow1col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 .compcontentcenterrow2 
@@ -6376,15 +6776,15 @@ justify-content: center;
 .compcontentcenterrow2col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow2col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 .compcontentcenterrow3 
@@ -6421,15 +6821,15 @@ justify-content: center;
 .compcontentcenterrow3col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow3col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 .compcontentcenterrow4
@@ -6466,15 +6866,15 @@ justify-content: center;
 .compcontentcenterrow4col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow4col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 .compcontentcenterrow5
@@ -6511,15 +6911,15 @@ justify-content: center;
 .compcontentcenterrow5col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow5col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 .compcontentcenterrow6 
@@ -6556,14 +6956,14 @@ justify-content: center;
 .compcontentcenterrow6col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }[dir="rtl"] .compcontentcenterrow6col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 .compcontentcenterrow7 
@@ -6600,15 +7000,15 @@ justify-content: center;
 .compcontentcenterrow7col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow7col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 .compcontentcenterrow8 
@@ -6645,15 +7045,15 @@ justify-content: center;
 .compcontentcenterrow8col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow8col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -6691,15 +7091,15 @@ justify-content: center;
 .compcontentcenterrow9col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow9col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -6736,15 +7136,15 @@ justify-content: center;
 .compcontentcenterrow10col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
-    font-size: 13px;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
+    font-size: 14px;
 }
 [dir="rtl"] .compcontentcenterrow10col2content p 
 {
     width: 100%;
-    font-family: Poppins,'san-serif';
-    font-weight: 300;
+    font-family:'Graphik Arabic';
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -6800,11 +7200,11 @@ align-items: center;
 [dir="rtl"] .footermenutop a 
 {
     text-decoration: none;
-    font-family: 'Graphik Arabic';
+    font-family: 'Salma Arabic';
     color: #00341a;
     padding: 0px 10px;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 17px;
+    font-weight: 500;
     padding: 10px 10px;
 }
 .footermenutop a:hover 
