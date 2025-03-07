@@ -4481,7 +4481,7 @@ align-items: center;
 {
  width: 100%;   
  font-family: 'Graphik Arabic';
- font-weight: 300;
+ font-weight: normal;
  font-size: 12px;
  color: #00341A;
 }
@@ -4489,7 +4489,7 @@ align-items: center;
 {
  width: 100%;   
  font-family: 'Graphik Arabic';
- font-weight: 300;
+ font-weight: normal;
  font-size: 13px;
  color: #00341A;
 }
@@ -4630,7 +4630,7 @@ align-items: center;
 {
  width: 100%;   
  font-family: 'Graphik Arabic';
- font-weight: 300;
+ font-weight: normal;
  font-size: 12px;
  color: #00341A;
 }
@@ -4638,7 +4638,7 @@ align-items: center;
 {
  width: 100%;   
  font-family: 'Graphik Arabic';
- font-weight: 300;
+ font-weight: normal;
  font-size: 13px;
  color: #00341A;
 }
