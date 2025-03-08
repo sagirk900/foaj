@@ -33,7 +33,7 @@
             if (currentDir === 'rtl') 
             {
                 toggleButton.textContent="EN"
-                banfootp.textContent="( Test Launch )";
+                banfootp.textContent="( إطلاق تجريبي )";
                 com.textContent="فواج";
                 grp.textContent="المشاريع";
                 prj.textContent="شركات";
@@ -123,7 +123,7 @@ function Direction() {
             document.body.setAttribute('dir', 'rtl');
              tooglebuttonfooter.textContent="EN"
              toggleButton.textContent="EN"
-            banfootp.textContent="( Test Launch )";
+            banfootp.textContent="( إطلاق تجريبي )";
             com.textContent="فواج";
             grp.textContent="المشاريع";
             prj.textContent="شركات";
@@ -187,7 +187,7 @@ function Direction() {
         {
             document.body.setAttribute('dir', 'rtl');
             toggleButton.textContent="EN"
-            banfootp.textContent="( Test Launch )";
+            banfootp.textContent="( إطلاق تجريبي )";
             com.textContent="فواج";
             grp.textContent="المشاريع";
             prj.textContent="شركات";
