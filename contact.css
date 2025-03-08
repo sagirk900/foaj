@@ -12,6 +12,14 @@ html,body
 }
 @font-face {
     font-family: 'PP Eiko';
+    src: url('fonts/PPEiko-Regular.woff2') format('woff2'),
+        url('fonts/PPEiko-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'PP Eiko';
     src: url('fonts/PPEiko-Medium.woff2') format('woff2'),
         url('fonts/PPEiko-Medium.woff') format('woff');
     font-weight: 500;
@@ -900,7 +908,16 @@ font-weight: normal;
 }
 .formheader h1 
 {
-    font-family: "PPEiko";
+    font-family: "PP Eiko";
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #00341A;
+    font-weight: 100;
+}
+[dir="rtl"] .formheader h1 
+{
+    font-family: 'Salma Arabic';
+    font-weight: 300;
     font-size: 3rem;
     color: #00341A;
     font-weight: 100;
@@ -929,10 +946,18 @@ input[type="text"]:focus, input[type="email"]:focus, #message:focus {
 }
 
 label {
-    padding: 1rem .75rem; /* Change placeholder text color */
+    padding: 1rem .75rem;
+    font-family: 'Graphik Arabic';
+    font-weight: normal; /* Change placeholder text color */
     font-size: 16px; /* Adjust font size */
     opacity: 1; /* Ensure it's fully visible */
-    font-family: Poppins,'san-serif';
+}
+[dir="rtl"] label {
+    padding: 1rem .75rem; /* Change placeholder text color */
+    font-family: 'Salma Arabic';
+    font-weight: 300;
+    font-size: 20px; /* Adjust font size */
+    opacity: 1; /* Ensure it's fully visible */
 }
 .submitcol 
 {
@@ -948,6 +973,23 @@ text-transform: capitalize;
 border: 1px solid #00341A;
 color: #00341A;
 transition: all 0.1s ease-in;
+font-family: 'Graphik Arabic';
+font-weight: normal; /* Change placeholder text color */
+font-size: 16px;
+background-color: #eae9e6;
+}
+[dir="rtl"] .submit
+{
+padding: 5px 40px;
+border-radius: 20px;
+text-transform: capitalize;
+border: 1px solid #00341A;
+font-size: 20px;
+color: #00341A;
+transition: all 0.1s ease-in;
+font-family: 'Salma Arabic';
+font-weight: 300;
+background-color: #eae9e6;
 }
 .submit:hover
 {
@@ -1019,9 +1061,16 @@ align-items: start;
 .addcontentemailleft p 
 {
     color: white;
-    font-family: Poppins,'san-serif';
+    font-family: 'PP Eiko';
+    font-weight: normal;
+    font-size: 17px;
+}
+[dir="rtl"] .addcontentemailleft p 
+{
+    color: white;
+    font-family: 'Salma Arabic';
+    font-weight: normal;
     font-size: 18px;
-    font-weight: 300;
 }
 .addcontentemailright
 {
@@ -1034,12 +1083,21 @@ align-items: start;
 .addcontentemailright p 
 {
     color: #b6daec;
-    font-family: Poppins,'san-serif';
-    font-size: 16px;
+    font-family: 'PP Eiko';
+    font-weight: normal;
+    font-size: 17px;
     font-weight: 300;
     font-style: italic;
 }
-
+[dir="rtl"] .addcontentemailright p 
+{
+    color: #b6daec;
+    font-family: 'Salma Arabic';
+    font-weight: normal;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: italic;
+}
 .addresscontentaddress
 {
     width: 100%;
@@ -1059,9 +1117,16 @@ align-items: end;
 .addresscontentaddressleft p 
 {
     color: white;
-    font-family: Poppins,'san-serif';
-    font-size: 18px;
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: normal;
+    font-size: 17px;
+}
+[dir="rtl"] .addresscontentaddressleft p 
+{
+    color: white;
+    font-family: 'Salma Arabic';
+    font-weight: normal;
+    font-size: 17px;
 }
 .addresscontentaddressright
 {
@@ -1074,12 +1139,19 @@ align-items: end;
 .addresscontentaddressright p 
 {
     color: #b6daec;
-    font-family: Poppins,'san-serif';
-    font-size: 16px;
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: normal;
+    font-size: 17px;
     font-style: italic;
 }
-
+[dir="rtl"] .addresscontentaddressright p 
+{
+    color: #b6daec;
+    font-family: 'Salma Arabic';
+    font-weight: normal;
+    font-size: 17px;
+    font-style: italic;
+}
 
 .addresscontentsocial
 {
@@ -1100,9 +1172,16 @@ align-items: end;
 .addresscontentsocialleft p 
 {
     color: white;
-    font-family: Poppins,'san-serif';
-    font-size: 18px;
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: normal;
+    font-size: 17px;
+}
+[dir="rtl"] .addresscontentsocialleft p 
+{
+    color: white;
+    font-family: 'Salma Arabic';
+    font-weight: normal;
+    font-size: 17px;
 }
 .addresscontentsocialright
 {
@@ -1116,9 +1195,17 @@ align-items: end;
 .addresscontentsocialright a 
 {
     color: #b6daec;
-    font-family: Poppins,'san-serif';
-    font-size: 16px;
-    font-weight: 300;
+    font-family: 'PP Eiko';
+    font-weight: normal;
+    font-size: 17px;
+    font-style: italic;
+}
+[dir="rtl"] .addresscontentsocialright a 
+{
+    color: #b6daec;
+    font-family: 'Salma Arabic';
+    font-weight: normal;
+    font-size: 17px;
     font-style: italic;
 }
 .addresscontentsocialright a:hover 
