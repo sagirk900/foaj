@@ -60,790 +60,804 @@ html,body
 }
 
 .banner 
-    {
-        width: 100%;
-        height: 100%;
-        background-color:#b6daec;
-        background-image: url("images/banner.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: space-between;
-    }
-    .header 
-    {
-        width: 100%;
-        height: 15%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 5%;
-        padding-right: 5%;
-        background-color:#b6daec;
-    }
-    
-    .header-left p:nth-child(1)
-    {
-        font-family: 'PP Eiko';
-        font-size: 16px;
-        font-weight: bold !important;
-        text-transform: capitalize;
-        letter-spacing: 1px;
-        color: #00341a;
-       margin: 0px;
-    }
-    .header-left p:nth-child(2)
-    {
-        font-family: 'Graphik Arabic';
-        font-size: 14px;
-        font-weight: 300;
-        text-transform: capitalize;
-        color: #00341a;
-        margin: 0px;
-    }
-    .header-right #toggleDirection
-    {
-        background-color: #81c2e5;
-            color: #0a3d62; /* Darker text for contrast */
-            border: none;
-            padding: 10px 15px;
-            font-size: 16px;
-            font-weight: bold;
-            border-radius: 8px;
-        transition: all 0.3s ease;
-        font-family: 'PP Eiko';
-        font-weight: 500;
-        text-transform: capitalize;
-    }
-    #toggleDirection:hover {
-        background-color: #00341a; /* Change background on hover */
-        transform: scale(1.1); /* Slightly increase size */
-        color: white;
-    }
-    .banfooter 
-    {
-        width: 100%;
-        height: 16%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding-right:1%;
-        padding-left: 0%;
-    }
-    [dir="rtl"] .banfooter 
-    {
-        width: 100%;
-        height: 16%;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        padding-right:5%;
-        padding-left: 0%;
-    }
-    .banfooterpara 
-    {
-        color: #00341a;
-        font-family: "PPEiko";
-        font-size: 16px;
-    }
-    .menu 
-    {
-        width: 100%;
-        height: 15%;
-        background-color: #eae9e6;
-        display: flex;
-        flex-wrap: wrap;
-        position: sticky !important;
-    }
-    
-    .menuleft 
-    {
-        width: 65%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .menuleftimg 
-    {
-        width: 25%;
-        height: 100%;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        padding-right: 10px;
-        padding-left: 0px;
-    }
-    [dir="rtl"] .menuleftimg 
-    {
-        width: 22%;
-        height: 100%;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        padding-right: 0px;
-        padding-left: 10px;
-    }
-    .menuleftimg img 
-    {
-        width: 50%;
-        height: 50%;
-    }
-    .menuleftcontent 
-    {
-        width: 75%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .menuleftcontent p:nth-child(1)
-    {
-        margin: 0%;
-        font-size: 14px;
-        text-transform: capitalize;
-        color: #00341A;
-        font-family: 'PP Eiko';
-        font-weight: bold;
-    }
-    .menuleftcontent p:nth-child(2)
-    {
-        font-family: 'Graphik Arabic';
-        font-size: 13px;
-        font-weight: 300;
-        text-transform: capitalize;
-        color: #00341a;
-        margin: 0%;
-    }
-    .menuright 
-    {
-        width: 35%;
-        height: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .menuright a 
-    {
-        text-decoration: none;
-        color: #054a28;
-        font-size: 14px;
-        font-family: 'PP Eiko';
-        font-weight: 500;
-        padding: 10px;
-        height: 50%;
-        text-align: center;
-        transition: all 0.1s ease-in-out;
-    }
-    [dir="rtl"] .menuright a 
-    {
-        text-decoration: none;
-        color: #054a28;
-        font-size: 17px;
-        font-family: 'Salma Arabic';
-        font-weight: 500;
-        padding: 10px;
-        height: 50%;
-        text-align: center;
-        transition: all 0.1s ease-in-out;
-    }
-    .menuright a:hover 
-    {
-        color: black;
-        border-top: 1px solid #00341a;
-    }
-    .hamburgers 
-    {
-    width: 0%;
+{
+    width: 100%;
     height: 100%;
+    background-color:#b6daec;
+    background-image: url("images/banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
-    }
-    .hamburgers i 
-    {
-        padding: 20px;
-        font-size: 20px;
-        cursor: pointer;
-    }
-    .smalldevicemenu 
-    {
-        width: 100%;
-        height: 100%;
-        background-color: #eae9e6;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.header 
+{
+    width: 100%;
+    height: 7%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    opacity: 0;
-    }
-    .smalldevicemenu a 
-    {
-        text-decoration: none;
-        color: #054a28;
-        font-size: 14px;
-        font-family: "Poppins", serif;
-        padding: 10px;
-        height: 50%;
-        text-align: center;
-        transition: all 0.1s ease-in-out;
-    }
-    .smalldevicemenu a:hover 
-    {
-        color: black;
-        border-top: 1px solid #00341a;
-    }
-    
-    .vediosection 
-    {
-        width: 100%;
-        height: 100%;
-      
-    }
-    .centersection 
-    {
-        height: 60%;
-        width: 100%;
-        background-color: #00341a;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    [dir="rtl"] .centersection 
-    {
-        height: 50%;
-        width: 100%;
-        background-color: #00341a;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .centersectioncontent 
-    {
-        height: 60%;
-        width: 80%;
-        border-top: 0.5px solid white;
-        display: flex;
-    }
-    [dir="rtl"] .centersectioncontent 
-    {
-        height: 80%;
-        width: 80%;
-        border-top: 0.5px solid white;
-        display: flex;
-    }
-    .centersectioncontentleft 
-    {
-        height: 100%;
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    [dir="rtl"] .centersectioncontentleft 
-    {
-        height: 100%;
-        width: 45%;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-    }
-    .centersectioncontentleft h1 
-    {
-        font-size: 3.3rem;
-        color: white;
-        font-family: 'PP Eiko';
-        font-weight: bold;
-        width: 100%;
-    }
-    [dir="rtl"] .centersectioncontentleft h1 
-    {
-        font-size: 5rem;
-        color: white;
-        font-family: 'Salma Arabic';
-        font-weight: 500;
-    }
-    .centersectioncontentcenter 
-    {
-        height: 100%;
-        width: 40%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    [dir="rtl"] .centersectioncontentcenter 
-    {
-        height: 100%;
-        width: 45%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .centersectioncontentcenter  p 
-    {
-        font-family: 'Graphik Arabic';
-        font-weight: 300;
-        font-size: 16px;
-        color: white;
-        
-    }
-    [dir="rtl"] .centersectioncontentcenter  p 
-    {
-        font-family: 'Graphik Arabic';
-        font-weight: normal;
+    justify-content: space-between;
+    align-items: end;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:#b6daec;
+}
+
+.header-left p:nth-child(1)
+{
+    font-family: 'PP Eiko';
+    font-size: 17px;
+    font-weight: bold !important;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #00341a;
+   margin: 0px;
+}
+.header-left p:nth-child(2)
+{
+    font-family: 'Graphik Arabic';
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #00341a;
+    margin: 0px;
+}
+.header-right #toggleDirection
+{
+    background-color: #81c2e5;
+        color: #0a3d62; /* Darker text for contrast */
+        border: none;
+        padding: 8px 15px;
         font-size: 18px;
-        color: white;
-        width: 70%;
-    }
-    .centersectioncontentright 
-    {
-        height: 100%;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .centersectioncontentright a 
-    {
-        width: 55%;
-        height: 10%;
-        border: 0.5px solid white;
-        border-radius: 30px;
-        padding: 20px 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-    }
-    [dir="rtl"] .centersectioncontentright a 
-    {
-        width: 55%;
-        height: 10%;
-        border: 0.5px solid white;
-        border-radius: 30px;
-        padding: 20px 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-    }
-    .centersectioncontentright a i 
-    {
-        color: white;
-        text-decoration: none;
-    }
-    .brandlogosection 
-    {
-        width: 100%;
-        height: 150vh;
-        background-color: #eae9e6;
-       display: flex;
-       justify-content: center;
-       align-items: end;
-    }
-    .brandlogocontent 
-    {
-    width: 80%;
-    height: 90%;
-    border-top: 0.5px solid black;
-    }
-    .brandlogotopcontent 
-    {
-        height: 60%;
-        width: 100%;
-    }
-    
-    .brandlogotopcontentrow1 
-    {
-        height: 35%;
-        width: 100%;
-        display: flex;
-    }
-    .brandlogotopcontentrow1logo 
-    {
-        width: 25%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .brandlogotopcontentrow1logo img 
-    {
-        width: 60%;
-        height: 60%;
-    }
-    
-    .brandlogotopcontentrow2 
-    {
-        height: 35%;
-        width: 100%;
-        display: flex;
-    }
-    .brandlogotopcontentrow2logo 
-    {
-        width: 25%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .brandlogotopcontentrow2logo img 
-    {
-        width: 60%;
-        height: 60%;
-    }
-    .brandlogotopcontentrow3 
-    {
-        height: 30%;
-        width: 100%;
-        display: flex;
-    }
-    .brandlogotopcontentrow3logo:nth-child(1) 
-    {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding-right: 6%;
-    }
-    [dir="rtl"] .brandlogotopcontentrow3logo:nth-child(1) 
-    {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding-right: 0%;
-        padding-left: 6%;
-    }
-    .brandlogotopcontentrow3logo:nth-child(2) 
-    {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        padding-left: 6%;
-    }
-    [dir="rtl"] .brandlogotopcontentrow3logo:nth-child(2) 
-    {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        padding-left: 0%;
-        padding-right: 6%;
-    }
-    .brandlogotopcontentrow3logo img 
-    {
-        width: 30%;
-        height: 55%;
-    }
-    
-    
-    .brandlogobottomcontent
-    {
-        height: 40%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .brandlogobottomcontentleft 
-    {
-        width: 60%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .brandlogobottomcontentleft p 
-    {
-        font-size: 16px;
-        text-transform: capitalize;
-        font-family: 'Graphik Arabic';
-        font-weight: normal;
-        width: 60%;
-        text-align: justify;
-        color: #00341A;
-    }
-    [dir="rtl"] .brandlogobottomcontentleft p 
-    {
-        font-size: 17px;
-        text-transform: capitalize;
-        font-family: 'Graphik Arabic';
-        font-weight: normal;
-        width: 60%;
-        text-align: justify;
-        color: #00341A;
-    }
-    .brandlogobottomcontentright
-    {
-        width: 40%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .brandlogobottomcontentright a 
-    {
-        text-decoration: none;
-        color: #00341a;
-        font-size: 17px;
-        
-    }
-    .brandlogobottomcontentright a:hover 
-    {
-        color: #00341a;
-        transform: scale(1.1,1.1);
-    }
-    .brandlogobottomcontentright a span 
-    {
-        font-size: 17px;
-        font-family: 'Graphik Arabic';
-        font-weight: normal;
-    }
-    [dir="rtl"] .brandlogobottomcontentright a span 
-    {
-        font-size: 17px;
-        font-family: 'Graphik Arabic';
-        font-weight: normal;
-    }
-    .brandlogobottomcontentright a i 
-    {
-        padding-left: 10px;
-        padding-right: 0px;
-    }
-    [dir="rtl"] .brandlogobottomcontentright a i 
-    {
-        padding-right: 10px;
-        padding-left: 0px;
-    }
-    .footersection 
-    {
-        width: 100%;
-        height: 50%;
-        background-color: #b6daec;
-        display: flex;
-    }
-    .footerlogo
-    {
-    width: 20%;
-    height: 100%;
+        font-weight: bold;
+        border-radius: 8px;
+    transition: all 0.3s ease;
+    font-family: 'PP Eiko';
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#toggleDirection:hover {
+    background-color: #00341a; /* Change background on hover */
+    transform: scale(1.1); /* Slightly increase size */
+    color: white;
+}
+.banfooter 
+{
+    width: 100%;
+    height: 16%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    }
-    .footerlogo img 
-    {
-        width: 80%;
-        height: 80%;
-    }
-    .footermenu
-    {
+    padding-right:1%;
+    padding-left: 0%;
+}
+[dir="rtl"] .banfooter 
+{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-right:5%;
+    padding-left: 0%;
+}
+.banfooterpara 
+{
+    color: #00341a;
+    font-family: "PPEiko";
+    font-size: 16px;
+}
+.menu 
+{
+    width: 100%;
+    height: 10%;
+    background-color: #eae9e6;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky !important;
+}
+
+.menuleft 
+{
     width: 50%;
     height: 100%;
-    }
-    
-    .footermenutop 
-    {
-        width: 60%;
-        height: 75%;
-        padding-top: 10px;
-    }
-    .footermenutop a 
-    {
-        text-decoration: none;
-        font-family: 'PP Eiko';
-        font-weight: 500;
-        color: #00341a;
-        padding: 0px 10px;
-        font-size: 14px;
-    }
-    [dir="rtl"] .footermenutop a 
-    {
-        text-decoration: none;
-        font-family: 'Salma Arabic';
-        font-family: 500;
-        color: #00341a;
-        padding: 0px 10px;
-        font-size: 17px;
-        font-weight: normal;
-    }
-    .footermenutop a:hover 
-    {
-        color: #00341a;
-    }
-    .footermenubottom
-    {
-        width: 100%;
-        height: 25%;
-    }
-    .footermenubottom h6
-    {
-        color: #00341a;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        font-family: 'PP Eiko';
-        font-weight: bold;
-        font-size: 15px;
-    }
-    .footermenubottom p 
-    {
-        color: #00341a;
-        width: 100%;
-        font-family: 'Graphik Arabic';
-        font-size: 14px;
-        font-weight: 300;
-    }
-    .footercopyright
-    {
-    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+.menuleftimg 
+{
+    width: 50%;
     height: 100%;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+[dir="rtl"] .menuleftimg 
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.menuleftimg img 
+{
+    width: 30%;
+    height: 50%;
+
+}
+.menuleftcontent 
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menuleftcontent p:nth-child(1)
+{
+    margin: 0%;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #00341A;
+    font-family: 'PP Eiko';
+    font-weight: bold;
+}
+.menuleftcontent p:nth-child(2)
+{
+    font-family: 'Graphik Arabic';
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #00341a;
+    margin: 0%;
+}
+.menuright 
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 0%;
+}
+[dir="rtl"] .menuright 
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    padding-left: 0%;
+    padding-right: 15%;
+}
+.menuright a 
+{
+    text-decoration: none;
+    color: #054a28;
+    font-size: 14px;
+    font-family: 'PP Eiko';
+    font-weight: 500;
+    padding: 10px 20px;
+    height: 50%;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+}
+[dir="rtl"] .menuright a 
+{
+    text-decoration: none;
+    color: #054a28;
+    font-size: 17px;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    padding: 10px 20px;
+    height: 50%;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+}
+.menuright a:hover 
+{
+    color: black;
+    border-top: 1px solid #00341a;
+}
+.hamburgers 
+{
+width: 0%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+visibility: hidden;
+}
+.hamburgers i 
+{
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.smalldevicemenu 
+{
+    width: 100%;
+    height: 100%;
+    background-color: #eae9e6;
+display: flex;
+justify-content: space-around;
+align-items: center;
+opacity: 0;
+}
+.smalldevicemenu a 
+{
+    text-decoration: none;
+    color: #054a28;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    padding: 10px;
+    height: 50%;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+}
+.smalldevicemenu a:hover 
+{
+    color: black;
+    border-top: 1px solid #00341a;
+}
+
+.vediosection 
+{
+    width: 100%;
+    height: 100%;
+  
+}
+.centersection 
+{
+    height: 40%;
+    width: 100%;
+    background-color: #00341a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+[dir="rtl"] .centersection 
+{
+    height: 40%;
+    width: 100%;
+    background-color: #00341a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centersectioncontent 
+{
+    height: 60%;
+    width: 50%;
+    border-top: 0.5px solid white;
+    display: flex;
+}
+[dir="rtl"] .centersectioncontent 
+{
+    height: 60%;
+    width: 50%;
+    border-top: 0.5px solid white;
+    display: flex;
+}
+.centersectioncontentleft 
+{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+[dir="rtl"] .centersectioncontentleft 
+{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.centersectioncontentleft h1 
+{
+    font-size: 4.2rem;
+    color: white;
+    font-family: 'PP Eiko';
+    font-weight: bold;
+    width: 100%;
+}
+[dir="rtl"] .centersectioncontentleft h1 
+{
+    font-size: 5.2rem;
+    color: white;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+}
+.centersectioncontentcenter 
+{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+[dir="rtl"] .centersectioncontentcenter 
+{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centersectioncontentcenter  p 
+{
+    font-family: 'Graphik Arabic';
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
     
-    }
-    .footercpyrighttop 
-    {
+}
+[dir="rtl"] .centersectioncontentcenter  p 
+{
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+    width: 70%;
+}
+.centersectioncontentright 
+{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centersectioncontentright a 
+{
+    width: 55%;
+    height: 10%;
+    border: 0.5px solid white;
+    border-radius: 25px;
+    padding: 25px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+[dir="rtl"] .centersectioncontentright a 
+{
+    width: 55%;
+    height: 10%;
+    border: 0.5px solid white;
+    border-radius: 25px;
+    padding: 25px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.centersectioncontentright a i 
+{
+    color: white;
+    text-decoration: none;
+}
+.brandlogosection 
+{
+    width: 100%;
+    height: 150vh;
+    background-color: #eae9e6;
+   display: flex;
+   justify-content: center;
+   align-items: end;
+}
+.brandlogocontent 
+{
+width: 80%;
+height: 90%;
+border-top: 0.5px solid black;
+}
+.brandlogotopcontent 
+{
+    height: 60%;
+    width: 100%;
+}
+
+.brandlogotopcontentrow1 
+{
+    height: 35%;
+    width: 100%;
+    display: flex;
+}
+.brandlogotopcontentrow1logo 
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandlogotopcontentrow1logo img 
+{
+    width: 60%;
+    height: 60%;
+}
+
+.brandlogotopcontentrow2 
+{
+    height: 35%;
+    width: 100%;
+    display: flex;
+}
+.brandlogotopcontentrow2logo 
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandlogotopcontentrow2logo img 
+{
+    width: 60%;
+    height: 60%;
+}
+.brandlogotopcontentrow3 
+{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+.brandlogotopcontentrow3logo:nth-child(1) 
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 6%;
+}
+[dir="rtl"] .brandlogotopcontentrow3logo:nth-child(1) 
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 0%;
+    padding-left: 6%;
+}
+.brandlogotopcontentrow3logo:nth-child(2) 
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 6%;
+}
+[dir="rtl"] .brandlogotopcontentrow3logo:nth-child(2) 
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0%;
+    padding-right: 6%;
+}
+.brandlogotopcontentrow3logo img 
+{
+    width: 30%;
+    height: 55%;
+}
+
+
+.brandlogobottomcontent
+{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandlogobottomcontentleft 
+{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandlogobottomcontentleft p 
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    width: 60%;
+    text-align: justify;
+    color: #00341A;
+}
+[dir="rtl"] .brandlogobottomcontentleft p 
+{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+    width: 60%;
+    text-align: justify;
+    color: #00341A;
+}
+.brandlogobottomcontentright
+{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandlogobottomcontentright a 
+{
+    text-decoration: none;
+    color: #00341a;
+    font-size: 17px;
+    
+}
+.brandlogobottomcontentright a:hover 
+{
+    color: #00341a;
+    transform: scale(1.1,1.1);
+}
+.brandlogobottomcontentright a span 
+{
+    font-size: 17px;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+}
+[dir="rtl"] .brandlogobottomcontentright a span 
+{
+    font-size: 17px;
+    font-family: 'Graphik Arabic';
+    font-weight: normal;
+}
+.brandlogobottomcontentright a i 
+{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+[dir="rtl"] .brandlogobottomcontentright a i 
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+.footersection 
+{
+    width: 100%;
+    height: 50%;
+    background-color: #b6daec;
+    display: flex;
+}
+.footerlogo
+{
+width: 20%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footerlogo img 
+{
+    width: 80%;
+    height: 80%;
+}
+.footermenu
+{
+width: 50%;
+height: 100%;
+}
+
+.footermenutop 
+{
+    width: 60%;
+    height: 75%;
+    padding-top: 10px;
+}
+.footermenutop a 
+{
+    text-decoration: none;
+    font-family: 'PP Eiko';
+    color: #00341a;
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+[dir="rtl"] .footermenutop a 
+{
+    text-decoration: none;
+    font-family: 'Salma Arabic';
+    font-weight: 500;
+    color: #00341a;
+    padding: 0px 10px;
+    font-size: 17px;
+    font-weight: normal;
+}
+.footermenutop a:hover 
+{
+    color: #00341a;
+}
+.footermenubottom
+{
+    width: 100%;
+    height: 25%;
+}
+.footermenubottom h6
+{
+    color: #00341a;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'PP Eiko';
+    font-weight: bold;
+    font-size: 15px;
+}
+.footermenubottom p 
+{
+    color: #00341a;
+    width: 100%;
+    font-family: 'Graphik Arabic';
+    font-size: 14px;
+    font-weight: 300;
+}
+.footercopyright
+{
+width: 30%;
+height: 100%;
+
+}
+.footercpyrighttop 
+{
+width: 100%;
+height: 75%;
+display: flex;
+}
+
+[dir="rtl"] .footercpyrighttop 
+{
     width: 100%;
     height: 75%;
     display: flex;
-    }
-    
-    [dir="rtl"] .footercpyrighttop 
-    {
-        width: 100%;
-        height: 75%;
-        display: flex;
-    }
-    .footercpyrighttopleft 
-    {
-        width: 0%;
-        height: 0%;
-        opacity: 0;
-       
-    }
-    .footercpyrighttopleft  h6
-    {
-        color: #00341a;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-        font-family: 'PP Eiko';
-        font-weight: normal;
-        font-size: 18px;
-    }
-    .footercpyrighttopleft  p 
-    {
-        color: #00341a;
-        width: 100%;
-        font-family: 'PP Eiko';
-        font-weight: normal;
-        font-size: 16px;
-    }
-    .footercpyrighttopright
-    {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: end;
-        padding-right: 10px;
-        padding-left: 0px;
-        padding-top: 10px;
-    }
-    [dir="rtl"] .footercpyrighttopright
-    {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: start;
-        padding-right: 0px;
-        padding-top: 10px;
-    }
-    .footercpyrighttopright button 
-    {
-        background-color: #81c2e5;
-        color: #0a3d62; /* Darker text for contrast */
-        border: none;
-        padding: 5px 10px 5px 10px;
-        font-size: 16px;
-        border-radius: 8px;
-        transition: all 0.3s ease;
-        font-family: 'PP Eiko';
-        font-weight: 500;
-        text-transform: capitalize;
-        height: fit-content;
-    
-    }
-    .footercpyrighttop button:hover 
-    {
-        background-color: #00341a; /* Change background on hover */
-        transform: scale(1.1); /* Slightly increase size */
-        color: white;
-    }
-    .footercopyrightbottom
-    {
+}
+.footercpyrighttopleft 
+{
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+   
+}
+.footercpyrighttopleft  h6
+{
+    color: #00341a;
     width: 100%;
-    height: 25%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'PP Eiko';
+    font-weight: normal;
+    font-size: 18px;
+}
+.footercpyrighttopleft  p 
+{
+    color: #00341a;
+    width: 100%;
+    font-family: 'PP Eiko';
+    font-weight: normal;
+    font-size: 16px;
+}
+.footercpyrighttopright
+{
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: flex-end;
-    font-size: 12px;
-    padding-top: 10px;
+    justify-content: end;
     padding-right: 10px;
-    font-family: 'Graphik Arabic';
-    font-weight: normal;
-    }
-    
-    [dir="rtl"] .footercopyrightbottom
-    {
-    width: 100%;
-    height: 25%;
-    display: flex;
-    justify-content: flex-start;
-    font-size: 12px;
+    padding-left: 0px;
     padding-top: 10px;
+}
+[dir="rtl"] .footercpyrighttopright
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
     padding-right: 0px;
-    font-family: 'Graphik Arabic';
-    font-weight: normal;
-    }
-    
-    .footercopyrightbottom .linkdin 
-    {
-        padding-right: 10px;
-        padding-left: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .linkdin 
-    {
-        padding-right: 0px;
-        padding-left: 10px;
-    }
-    .footercopyrightbottom .xfoaj
-    {
-        padding-right: 10px;
-        padding-left: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .xfoaj
-    {
-        padding-right: 0px;
-        padding-left: 10px;
-    }
-    .footercopyrightbottom .rightsreserve
-    {
-        padding-left: 10px;
-        padding-right: 0px;
-    }
-    [dir="rtl"] .footercopyrightbottom .rightsreserve
-    {
-        padding-left: 0;
-        padding-right: 10px;
-    }
-    .footercopyrightbottom span 
-    {
-        font-size: 14px;
-    }
+    padding-top: 10px;
+}
+.footercpyrighttopright button 
+{
+    background-color: #81c2e5;
+color: #0a3d62; /* Darker text for contrast */
+border: none;
+padding: 5px 10px 5px 10px;
+font-size: 16px;
+border-radius: 8px;
+transition: all 0.3s ease;
+font-family: 'PP Eiko';
+font-weight: 500;
+text-transform: capitalize;
+height: fit-content;
+
+}
+.footercpyrighttop button:hover 
+{
+    background-color: #00341a; /* Change background on hover */
+    transform: scale(1.1); /* Slightly increase size */
+    color: white;
+}
+.footercopyrightbottom
+{
+width: 100%;
+height: 25%;
+display: flex;
+justify-content: flex-end;
+font-size: 12px;
+padding-top: 10px;
+padding-right: 10px;
+font-family: 'Graphik Arabic';
+font-weight: normal;
+}
+
+[dir="rtl"] .footercopyrightbottom
+{
+width: 100%;
+height: 25%;
+display: flex;
+justify-content: flex-start;
+font-size: 12px;
+padding-top: 10px;
+padding-right: 0px;
+font-family: 'Graphik Arabic';
+font-weight: normal;
+}
+
+.footercopyrightbottom .linkdin 
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .linkdin 
+{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.footercopyrightbottom .xfoaj
+{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .xfoaj
+{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.footercopyrightbottom .rightsreserve
+{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+[dir="rtl"] .footercopyrightbottom .rightsreserve
+{
+    padding-left: 0;
+    padding-right: 10px;
+}
+.footercopyrightbottom span 
+{
+    font-size: 14px;
+}
 
 /* Extra Large Screens (4K, TVs, Ultra-Wide, mac pro) */
 @media only screen and (min-width: 1400px) and (max-width:2000px) {
