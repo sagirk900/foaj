@@ -2,8 +2,8 @@
     document.addEventListener("DOMContentLoaded", function () {
         var currentDir = localStorage.getItem("direction");
         console.log(currentDir);
-        document.body.setAttribute('dir', currentDir);
-
+        document.body.setAttribute('dir', currentDir);  
+        
         var toggleButton = document.querySelector('#toggleDirection');
         var banfootp = document.querySelector('.banfooterpara');
     var com = document.querySelector('#communication');
@@ -279,7 +279,7 @@ menubars.addEventListener("click",function(){
     {
         menubars.classList.add("fa-bars"); 
         menubars.classList.remove("fa-xmark");
-        smallmenu.style.opacity="0"
+        smallmenu.style.opacity="0";
     }
 })
 

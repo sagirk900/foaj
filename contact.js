@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
                 else if(index === 4)
                 {
-                    ele.textContent="Message";
+                    ele.textContent="Leave a message here";
                 }
             });
             submit.textContent="Send";
@@ -233,7 +233,7 @@ function Direction() {
                 }
                 else if(index === 4)
                 {
-                    ele.textContent="Message";
+                    ele.textContent="Leave a message here";
                 }
             });
             submit.textContent="Send";
