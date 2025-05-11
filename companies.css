@@ -924,6 +924,7 @@ justify-content: end;
     text-justify: inter-word; /* Controls spacing behavior */
   word-spacing: 0px; /* Or try a small value like 0.05em */
   hyphens: auto; 
+  color: green;
 }
 [dir="rtl"] .compcontentcenterrow1col2content p 
 {
@@ -979,6 +980,7 @@ justify-content: end;
     text-justify: inter-word; /* Controls spacing behavior */
     word-spacing: 0px; /* Or try a small value like 0.05em */
     hyphens: auto; 
+    color: green;
 }
 [dir="rtl"] .compcontentcenterrow2col2content p 
 {
@@ -1035,6 +1037,7 @@ justify-content: end;
     text-justify: inter-word; 
   word-spacing: 0px; 
   hyphens: auto; 
+  color: green;
 }
 
 [dir="rtl"] .compcontentcenterrow3col2content p 
@@ -1091,6 +1094,7 @@ justify-content: end;
     text-justify: inter-word; 
     word-spacing: 0px; 
     hyphens: auto; 
+    color: green;
 }
 [dir="rtl"] .compcontentcenterrow4col2content p 
 {
@@ -1147,6 +1151,7 @@ justify-content: end;
     text-justify: inter-word; 
     word-spacing: 0px; 
     hyphens: auto;
+    color: green;
 }
 [dir="rtl"] .compcontentcenterrow5col2content p 
 {
@@ -1203,6 +1208,7 @@ justify-content: end;
     text-justify: inter-word; 
     word-spacing: 0px; 
     hyphens: auto;
+    color: green;
 }
 [dir="rtl"] .compcontentcenterrow6col2content p 
 {
@@ -1259,6 +1265,7 @@ justify-content: end;
     text-justify: inter-word; 
     word-spacing: 0px; 
     hyphens: auto;
+    color: green;
 }
 [dir="rtl"] .compcontentcenterrow7col2content p 
 {
@@ -1315,6 +1322,7 @@ justify-content: end;
     text-justify: inter-word; 
     word-spacing: 0px; 
     hyphens: auto;
+    color: green;
 }
 [dir="rtl"] .compcontentcenterrow8col2content p 
 {
@@ -1371,6 +1379,7 @@ justify-content: end;
     text-justify: inter-word; 
     word-spacing: 0px; 
     hyphens: auto;
+    color: green;
 }
 [dir="rtl"] .compcontentcenterrow9col2content p 
 {
@@ -1426,6 +1435,7 @@ justify-content: end;
     text-justify: inter-word; 
     word-spacing: 0px; 
     hyphens: auto;
+    color: green;
 }
 [dir="rtl"] .compcontentcenterrow10col2content p 
 {
@@ -1483,6 +1493,7 @@ justify-content: end;
     text-justify: inter-word; 
     word-spacing: 0px; 
     hyphens: auto;
+    color: green;
 }
 [dir="rtl"] .compcontentcenterrow11col2content p 
 {
@@ -1541,6 +1552,7 @@ justify-content: end;
     text-justify:inter-word; 
     word-spacing: 0px; 
     hyphens: auto;
+    color: green;
 }
 [dir="rtl"] .compcontentcenterrow12col2content p 
 {
