@@ -292,7 +292,7 @@ function Indexpage()
     selectelement.forEach((ele)=>{
         ele.style.cursor = "pointer"; // Make cursor a pointer
             ele.addEventListener("click", () => {
-                window.location.href = "./"; // Redirect on click
+                window.location.href = "index.html"; // Redirect on click
             });
     })
 }
@@ -303,7 +303,7 @@ function footerlogoredirect()
     var fooimg = document.querySelector(".footerlogo img");
     fooimg.style.cursor = "pointer";
     fooimg.addEventListener("click",()=>{
-        window.location.href="./";
+        window.location.href="index.html";
     })
 }
 footerlogoredirect();
