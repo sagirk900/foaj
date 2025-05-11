@@ -139,11 +139,9 @@ document.addEventListener("DOMContentLoaded", function () {
                                     clear communication,effective deliverables and meticulous execution.`;
         compcontentelev.textContent=`In 2014, in Riyadh, Saudi Arabia, the enthralling story
                                     of Nuss unfolded as it developed into a hub of
-                                    inspiration for content creation. Since then, Nuss has
-                                    been pushing the boundaries of excellence with
-                                    every product and project it delivers.Through
-                                    exemplary content,Nuss began diversifying its
-                                    services and extending its horizons.`;
+                                    inspiration for content creation.Since then,Nuss has
+                                    been pushing the boundaries of excellence with every product and project it delivers.Through
+                                    exemplary content,Nuss began diversifying its services and extending its horizons.`;
         compcontenttwe.textContent=`A digital marketing company that relies on deep analysis
                                     and data to develop and implement effective strategies
                                     that align with clients goals and address their needs,with
@@ -299,11 +297,9 @@ function Direction() {
                                         clear communication,effective deliverables and meticulous execution.`;
             compcontentelev.textContent=`In 2014, in Riyadh, Saudi Arabia, the enthralling story
                                         of Nuss unfolded as it developed into a hub of
-                                        inspiration for content creation. Since then, Nuss has
-                                        been pushing the boundaries of excellence with
-                                        every product and project it delivers.Through
-                                        exemplary content,Nuss began diversifying its
-                                        services and extending its horizons.`;
+                                        inspiration for content creation.Since then,Nuss has
+                                        been pushing the boundaries of excellence with every product and project it delivers.Through
+                                        exemplary content,Nuss began diversifying its services and extending its horizons.`;
             compcontenttwe.textContent=`A digital marketing company that relies on deep analysis
                                         and data to develop and implement effective strategies
                                         that align with clients goals and address their needs,with
