@@ -129,25 +129,24 @@ document.addEventListener("DOMContentLoaded", function () {
         compcontenteight.textContent="UBRAND is a leading Saudi agency specializing in creative services.Powered by a talented Saudi team, the agency delivers top-tier communication and marketing solutions with excellence.Committed to nurturing national talent,UBRAND creates an inspiring environment that attracts top local and global expertise within a dynamic and innovative cultural setting."
         compcontentnine.textContent=`A leading company in events management in the Kingdom of Saudi Arabia
                                     since 2011. It focuses on transforming every project into a vibrant arena,
-                                    whether through conferences and exhibitions, theatrical and entertainment
-                                    performances, community engagement events, or local and international
-                                    festivals and celebration.`;
+                                    whether through conferences and exhibitions,theatrical and entertainment
+                                    performances,community engagement events or local and international festivals and celebration.`;
         compcontentten.textContent=`A company specialized in planning and executing paid advertising
-                                    campaigns through various advertising platforms. The company works
-                                    with the latest emerging Media and Technology, and has excellent planners,
+                                    campaigns through various advertising platforms.The company works
+                                    with the latest emerging Media and Technology and has excellent planners,
                                     along with a team that understands the big picture and knows when to
-                                    obsess over important details. Trase takes pride in its values, which reflect
-                                    clear communication, effective deliverables, and meticulous execution.`;
+                                    obsess over important details.Trase takes pride in its values,which reflect
+                                    clear communication,effective deliverables and meticulous execution.`;
         compcontentelev.textContent=`In 2014, in Riyadh, Saudi Arabia, the enthralling story
                                     of Nuss unfolded as it developed into a hub of
                                     inspiration for content creation. Since then, Nuss has
                                     been pushing the boundaries of excellence with
-                                    every product and project it delivers. Through
-                                    exemplary content, Nuss began diversifying its
+                                    every product and project it delivers.Through
+                                    exemplary content,Nuss began diversifying its
                                     services and extending its horizons.`;
         compcontenttwe.textContent=`A digital marketing company that relies on deep analysis
                                     and data to develop and implement effective strategies
-                                    that align with clients goals and address their needs, with
+                                    that align with clients goals and address their needs,with
                                     a proven track record of achieving tangible results since
                                     its establishment`;
 
@@ -289,28 +288,27 @@ function Direction() {
             compcontentseven.textContent="March is specialized in public relations on both local and international levels, focusing on planning and executing media campaigns, media appearance training, interviews, media reports, and press releases.";
             compcontenteight.textContent="UBRAND is a leading Saudi agency specializing in creative services.Powered by a talented Saudi team, the agency delivers top-tier communication and marketing solutions with excellence.Committed to nurturing national talent,UBRAND creates an inspiring environment that attracts top local and global expertise within a dynamic and innovative cultural setting."
             compcontentnine.textContent=`A leading company in events management in the Kingdom of Saudi Arabia
-                                    since 2011. It focuses on transforming every project into a vibrant arena,
-                                    whether through conferences and exhibitions, theatrical and entertainment
-                                    performances, community engagement events, or local and international
-                                    festivals and celebration.`;
+                                        since 2011. It focuses on transforming every project into a vibrant arena,
+                                        whether through conferences and exhibitions,theatrical and entertainment
+                                        performances,community engagement events or local and international festivals and celebration.`;
             compcontentten.textContent=`A company specialized in planning and executing paid advertising
-                                    campaigns through various advertising platforms. The company works
-                                    with the latest emerging Media and Technology, and has excellent planners,
-                                    along with a team that understands the big picture and knows when to
-                                    obsess over important details. Trase takes pride in its values, which reflect
-                                    clear communication, effective deliverables, and meticulous execution.`;
+                                        campaigns through various advertising platforms.The company works
+                                        with the latest emerging Media and Technology and has excellent planners,
+                                        along with a team that understands the big picture and knows when to
+                                        obsess over important details.Trase takes pride in its values,which reflect
+                                        clear communication,effective deliverables and meticulous execution.`;
             compcontentelev.textContent=`In 2014, in Riyadh, Saudi Arabia, the enthralling story
-                                    of Nuss unfolded as it developed into a hub of
-                                    inspiration for content creation. Since then, Nuss has
-                                    been pushing the boundaries of excellence with
-                                    every product and project it delivers. Through
-                                    exemplary content, Nuss began diversifying its
-                                    services and extending its horizons.`;
+                                        of Nuss unfolded as it developed into a hub of
+                                        inspiration for content creation. Since then, Nuss has
+                                        been pushing the boundaries of excellence with
+                                        every product and project it delivers.Through
+                                        exemplary content,Nuss began diversifying its
+                                        services and extending its horizons.`;
             compcontenttwe.textContent=`A digital marketing company that relies on deep analysis
-                                    and data to develop and implement effective strategies
-                                    that align with clients goals and address their needs, with
-                                    a proven track record of achieving tangible results since
-                                    its establishment`;                        
+                                        and data to develop and implement effective strategies
+                                        that align with clients goals and address their needs,with
+                                        a proven track record of achieving tangible results since
+                                        its establishment`;                        
 
             footfoaj.textContent="Foaj";
             footproj.textContent="Projects";
