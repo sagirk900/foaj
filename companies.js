@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                     services and extending its horizons.`;
         compcontenttwe.textContent=`A digital marketing company that relies on deep analysis
                                     and data to develop and implement effective strategies
-                                    that align with clients goals and address their needs, with
+                                    that align with clients goals and address their needs, with
                                     a proven track record of achieving tangible results since
                                     its establishment`;
 

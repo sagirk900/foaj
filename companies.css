@@ -921,6 +921,9 @@ justify-content: end;
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
+    text-justify: inter-word; /* Controls spacing behavior */
+  word-spacing: 0px; /* Or try a small value like 0.05em */
+  hyphens: auto; 
 }
 [dir="rtl"] .compcontentcenterrow1col2content p 
 {
@@ -973,6 +976,9 @@ justify-content: end;
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
+    text-justify: inter-word; /* Controls spacing behavior */
+    word-spacing: 0px; /* Or try a small value like 0.05em */
+    hyphens: auto; 
 }
 [dir="rtl"] .compcontentcenterrow2col2content p 
 {
@@ -1018,7 +1024,6 @@ justify-content: end;
     display: flex;
     justify-content: start;
     align-items: center;
-
 }
 .compcontentcenterrow3col2content p 
 {
@@ -1027,6 +1032,9 @@ justify-content: end;
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
+    text-justify: inter-word; 
+  word-spacing: 0px; 
+  hyphens: auto; 
 }
 
 [dir="rtl"] .compcontentcenterrow3col2content p 
@@ -1080,6 +1088,9 @@ justify-content: end;
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
+    text-justify: inter-word; 
+    word-spacing: 0px; 
+    hyphens: auto; 
 }
 [dir="rtl"] .compcontentcenterrow4col2content p 
 {
@@ -1133,6 +1144,9 @@ justify-content: end;
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
+    text-justify: inter-word; 
+    word-spacing: 0px; 
+    hyphens: auto;
 }
 [dir="rtl"] .compcontentcenterrow5col2content p 
 {
@@ -1186,6 +1200,9 @@ justify-content: end;
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
+    text-justify: inter-word; 
+    word-spacing: 0px; 
+    hyphens: auto;
 }
 [dir="rtl"] .compcontentcenterrow6col2content p 
 {
@@ -1239,6 +1256,9 @@ justify-content: end;
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
+    text-justify: inter-word; 
+    word-spacing: 0px; 
+    hyphens: auto;
 }
 [dir="rtl"] .compcontentcenterrow7col2content p 
 {
@@ -1292,6 +1312,9 @@ justify-content: end;
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
+    text-justify: inter-word; 
+    word-spacing: 0px; 
+    hyphens: auto;
 }
 [dir="rtl"] .compcontentcenterrow8col2content p 
 {
@@ -1345,6 +1368,9 @@ justify-content: end;
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
+    text-justify: inter-word; 
+    word-spacing: 0px; 
+    hyphens: auto;
 }
 [dir="rtl"] .compcontentcenterrow9col2content p 
 {
@@ -1397,6 +1423,9 @@ justify-content: end;
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
+    text-justify: inter-word; 
+    word-spacing: 0px; 
+    hyphens: auto;
 }
 [dir="rtl"] .compcontentcenterrow10col2content p 
 {
@@ -1451,6 +1480,9 @@ justify-content: end;
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
+    text-justify: inter-word; 
+    word-spacing: 0px; 
+    hyphens: auto;
 }
 [dir="rtl"] .compcontentcenterrow11col2content p 
 {
@@ -1506,6 +1538,9 @@ justify-content: end;
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
+    text-justify:inter-word; 
+    word-spacing: 0px; 
+    hyphens: auto;
 }
 [dir="rtl"] .compcontentcenterrow12col2content p 
 {
