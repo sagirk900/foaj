@@ -33,12 +33,12 @@ document.addEventListener("DOMContentLoaded", function () {
     if(currDir=="rtl")
     {
         tooglebuttonfooter.textContent="EN";
-            com.textContent="فواج";
+            com.textContent="فوج";
             grp.textContent="المشاريع";
             prj.textContent="شركات";
             regi.textContent="اتصال";
 
-            smallfoaj.textContent="فواج";
+            smallfoaj.textContent="فوج";
             smallpro.textContent="المشاريع";
             smallcomp.textContent="شركات";
             smallcont.textContent="اتصال";
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
             projectbottomh5.textContent="منصة إحسان للعمل الخيري";
             projectbottompar.textContent="في الحملة الوطنية للعمل الخيري من كل عام، تتعدّد أوجه الخير وتزخر فرص العطاء، لكن يبقى العطاء بإحسان هو الأصل الثابت الذي يسعى اﻟﻤحسنون لتحقيقه";
 
-            footfoaj.textContent="فواج";
+            footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
             footcomp.textContent="شركات";
             footcont.textContent="اتصال";
@@ -118,12 +118,12 @@ function Direction() {
         {
             document.body.setAttribute('dir', 'rtl');
             tooglebuttonfooter.textContent="EN";
-            com.textContent="فواج";
+            com.textContent="فوج";
             grp.textContent="المشاريع";
             prj.textContent="شركات";
             regi.textContent="اتصال";
 
-            smallfoaj.textContent="فواج";
+            smallfoaj.textContent="فوج";
             smallpro.textContent="المشاريع";
             smallcomp.textContent="شركات";
             smallcont.textContent="اتصال";
@@ -136,7 +136,7 @@ function Direction() {
             projectbottomh5.textContent="منصة إحسان للعمل الخيري";
             projectbottompar.textContent="في الحملة الوطنية للعمل الخيري من كل عام، تتعدّد أوجه الخير وتزخر فرص العطاء، لكن يبقى العطاء بإحسان هو الأصل الثابت الذي يسعى اﻟﻤحسنون لتحقيقه";
 
-            footfoaj.textContent="فواج";
+            footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
             footcomp.textContent="شركات";
             footcont.textContent="اتصال";

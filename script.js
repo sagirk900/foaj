@@ -34,12 +34,12 @@
             {
                 toggleButton.textContent="EN"
                 banfootp.textContent="( إطلاق تجريبي )";
-                com.textContent="فواج";
+                com.textContent="فوج";
                 grp.textContent="المشاريع";
                 prj.textContent="شركات";
                 regi.textContent="اتصال";
     
-                smallfoaj.textContent="فواج";
+                smallfoaj.textContent="فوج";
                 smallpro.textContent="المشاريع";
                 smallcomp.textContent="شركات";
                 smallcont.textContent="اتصال";
@@ -54,7 +54,7 @@
                 brandbottomleftcontent.textContent="بقوة الخبرة ومنهجية التخطيط تُصنع التجارب الاتصالية المختلفة، منظومة متكاملة من 10 شركات في مختلف المجالات، بقيادات وطنّية ذات خبرة و +500 كفاءة.";
                 mores.textContent="تعرّف أكثر";
                 tooglebuttonfooter.textContent="EN";
-                footfoaj.textContent="فواج";
+                footfoaj.textContent="فوج";
                 footproj.textContent="المشاريع";
                 footcomp.textContent="شركات";
                 footcont.textContent="اتصال";
@@ -124,12 +124,12 @@ function Direction() {
              tooglebuttonfooter.textContent="EN"
              toggleButton.textContent="EN"
             banfootp.textContent="( إطلاق تجريبي )";
-            com.textContent="فواج";
+            com.textContent="فوج";
             grp.textContent="المشاريع";
             prj.textContent="شركات";
             regi.textContent="اتصال";
 
-            smallfoaj.textContent="فواج";
+            smallfoaj.textContent="فوج";
             smallpro.textContent="المشاريع";
             smallcomp.textContent="شركات";
             smallcont.textContent="اتصال";
@@ -143,7 +143,7 @@ function Direction() {
             brandarrowicon.classList.remove('fa-arrow-right')
             brandbottomleftcontent.textContent="بقوة الخبرة ومنهجية التخطيط تُصنع التجارب الاتصالية المختلفة، منظومة متكاملة من 10 شركات في مختلف المجالات، بقيادات وطنّية ذات خبرة و +500 كفاءة.";
             mores.textContent="تعرّف أكثر";
-            footfoaj.textContent="فواج";
+            footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
             footcomp.textContent="شركات";
             footcont.textContent="اتصال";
@@ -188,12 +188,12 @@ function Direction() {
             document.body.setAttribute('dir', 'rtl');
             toggleButton.textContent="EN"
             banfootp.textContent="( إطلاق تجريبي )";
-            com.textContent="فواج";
+            com.textContent="فوج";
             grp.textContent="المشاريع";
             prj.textContent="شركات";
             regi.textContent="اتصال";
 
-            smallfoaj.textContent="فواج";
+            smallfoaj.textContent="فوج";
             smallpro.textContent="المشاريع";
             smallcomp.textContent="شركات";
             smallcont.textContent="اتصال";
@@ -208,7 +208,7 @@ function Direction() {
             brandbottomleftcontent.textContent="بقوة الخبرة ومنهجية التخطيط تُصنع التجارب الاتصالية المختلفة، منظومة متكاملة من 10 شركات في مختلف المجالات، بقيادات وطنّية ذات خبرة و +500 كفاءة.";
             mores.textContent="تعرّف أكثر";
             tooglebuttonfooter.textContent="EN";
-            footfoaj.textContent="فواج";
+            footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
             footcomp.textContent="شركات";
             footcont.textContent="اتصال";

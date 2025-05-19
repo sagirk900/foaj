@@ -38,12 +38,12 @@ document.addEventListener("DOMContentLoaded", function () {
     if(currDir=="rtl")
     {
         tooglebuttonfooter.textContent="EN"
-            com.textContent="فواج";
+            com.textContent="فوج";
             grp.textContent="المشاريع";
             prj.textContent="شركات";
             regi.textContent="اتصال";
 
-            smallfoaj.textContent="فواج";
+            smallfoaj.textContent="فوج";
             smallpro.textContent="المشاريع";
             smallcomp.textContent="شركات";
             smallcont.textContent="اتصال";
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
             heading4.innerHTML=`<span>04/</span> قيــادات وطنّية ذات خــبرة وكـفاءة`;
             databottom.textContent="إدارة المشاريع الكبرى وبناء استراتيجيات اتصالية متكاملة تتغلب على التحديات التي تواجهها، وتنفيذها عبر شــــركات اﻟﻤجموعة، لتحقيق الأهـــداف الاســتراتيجية وإحداث التأثير على الصعيدين المحلّي والدولي."
 
-            footfoaj.textContent="فواج";
+            footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
             footcomp.textContent="شركات";
             footcont.textContent="اتصال"; 
@@ -190,12 +190,12 @@ function Direction() {
         {
             document.body.setAttribute('dir', 'rtl');
             tooglebuttonfooter.textContent="EN"
-            com.textContent="فواج";
+            com.textContent="فوج";
             grp.textContent="المشاريع";
             prj.textContent="شركات";
             regi.textContent="اتصال";
 
-            smallfoaj.textContent="فواج";
+            smallfoaj.textContent="فوج";
             smallpro.textContent="المشاريع";
             smallcomp.textContent="شركات";
             smallcont.textContent="اتصال";
@@ -239,7 +239,7 @@ function Direction() {
             heading4.innerHTML=`<span>04/</span> قيــادات وطنّية ذات خــبرة وكـفاءة`;
             databottom.textContent="إدارة المشاريع الكبرى وبناء استراتيجيات اتصالية متكاملة تتغلب على التحديات التي تواجهها، وتنفيذها عبر شــــركات اﻟﻤجموعة، لتحقيق الأهـــداف الاســتراتيجية وإحداث التأثير على الصعيدين المحلّي والدولي."
 
-            footfoaj.textContent="فواج";
+            footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
             footcomp.textContent="شركات";
             footcont.textContent="اتصال";

@@ -40,12 +40,12 @@ document.addEventListener("DOMContentLoaded", function () {
     if(currDir=="rtl")
     {
          tooglebuttonfooter.textContent="EN"
-            com.textContent="فواج";
+            com.textContent="فوج";
             grp.textContent="المشاريع";
             prj.textContent="شركات";
             regi.textContent="اتصال";
 
-            smallfoaj.textContent="فواج";
+            smallfoaj.textContent="فوج";
             smallpro.textContent="المشاريع";
             smallcomp.textContent="شركات";
             smallcont.textContent="اتصال";
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
             compcontenttwe.textContent=`شركة تسويق رقمي تعتمد على التحليل العميق والبيانات في تطوير وتنفيذ استراتيجيات فعّالة تلبي
             تطلعات العملاء وتواكب احتياجاتهم، مع سجل حافل منذ تأ`;
 
-            footfoaj.textContent="فواج";
+            footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
             footcomp.textContent="شركات";
             footcont.textContent="اتصال"; 
@@ -197,12 +197,12 @@ function Direction() {
         {
             document.body.setAttribute('dir', 'rtl');
             tooglebuttonfooter.textContent="EN"
-            com.textContent="فواج";
+            com.textContent="فوج";
             grp.textContent="المشاريع";
             prj.textContent="شركات";
             regi.textContent="اتصال";
 
-            smallfoaj.textContent="فواج";
+            smallfoaj.textContent="فوج";
             smallpro.textContent="المشاريع";
             smallcomp.textContent="شركات";
             smallcont.textContent="اتصال";
@@ -242,7 +242,7 @@ function Direction() {
             تطلعات العملاء وتواكب احتياجاتهم، مع سجل حافل منذ تأ`;
 
 
-            footfoaj.textContent="فواج";
+            footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
             footcomp.textContent="شركات";
             footcont.textContent="اتصال";
