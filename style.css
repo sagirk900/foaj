@@ -2060,8 +2060,8 @@ height: fit-content;
     }
     .brandlogotopcontentrow1logo img 
     {
-        width: 60%;
-        height: 60%;
+        width: 70%;
+        height: 45%;
     }
     
     .brandlogotopcontentrow2 
@@ -2080,8 +2080,8 @@ height: fit-content;
     }
     .brandlogotopcontentrow2logo img 
     {
-        width: 60%;
-        height: 60%;
+        width: 70%;
+        height: 45%;
     }
     .brandlogotopcontentrow3 
     {
@@ -2099,7 +2099,7 @@ height: fit-content;
     }
     .brandlogotopcontentrow3logo img 
     {
-        width: 65%;
+        width: 70%;
         height: 45%;
     }
     
@@ -2849,8 +2849,8 @@ font-weight: normal;
     }
     .brandlogotopcontentrow1logo img 
     {
-        width: 60%;
-        height: 60%;
+        width: 65%;
+        height: 50%;
     }
     
     .brandlogotopcontentrow2 
@@ -2869,8 +2869,8 @@ font-weight: normal;
     }
     .brandlogotopcontentrow2logo img 
     {
-        width: 60%;
-        height: 60%;
+        width: 65%;
+        height: 50%;
     }
     .brandlogotopcontentrow3 
     {
@@ -2888,8 +2888,8 @@ font-weight: normal;
     }
     .brandlogotopcontentrow3logo img 
     {
-        width: 60%;
-        height: 60%;
+        width: 65%;
+        height: 50%;
     }
     
     
@@ -3608,7 +3608,7 @@ font-weight: normal;
     }
     .brandlogocontent 
     {
-    width: 80%;
+    width: 85%;
     height: 90%;
     border-top: 0.5px solid black;
     }
@@ -3634,8 +3634,8 @@ font-weight: normal;
     }
     .brandlogotopcontentrow1logo img 
     {
-        width: 60%;
-        height: 60%;
+       width: 70%;
+        height: 40%;
     }
     
     .brandlogotopcontentrow2 
@@ -3654,8 +3654,8 @@ font-weight: normal;
     }
     .brandlogotopcontentrow2logo img 
     {
-        width: 60%;
-        height: 60%;
+        width: 70%;
+        height: 40%;
     }
     
     .brandlogotopcontentrow3 
@@ -3700,7 +3700,7 @@ font-weight: normal;
         text-transform: capitalize;
         font-family: 'Graphik Arabic';
         font-weight: normal;
-        width: 60%;
+        width: 80%;
         text-align: justify;
         color: #00341A;
         margin-left: 0%;
@@ -4287,7 +4287,7 @@ height: fit-content;
     .centersectioncontent 
     {
         height: 80%;
-        width: 80%;
+        width: 85%;
         border-top: 0.5px solid white;
         display: flex;
         flex-wrap: wrap;
@@ -4295,7 +4295,7 @@ height: fit-content;
     [dir="rtl"] .centersectioncontent 
     {
         height: 80%;
-        width: 80%;
+        width: 85%;
         border-top: 0.5px solid white;
         display: flex;
         flex-wrap: wrap;
@@ -4306,11 +4306,11 @@ height: fit-content;
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: end;
+        align-items: center;
     }
     [dir="rtl"] .centersectioncontentleft 
     {
-        height: 40%;
+        height: 30%;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -4338,30 +4338,30 @@ height: fit-content;
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: start;
+        align-items: center;
         text-align: center;
     }
     [dir="rtl"] .centersectioncontentcenter 
     {
-        height: 30%;
+        height: 40%;
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: start;
+        align-items: center;
         text-align: center;
     }
     .centersectioncontentcenter  p 
     {
         font-family: 'Graphik Arabic';
         font-weight: 300;
-        font-size: 16px;
+        font-size: 17px;
         color: white;
     }
     [dir="rtl"] .centersectioncontentcenter  p 
     {
         font-family: 'Graphik Arabic';
         font-weight: 300;
-        font-size: 16px;
+        font-size: 18px;
         color: white;
     }
     .centersectioncontentright 
@@ -4412,7 +4412,7 @@ height: fit-content;
     }
     .brandlogocontent 
     {
-    width: 80%;
+    width: 85%;
     height: 90%;
     border-top: 0.5px solid black;
     }
@@ -4488,12 +4488,12 @@ height: fit-content;
     }
     .brandlogotopcontentrow3logo:nth-child(3) img 
     {
-        width: 70%;
+        width: 75%;
         height: 60%;
     }
     .brandlogotopcontentrow3logo:nth-child(4) img 
     {
-        width: 70%;
+        width: 75%;
         height: 60%;
     }
     
@@ -5121,7 +5121,7 @@ opacity: 0;
 .centersectioncontent 
 {
     height: 90%;
-    width: 80%;
+    width: 85%;
     border-top: 0.5px solid white;
     display: flex;
     flex-wrap: wrap;
@@ -5129,7 +5129,7 @@ opacity: 0;
 [dir="rtl"] .centersectioncontent 
 {
     height: 90%;
-    width: 80%;
+    width: 85%;
     border-top: 0.5px solid white;
     display: flex;
     flex-wrap: wrap;
@@ -5139,7 +5139,7 @@ opacity: 0;
     height: 40%;
     width: 100%;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
 }
 [dir="rtl"] .centersectioncontentleft 
@@ -5171,7 +5171,7 @@ opacity: 0;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     text-align: center;
 }
 [dir="rtl"] .centersectioncontentcenter 
@@ -5180,14 +5180,14 @@ opacity: 0;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     text-align: center;
 }
 .centersectioncontentcenter  p 
 {
     font-family: 'Graphik Arabic';
     font-weight: 300;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
 }
 [dir="rtl"] .centersectioncontentcenter  p 
@@ -5245,7 +5245,7 @@ opacity: 0;
 }
 .brandlogocontent 
 {
-width: 80%;
+width: 85%;
 height: 90%;
 border-top: 0.5px solid black;
 }
@@ -5321,12 +5321,12 @@ border-top: 0.5px solid black;
 }
 .brandlogotopcontentrow3logo:nth-child(3) img 
 {
-    width: 70%;
+    width: 75%;
     height: 60%;
 }
 .brandlogotopcontentrow3logo:nth-child(4) img 
 {
-    width: 70%;
+    width: 75%;
     height: 60%;
 }
 
