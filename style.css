@@ -4534,8 +4534,8 @@ height: fit-content;
    
     .brandlogotopcontentrow3logo:nth-child(4) img 
     {
-        width: 75%;
-        height: 60%;
+        width: 80%;
+        height: 100%;
     }
     
     
@@ -5363,8 +5363,8 @@ border-top: 0.5px solid black;
 
 .brandlogotopcontentrow3logo:nth-child(4) img 
     {
-        width: 75%;
-        height: 60%;
+        width: 80%;
+        height: 100%;
     }
 
 .brandlogobottomcontent
