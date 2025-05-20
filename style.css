@@ -528,8 +528,16 @@ border-top: 0.5px solid black;
     width: 50%;
     height: 50%;
 }
-
-
+.brandlogotopcontentrow3logo:nth-child(3) img 
+    {
+        width: 80%;
+        height: 65%;
+    }
+.brandlogotopcontentrow3logo:nth-child(4) img 
+    {
+        width: 80%;
+        height: 65%;
+    }
 .brandlogobottomcontent
 {
     height: 40%;
@@ -1315,7 +1323,16 @@ font-weight: normal;
         width: 60%;
         height: 60%;
     }
-    
+    .brandlogotopcontentrow3logo:nth-child(3) img 
+    {
+        width: 70%;
+        height: 60%;
+    }
+    .brandlogotopcontentrow3logo:nth-child(4) img 
+    {
+        width: 70%;
+        height: 60%;
+    }
     
     .brandlogobottomcontent
     {
@@ -2099,10 +2116,19 @@ height: fit-content;
     }
     .brandlogotopcontentrow3logo img 
     {
-        width: 70%;
+        width: 65%;
         height: 45%;
     }
-    
+    .brandlogotopcontentrow3logo:nth-child(3) img 
+    {
+        width: 75%;
+        height: 65%;
+    }
+    .brandlogotopcontentrow3logo:nth-child(4) img 
+    {
+        width: 80%;
+        height: 60%;
+    }
     
     .brandlogobottomcontent
     {
@@ -2891,7 +2917,17 @@ font-weight: normal;
         width: 65%;
         height: 50%;
     }
-    
+
+    .brandlogotopcontentrow3logo:nth-child(3) img 
+    {
+       width: 70%;
+        height: 70%;
+    }
+    .brandlogotopcontentrow3logo:nth-child(4) img 
+    {
+        width: 75%;
+        height: 70%;
+    }
     
     .brandlogobottomcontent
     {
@@ -3677,7 +3713,16 @@ font-weight: normal;
         width: 70%;
         height: 40%;
     }
-    
+    .brandlogotopcontentrow3logo:nth-child(3) img 
+    {
+        width: 75%;
+        height: 40%;
+    }
+    .brandlogotopcontentrow3logo:nth-child(4) img 
+    {
+        width: 85%;
+        height: 100%;
+    }
     .brandlogobottomcontent
     {
         height: 40%;
@@ -4310,7 +4355,7 @@ height: fit-content;
     }
     [dir="rtl"] .centersectioncontentleft 
     {
-        height: 30%;
+        height: 40%;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -4343,7 +4388,7 @@ height: fit-content;
     }
     [dir="rtl"] .centersectioncontentcenter 
     {
-        height: 40%;
+        height: 30%;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -4486,11 +4531,7 @@ height: fit-content;
         width: 60%;
         height: 60%;
     }
-    .brandlogotopcontentrow3logo:nth-child(3) img 
-    {
-        width: 75%;
-        height: 60%;
-    }
+   
     .brandlogotopcontentrow3logo:nth-child(4) img 
     {
         width: 75%;
@@ -5120,7 +5161,7 @@ opacity: 0;
 }
 .centersectioncontent 
 {
-    height: 90%;
+    height: 80%;
     width: 85%;
     border-top: 0.5px solid white;
     display: flex;
@@ -5187,7 +5228,7 @@ opacity: 0;
 {
     font-family: 'Graphik Arabic';
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
 }
 [dir="rtl"] .centersectioncontentcenter  p 
@@ -5319,16 +5360,12 @@ border-top: 0.5px solid black;
     width: 60%;
     height: 60%;
 }
-.brandlogotopcontentrow3logo:nth-child(3) img 
-{
-    width: 75%;
-    height: 60%;
-}
+
 .brandlogotopcontentrow3logo:nth-child(4) img 
-{
-    width: 75%;
-    height: 60%;
-}
+    {
+        width: 75%;
+        height: 60%;
+    }
 
 .brandlogobottomcontent
 {
