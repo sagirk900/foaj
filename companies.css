@@ -885,7 +885,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow1col1 
 {
@@ -916,7 +916,7 @@ justify-content: end;
 }
 .compcontentcenterrow1col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -928,7 +928,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow1col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -940,7 +940,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow2col1 
 {
@@ -972,7 +972,7 @@ justify-content: end;
 }
 .compcontentcenterrow2col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -984,7 +984,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow2col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -997,7 +997,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow3col1 
 {
@@ -1029,7 +1029,7 @@ justify-content: end;
 }
 .compcontentcenterrow3col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -1042,7 +1042,7 @@ justify-content: end;
 
 [dir="rtl"] .compcontentcenterrow3col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -1054,7 +1054,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow4col1 
 {
@@ -1086,7 +1086,7 @@ justify-content: end;
 }
 .compcontentcenterrow4col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -1098,7 +1098,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow4col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -1111,7 +1111,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow5col1 
 {
@@ -1143,7 +1143,7 @@ justify-content: end;
 }
 .compcontentcenterrow5col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -1155,7 +1155,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow5col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -1168,7 +1168,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow6col1 
 {
@@ -1200,7 +1200,7 @@ justify-content: end;
 }
 .compcontentcenterrow6col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -1212,7 +1212,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow6col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -1225,7 +1225,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow7col1 
 {
@@ -1257,7 +1257,7 @@ justify-content: end;
 }
 .compcontentcenterrow7col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -1269,7 +1269,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow7col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -1282,7 +1282,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow8col1 
 {
@@ -1314,7 +1314,7 @@ justify-content: end;
 }
 .compcontentcenterrow8col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -1326,7 +1326,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow8col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -1339,7 +1339,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow9col1 
 {
@@ -1371,7 +1371,7 @@ justify-content: end;
 }
 .compcontentcenterrow9col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -1383,7 +1383,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow9col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -1395,7 +1395,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow10col1 
 {
@@ -1423,11 +1423,10 @@ justify-content: end;
     display: flex;
     justify-content: start;
     align-items: center;
-    border-bottom: 1px solid black;
 }
 .compcontentcenterrow10col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -1439,7 +1438,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow10col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -1453,7 +1452,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow11col1 
 {
@@ -1465,9 +1464,10 @@ justify-content: end;
 }
 .compcontentcenterrow11col1 img
 {
-    width: 70%;
+    width: 50%;
     height: auto;
     object-fit: cover;
+    
 }
 .compcontentcenterrow11col2 
 {
@@ -1485,7 +1485,7 @@ justify-content: end;
 }
 .compcontentcenterrow11col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -1497,7 +1497,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow11col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -1525,8 +1525,8 @@ justify-content: end;
 }
 .compcontentcenterrow12col1 img
 {
-    width: 50%;
-   height: auto;
+     width: 50%;
+    height: auto;
     object-fit: cover;
 }
 .compcontentcenterrow12col2 
@@ -1544,7 +1544,7 @@ justify-content: end;
 }
 .compcontentcenterrow12col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -1556,7 +1556,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow12col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -2125,7 +2125,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow1col1 
 {
@@ -2139,6 +2139,7 @@ justify-content: end;
 {
     width: 50%;
     height: auto;
+    object-fit: cover;
 }
 .compcontentcenterrow1col2 
 {
@@ -2156,7 +2157,7 @@ justify-content: end;
 }
 .compcontentcenterrow1col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2164,10 +2165,10 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow1col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 .compcontentcenterrow2 
@@ -2176,7 +2177,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow2col1 
 {
@@ -2208,7 +2209,7 @@ justify-content: end;
 }
 .compcontentcenterrow2col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2216,10 +2217,10 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow2col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -2229,7 +2230,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow3col1 
 {
@@ -2262,7 +2263,7 @@ justify-content: end;
 }
 .compcontentcenterrow3col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2271,10 +2272,10 @@ justify-content: end;
 
 [dir="rtl"] .compcontentcenterrow3col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 .compcontentcenterrow4 
@@ -2283,7 +2284,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow4col1 
 {
@@ -2315,7 +2316,7 @@ justify-content: end;
 }
 .compcontentcenterrow4col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2323,10 +2324,10 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow4col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -2336,7 +2337,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow5col1 
 {
@@ -2368,7 +2369,7 @@ justify-content: end;
 }
 .compcontentcenterrow5col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2376,10 +2377,10 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow5col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -2389,7 +2390,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow6col1 
 {
@@ -2421,7 +2422,7 @@ justify-content: end;
 }
 .compcontentcenterrow6col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2429,10 +2430,10 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow6col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -2442,7 +2443,8 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
+  
 }
 .compcontentcenterrow7col1 
 {
@@ -2474,7 +2476,7 @@ justify-content: end;
 }
 .compcontentcenterrow7col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2482,10 +2484,10 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow7col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -2495,7 +2497,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow8col1 
 {
@@ -2507,7 +2509,7 @@ justify-content: end;
 }
 .compcontentcenterrow8col1 img
 {
-    width: 50%;
+     width: 50%;
     height: auto;
     object-fit: cover;
 }
@@ -2527,7 +2529,7 @@ justify-content: end;
 }
 .compcontentcenterrow8col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2535,10 +2537,10 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow8col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -2548,7 +2550,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow9col1 
 {
@@ -2560,7 +2562,7 @@ justify-content: end;
 }
 .compcontentcenterrow9col1 img
 {
-    width: 50%;
+     width: 50%;
     height: auto;
     object-fit: cover;
 }
@@ -2580,7 +2582,7 @@ justify-content: end;
 }
 .compcontentcenterrow9col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2588,10 +2590,10 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow9col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 .compcontentcenterrow10 
@@ -2600,7 +2602,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow10col1 
 {
@@ -2632,7 +2634,7 @@ justify-content: end;
 }
 .compcontentcenterrow10col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2640,10 +2642,10 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow10col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -2654,7 +2656,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow11col1 
 {
@@ -2666,7 +2668,7 @@ justify-content: end;
 }
 .compcontentcenterrow11col1 img
 {
-    width: 70%;
+    width: 50%;
     height: auto;
     object-fit: cover;
 }
@@ -2686,7 +2688,7 @@ justify-content: end;
 }
 .compcontentcenterrow11col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2694,10 +2696,10 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow11col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -2723,7 +2725,7 @@ justify-content: end;
 .compcontentcenterrow12col1 img
 {
     width: 50%;
-   height: auto;
+    height: auto;
     object-fit: cover;
 }
 .compcontentcenterrow12col2 
@@ -2741,7 +2743,7 @@ justify-content: end;
 }
 .compcontentcenterrow12col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2749,10 +2751,10 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow12col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -3830,7 +3832,7 @@ justify-content: center;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow1col1 
 {
@@ -3861,7 +3863,7 @@ justify-content: center;
 }
 .compcontentcenterrow1col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -3869,7 +3871,7 @@ justify-content: center;
 }
 [dir="rtl"] .compcontentcenterrow1col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -3881,7 +3883,7 @@ justify-content: center;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow2col1 
 {
@@ -3913,7 +3915,7 @@ justify-content: center;
 }
 .compcontentcenterrow2col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -3921,7 +3923,7 @@ justify-content: center;
 }
 [dir="rtl"] .compcontentcenterrow2col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -3934,7 +3936,7 @@ justify-content: center;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow3col1 
 {
@@ -3967,7 +3969,7 @@ justify-content: center;
 }
 .compcontentcenterrow3col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -3976,7 +3978,7 @@ justify-content: center;
 
 [dir="rtl"] .compcontentcenterrow3col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -3988,7 +3990,7 @@ justify-content: center;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow4col1 
 {
@@ -4020,7 +4022,7 @@ justify-content: center;
 }
 .compcontentcenterrow4col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -4028,7 +4030,7 @@ justify-content: center;
 }
 [dir="rtl"] .compcontentcenterrow4col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -4041,7 +4043,7 @@ justify-content: center;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow5col1 
 {
@@ -4073,7 +4075,7 @@ justify-content: center;
 }
 .compcontentcenterrow5col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -4081,7 +4083,7 @@ justify-content: center;
 }
 [dir="rtl"] .compcontentcenterrow5col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -4094,7 +4096,7 @@ justify-content: center;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow6col1 
 {
@@ -4126,7 +4128,7 @@ justify-content: center;
 }
 .compcontentcenterrow6col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -4134,7 +4136,7 @@ justify-content: center;
 }
 [dir="rtl"] .compcontentcenterrow6col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -4147,7 +4149,7 @@ justify-content: center;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow7col1 
 {
@@ -4179,7 +4181,7 @@ justify-content: center;
 }
 .compcontentcenterrow7col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -4187,7 +4189,7 @@ justify-content: center;
 }
 [dir="rtl"] .compcontentcenterrow7col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -4200,7 +4202,7 @@ justify-content: center;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow8col1 
 {
@@ -4212,7 +4214,7 @@ justify-content: center;
 }
 .compcontentcenterrow8col1 img
 {
-    width: 50%;
+  width: 50%;
     height: auto;
     object-fit: cover;
 }
@@ -4232,7 +4234,7 @@ justify-content: center;
 }
 .compcontentcenterrow8col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -4240,7 +4242,7 @@ justify-content: center;
 }
 [dir="rtl"] .compcontentcenterrow8col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -4253,7 +4255,7 @@ justify-content: center;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow9col1 
 {
@@ -4265,7 +4267,7 @@ justify-content: center;
 }
 .compcontentcenterrow9col1 img
 {
-    width: 50%;
+     width: 50%;
     height: auto;
     object-fit: cover;
 }
@@ -4285,7 +4287,7 @@ justify-content: center;
 }
 .compcontentcenterrow9col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -4293,7 +4295,7 @@ justify-content: center;
 }
 [dir="rtl"] .compcontentcenterrow9col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -4305,7 +4307,7 @@ justify-content: center;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow10col1 
 {
@@ -4337,7 +4339,7 @@ justify-content: center;
 }
 .compcontentcenterrow10col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -4345,7 +4347,7 @@ justify-content: center;
 }
 [dir="rtl"] .compcontentcenterrow10col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -4359,7 +4361,7 @@ justify-content: center;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow11col1 
 {
@@ -4371,7 +4373,7 @@ justify-content: center;
 }
 .compcontentcenterrow11col1 img
 {
-    width: 70%;
+    width: 50%;
     height: auto;
     object-fit: cover;
 }
@@ -4391,7 +4393,7 @@ justify-content: center;
 }
 .compcontentcenterrow11col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -4399,7 +4401,7 @@ justify-content: center;
 }
 [dir="rtl"] .compcontentcenterrow11col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -4446,7 +4448,7 @@ justify-content: center;
 }
 .compcontentcenterrow12col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -4454,7 +4456,7 @@ justify-content: center;
 }
 [dir="rtl"] .compcontentcenterrow12col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -5597,7 +5599,7 @@ justify-content: end;
 }
 .compcontentcenterrow1col2content p 
 {
-    width: 85%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -5605,7 +5607,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow1col2content p 
 {
-    width: 85%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -5649,7 +5651,7 @@ justify-content: end;
 }
 .compcontentcenterrow2col2content p 
 {
-    width: 85%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -5657,7 +5659,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow2col2content p 
 {
-    width: 85%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -5703,7 +5705,7 @@ justify-content: end;
 }
 .compcontentcenterrow3col2content p 
 {
-    width: 85%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -5712,7 +5714,7 @@ justify-content: end;
 
 [dir="rtl"] .compcontentcenterrow3col2content p 
 {
-    width: 85%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -5756,7 +5758,7 @@ justify-content: end;
 }
 .compcontentcenterrow4col2content p 
 {
-    width: 85%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -5764,7 +5766,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow4col2content p 
 {
-    width: 85%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -5800,7 +5802,7 @@ justify-content: end;
 }
 .compcontentcenterrow5col2content 
 {
-    width: 70%;
+    width: 80%;
     height: 100%;
     border-bottom: 1px solid black;
     display: flex;
@@ -5809,7 +5811,7 @@ justify-content: end;
 }
 .compcontentcenterrow5col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -5817,7 +5819,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow5col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -5853,7 +5855,7 @@ justify-content: end;
 }
 .compcontentcenterrow6col2content 
 {
-    width: 70%;
+    width: 80%;
     height: 100%;
     border-bottom: 1px solid black;
     display: flex;
@@ -5862,7 +5864,7 @@ justify-content: end;
 }
 .compcontentcenterrow6col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -5870,7 +5872,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow6col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -5906,7 +5908,7 @@ justify-content: end;
 }
 .compcontentcenterrow7col2content 
 {
-    width: 70%;
+    width: 80%;
     height: 100%;
     border-bottom: 1px solid black;
     display: flex;
@@ -5915,7 +5917,7 @@ justify-content: end;
 }
 .compcontentcenterrow7col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -5923,7 +5925,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow7col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -5959,7 +5961,7 @@ justify-content: end;
 }
 .compcontentcenterrow8col2content 
 {
-    width: 70%;
+    width: 80%;
     height: 100%;
     border-bottom: 1px solid black;
     display: flex;
@@ -5968,7 +5970,7 @@ justify-content: end;
 }
 .compcontentcenterrow8col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -5976,7 +5978,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow8col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -6012,7 +6014,7 @@ justify-content: end;
 }
 .compcontentcenterrow9col2content 
 {
-    width: 70%;
+    width: 80%;
     height: 100%;
     border-bottom: 1px solid black;
     display: flex;
@@ -6021,7 +6023,7 @@ justify-content: end;
 }
 .compcontentcenterrow9col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -6029,7 +6031,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow9col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -6064,7 +6066,7 @@ justify-content: end;
 }
 .compcontentcenterrow10col2content 
 {
-    width: 70%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: start;
@@ -6073,7 +6075,7 @@ justify-content: end;
 }
 .compcontentcenterrow10col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -6081,7 +6083,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow10col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -6107,7 +6109,7 @@ justify-content: end;
 }
 .compcontentcenterrow11col1 img
 {
-    width: 70%;
+     width: 50%;
     height: auto;
     object-fit: cover;
 }
@@ -6118,7 +6120,7 @@ justify-content: end;
 }
 .compcontentcenterrow11col2content 
 {
-    width: 70%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: start;
@@ -6127,7 +6129,7 @@ justify-content: end;
 }
 .compcontentcenterrow11col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -6135,7 +6137,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow11col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -6174,7 +6176,7 @@ justify-content: end;
 }
 .compcontentcenterrow12col2content 
 {
-    width: 70%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: start;
@@ -6182,7 +6184,7 @@ justify-content: end;
 }
 .compcontentcenterrow12col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -6190,7 +6192,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow12col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -7324,7 +7326,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow1col1 
 {
@@ -7356,7 +7358,7 @@ justify-content: end;
 }
 .compcontentcenterrow1col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -7364,7 +7366,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow1col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -7376,7 +7378,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow2col1 
 {
@@ -7408,7 +7410,7 @@ justify-content: end;
 }
 .compcontentcenterrow2col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -7416,7 +7418,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow2col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -7429,7 +7431,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow3col1 
 {
@@ -7462,7 +7464,7 @@ justify-content: end;
 }
 .compcontentcenterrow3col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -7471,7 +7473,7 @@ justify-content: end;
 
 [dir="rtl"] .compcontentcenterrow3col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -7483,7 +7485,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow4col1 
 {
@@ -7515,7 +7517,7 @@ justify-content: end;
 }
 .compcontentcenterrow4col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -7523,7 +7525,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow4col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -7536,7 +7538,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow5col1 
 {
@@ -7568,7 +7570,7 @@ justify-content: end;
 }
 .compcontentcenterrow5col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -7576,7 +7578,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow5col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -7589,7 +7591,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow6col1 
 {
@@ -7621,7 +7623,7 @@ justify-content: end;
 }
 .compcontentcenterrow6col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -7629,7 +7631,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow6col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -7642,7 +7644,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow7col1 
 {
@@ -7674,7 +7676,7 @@ justify-content: end;
 }
 .compcontentcenterrow7col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -7682,7 +7684,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow7col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -7695,7 +7697,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow8col1 
 {
@@ -7727,7 +7729,7 @@ justify-content: end;
 }
 .compcontentcenterrow8col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -7735,7 +7737,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow8col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -7748,7 +7750,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow9col1 
 {
@@ -7780,7 +7782,7 @@ justify-content: end;
 }
 .compcontentcenterrow9col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -7788,7 +7790,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow9col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -7800,7 +7802,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow10col1 
 {
@@ -7832,7 +7834,7 @@ justify-content: end;
 }
 .compcontentcenterrow10col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -7840,7 +7842,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow10col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -7854,7 +7856,7 @@ justify-content: end;
     height: auto;
     display: flex;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
 }
 .compcontentcenterrow11col1 
 {
@@ -7866,7 +7868,7 @@ justify-content: end;
 }
 .compcontentcenterrow11col1 img
 {
-    width: 70%;
+    width: 50%;
     height: auto;
     object-fit: cover;
 }
@@ -7886,7 +7888,7 @@ justify-content: end;
 }
 .compcontentcenterrow11col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -7894,7 +7896,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow11col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;
@@ -7922,7 +7924,7 @@ justify-content: end;
 }
 .compcontentcenterrow12col1 img
 {
-    width: 50%;
+ width: 50%;
     height: auto;
     object-fit: cover;
 }
@@ -7941,7 +7943,7 @@ justify-content: end;
 }
 .compcontentcenterrow12col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -7949,7 +7951,7 @@ justify-content: end;
 }
 [dir="rtl"] .compcontentcenterrow12col2content p 
 {
-    width: 80%;
+    width: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 20px;

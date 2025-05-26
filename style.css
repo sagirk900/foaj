@@ -528,16 +528,7 @@ border-top: 0.5px solid black;
     width: 50%;
     height: 50%;
 }
-.brandlogotopcontentrow3logo:nth-child(3) img 
-    {
-        width: 80%;
-        height: 65%;
-    }
-.brandlogotopcontentrow3logo:nth-child(4) img 
-    {
-        width: 80%;
-        height: 65%;
-    }
+
 .brandlogobottomcontent
 {
     height: 40%;
@@ -1321,16 +1312,6 @@ font-weight: normal;
     .brandlogotopcontentrow3logo img 
     {
         width: 60%;
-        height: 60%;
-    }
-    .brandlogotopcontentrow3logo:nth-child(3) img 
-    {
-        width: 70%;
-        height: 60%;
-    }
-    .brandlogotopcontentrow3logo:nth-child(4) img 
-    {
-        width: 70%;
         height: 60%;
     }
     
@@ -2119,16 +2100,7 @@ height: fit-content;
         width: 65%;
         height: 45%;
     }
-    .brandlogotopcontentrow3logo:nth-child(3) img 
-    {
-        width: 75%;
-        height: 65%;
-    }
-    .brandlogotopcontentrow3logo:nth-child(4) img 
-    {
-        width: 80%;
-        height: 60%;
-    }
+ 
     
     .brandlogobottomcontent
     {
@@ -2918,16 +2890,6 @@ font-weight: normal;
         height: 50%;
     }
 
-    .brandlogotopcontentrow3logo:nth-child(3) img 
-    {
-       width: 70%;
-        height: 70%;
-    }
-    .brandlogotopcontentrow3logo:nth-child(4) img 
-    {
-        width: 75%;
-        height: 70%;
-    }
     
     .brandlogobottomcontent
     {
@@ -3713,16 +3675,7 @@ font-weight: normal;
         width: 70%;
         height: 40%;
     }
-    .brandlogotopcontentrow3logo:nth-child(3) img 
-    {
-        width: 75%;
-        height: 40%;
-    }
-    .brandlogotopcontentrow3logo:nth-child(4) img 
-    {
-        width: 85%;
-        height: 100%;
-    }
+   
     .brandlogobottomcontent
     {
         height: 40%;
@@ -4532,11 +4485,6 @@ height: fit-content;
         height: 60%;
     }
    
-    .brandlogotopcontentrow3logo:nth-child(4) img 
-    {
-        width: 80%;
-        height: 100%;
-    }
     
     
     .brandlogobottomcontent
@@ -5361,11 +5309,6 @@ border-top: 0.5px solid black;
     height: 60%;
 }
 
-.brandlogotopcontentrow3logo:nth-child(4) img 
-    {
-        width: 80%;
-        height: 100%;
-    }
 
 .brandlogobottomcontent
 {
