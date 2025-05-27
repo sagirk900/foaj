@@ -939,7 +939,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 2.5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow2col1 
@@ -996,7 +996,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 2.5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow3col1 
@@ -1053,7 +1053,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 2.5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow4col1 
@@ -1110,7 +1110,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 2.5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow5col1 
@@ -1167,7 +1167,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 2.5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow6col1 
@@ -1224,7 +1224,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 2.5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow7col1 
@@ -1281,7 +1281,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 2.5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow8col1 
@@ -1338,7 +1338,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 2.5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow9col1 
@@ -1394,7 +1394,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 2.5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow10col1 
@@ -1452,7 +1452,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 2.5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow11col1 
@@ -1512,7 +1512,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 2.5vh;
+    padding-top: 2vh;
     padding-bottom: 5vh;
 }
 .compcontentcenterrow12col1 
@@ -2176,7 +2176,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow2col1 
@@ -2196,12 +2196,12 @@ justify-content: end;
 .compcontentcenterrow2col2 
 {
     width: 70%;
-    height: 100%;
+    height: auto;
 }
 .compcontentcenterrow2col2content 
 {
     width: 70%;
-    height: 100%;
+    height: auto;
     border-bottom: 1px solid black;
     display: flex;
     justify-content: start;
@@ -2210,6 +2210,7 @@ justify-content: end;
 .compcontentcenterrow2col2content p 
 {
     width: 100%;
+    height: 100%;
     font-family:'Graphik Arabic';
     font-weight: normal;
     font-size: 15px;
@@ -2229,7 +2230,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow3col1 
@@ -2283,7 +2284,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow4col1 
@@ -2336,7 +2337,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow5col1 
@@ -2389,7 +2390,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow6col1 
@@ -2442,7 +2443,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
   
 }
@@ -2496,7 +2497,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow8col1 
@@ -2549,7 +2550,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow9col1 
@@ -2601,7 +2602,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow10col1 
@@ -2655,7 +2656,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow11col1 
@@ -2711,7 +2712,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 5vh;
 }
 .compcontentcenterrow12col1 
@@ -3882,7 +3883,7 @@ justify-content: center;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow2col1 
@@ -3935,7 +3936,7 @@ justify-content: center;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow3col1 
@@ -3989,7 +3990,7 @@ justify-content: center;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow4col1 
@@ -4042,7 +4043,7 @@ justify-content: center;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow5col1 
@@ -4095,7 +4096,7 @@ justify-content: center;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow6col1 
@@ -4148,7 +4149,7 @@ justify-content: center;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow7col1 
@@ -4201,7 +4202,7 @@ justify-content: center;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow8col1 
@@ -4254,7 +4255,7 @@ justify-content: center;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow9col1 
@@ -4306,7 +4307,7 @@ justify-content: center;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow10col1 
@@ -4360,7 +4361,7 @@ justify-content: center;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow11col1 
@@ -4416,7 +4417,7 @@ justify-content: center;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2vh;
     padding-bottom: 5vh;
 }
 .compcontentcenterrow12col1 
