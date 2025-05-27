@@ -939,7 +939,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2.5vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow2col1 
@@ -996,7 +996,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2.5vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow3col1 
@@ -1053,7 +1053,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2.5vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow4col1 
@@ -1110,7 +1110,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2.5vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow5col1 
@@ -1167,7 +1167,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2.5vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow6col1 
@@ -1224,7 +1224,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2.5vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow7col1 
@@ -1281,7 +1281,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2.5vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow8col1 
@@ -1338,7 +1338,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2.5vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow9col1 
@@ -1394,7 +1394,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2.5vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow10col1 
@@ -1420,6 +1420,7 @@ justify-content: end;
 {
     width: 70%;
     height: 100%;
+     border-bottom: 1px solid black;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -1451,23 +1452,22 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2.5vh;
     padding-bottom: 0vh;
 }
 .compcontentcenterrow11col1 
 {
     width: 30%;
-    height: auto;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .compcontentcenterrow11col1 img
 {
-    width: 50%;
+    width: 45%;
     height: auto;
     object-fit: cover;
-    
 }
 .compcontentcenterrow11col2 
 {
@@ -1512,7 +1512,7 @@ justify-content: end;
     width: 100%;
     height: auto;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2.5vh;
     padding-bottom: 5vh;
 }
 .compcontentcenterrow12col1 

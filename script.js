@@ -36,13 +36,13 @@
                 banfootp.textContent="( إطلاق تجريبي )";
                 com.textContent="فوج";
                 grp.textContent="المشاريع";
-                prj.textContent="شركات";
-                regi.textContent="اتصال";
+                prj.textContent="الشركات";
+                regi.textContent="التواصل";
     
                 smallfoaj.textContent="فوج";
                 smallpro.textContent="المشاريع";
-                smallcomp.textContent="شركات";
-                smallcont.textContent="اتصال";
+                smallcomp.textContent="الشركات";
+                smallcont.textContent="التواصل";
                 
                 centerleft.textContent="قوة تواصـل الإنسـان";
                 centercontent.textContent=`ننطلق من هدف واضح الهوّية يؤمن بقوة خلق الروابط
@@ -51,13 +51,13 @@
                 arrowicon.classList.remove('fa-arrow-right')
                 brandarrowicon.classList.add('fa-arrow-left')
                 brandarrowicon.classList.remove('fa-arrow-right')
-                brandbottomleftcontent.textContent="بقوة الخبرة ومنهجية التخطيط تُصنع التجارب الاتصالية المختلفة، منظومة متكاملة من 10 شركات في مختلف المجالات، بقيادات وطنّية ذات خبرة و +500 كفاءة.";
+                brandbottomleftcontent.textContent="بقوة الخبرة ومنهجية التخطيط تُصنع التجارب الالتواصلية المختلفة، منظومة متكاملة من 10 شركات في مختلف المجالات، بقيادات وطنّية ذات خبرة و +500 كفاءة.";
                 mores.textContent="تعرّف أكثر";
                 tooglebuttonfooter.textContent="EN";
                 footfoaj.textContent="فوج";
                 footproj.textContent="المشاريع";
-                footcomp.textContent="شركات";
-                footcont.textContent="اتصال";
+                footcomp.textContent="الشركات";
+                footcont.textContent="التواصل";
             }
             else 
             {
@@ -126,13 +126,13 @@ function Direction() {
             banfootp.textContent="( إطلاق تجريبي )";
             com.textContent="فوج";
             grp.textContent="المشاريع";
-            prj.textContent="شركات";
-            regi.textContent="اتصال";
+            prj.textContent="الشركات";
+            regi.textContent="التواصل";
 
             smallfoaj.textContent="فوج";
             smallpro.textContent="المشاريع";
-            smallcomp.textContent="شركات";
-            smallcont.textContent="اتصال";
+            smallcomp.textContent="الشركات";
+            smallcont.textContent="التواصل";
 
             centerleft.textContent="قوة تواصـل الإنسـان";
             centercontent.textContent=`ننطلق من هدف واضح الهوّية يؤمن بقوة خلق الروابط
@@ -145,8 +145,8 @@ function Direction() {
             mores.textContent="تعرّف أكثر";
             footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
-            footcomp.textContent="شركات";
-            footcont.textContent="اتصال";
+            footcomp.textContent="الشركات";
+            footcont.textContent="التواصل";
         }
         else 
         {
@@ -190,13 +190,13 @@ function Direction() {
             banfootp.textContent="( إطلاق تجريبي )";
             com.textContent="فوج";
             grp.textContent="المشاريع";
-            prj.textContent="شركات";
-            regi.textContent="اتصال";
+            prj.textContent="الشركات";
+            regi.textContent="التواصل";
 
             smallfoaj.textContent="فوج";
             smallpro.textContent="المشاريع";
-            smallcomp.textContent="شركات";
-            smallcont.textContent="اتصال";
+            smallcomp.textContent="الشركات";
+            smallcont.textContent="التواصل";
             
             centerleft.textContent="قوة تواصـل الإنسـان";
             centercontent.textContent=`ننطلق من هدف واضح الهوّية يؤمن بقوة خلق الروابط
@@ -210,8 +210,8 @@ function Direction() {
             tooglebuttonfooter.textContent="EN";
             footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
-            footcomp.textContent="شركات";
-            footcont.textContent="اتصال";
+            footcomp.textContent="الشركات";
+            footcont.textContent="التواصل";
         }
         else 
         {

@@ -40,13 +40,13 @@ document.addEventListener("DOMContentLoaded", function () {
         tooglebuttonfooter.textContent="EN"
             com.textContent="فوج";
             grp.textContent="المشاريع";
-            prj.textContent="شركات";
-            regi.textContent="اتصال";
+            prj.textContent="الشركات";
+            regi.textContent="التواصل";
 
             smallfoaj.textContent="فوج";
             smallpro.textContent="المشاريع";
-            smallcomp.textContent="شركات";
-            smallcont.textContent="اتصال";
+            smallcomp.textContent="الشركات";
+            smallcont.textContent="التواصل";
 
             foajabouth3.textContent=`الاتحــاد التســـــويقي
             الأضــخم في المنطقة`;
@@ -89,8 +89,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
             footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
-            footcomp.textContent="شركات";
-            footcont.textContent="اتصال"; 
+            footcomp.textContent="الشركات";
+            footcont.textContent="التواصل"; 
     }
     else
     {
@@ -192,13 +192,13 @@ function Direction() {
             tooglebuttonfooter.textContent="EN"
             com.textContent="فوج";
             grp.textContent="المشاريع";
-            prj.textContent="شركات";
-            regi.textContent="اتصال";
+            prj.textContent="الشركات";
+            regi.textContent="التواصل";
 
             smallfoaj.textContent="فوج";
             smallpro.textContent="المشاريع";
-            smallcomp.textContent="شركات";
-            smallcont.textContent="اتصال";
+            smallcomp.textContent="الشركات";
+            smallcont.textContent="التواصل";
 
             foajabouth3.textContent=`الاتحــاد التســـــويقي
             الأضــخم في المنطقة`;
@@ -241,8 +241,8 @@ function Direction() {
 
             footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
-            footcomp.textContent="شركات";
-            footcont.textContent="اتصال";
+            footcomp.textContent="الشركات";
+            footcont.textContent="التواصل";
         }
         else 
         {
