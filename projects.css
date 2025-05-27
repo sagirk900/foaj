@@ -887,7 +887,7 @@ font-weight: normal;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    opacity: 0;
+    visibility: hidden;
     }
     .smalldevicemenu a 
     {
