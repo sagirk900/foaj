@@ -109,6 +109,7 @@ html,body
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: start;
 }
 .menuleftcontent p:nth-child(1)
 {
@@ -194,8 +195,8 @@ visibility: hidden;
 }
 .smalldevicemenu 
 {
-    width: 100%;
-    height: 100%;
+    width: 0%;
+    height: 0%;
     background-color: #eae9e6;
 display: flex;
 justify-content: space-around;
@@ -210,6 +211,7 @@ opacity: 0;
     font-family: "Poppins", serif;
     padding: 10px;
     height: 50%;
+    display: none;
     text-align: center;
     transition: all 0.1s ease-in-out;
 }
@@ -659,8 +661,9 @@ display: flex;
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: end;
     padding-right: 0px;
+    padding-left: 10px;
     padding-top: 5%;
 }
 .footercpyrighttopright button 
@@ -693,6 +696,7 @@ justify-content: flex-end;
 font-size: 12px;
 padding-top: 10px;
 padding-right: 10px;
+padding-left: 0px;
 font-family: 'Graphik Arabic';
 font-weight: normal;
 }
@@ -702,10 +706,11 @@ font-weight: normal;
 width: 100%;
 height: 25%;
 display: flex;
-justify-content: flex-start;
+justify-content: end;
 font-size: 12px;
 padding-top: 10px;
 padding-right: 0px;
+padding-left: 10px;
 font-family: 'Graphik Arabic';
 font-weight: normal;
 }
@@ -881,13 +886,13 @@ font-weight: normal;
     }
     .smalldevicemenu 
     {
-        width: 100%;
-        height: 100%;
+        width: 0%;
+        height: 0%;
         background-color: #eae9e6;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    visibility: hidden;
+    opacity: 0;
     }
     .smalldevicemenu a 
     {
@@ -897,6 +902,7 @@ font-weight: normal;
         font-family: "Poppins", serif;
         padding: 10px;
         height: 50%;
+        display: none;
         text-align: center;
         transition: all 0.1s ease-in-out;
     }
@@ -1356,9 +1362,10 @@ display: flex;
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: end;
     padding-right: 0px;
     padding-top: 10px;
+    padding-left: 10px;
 }
 .footercpyrighttopright button 
 {
@@ -1390,6 +1397,7 @@ justify-content: flex-end;
 font-size: 12px;
 padding-top: 10px;
 padding-right: 10px;
+padding-left: 0px;
 font-family: 'Graphik Arabic';
 font-weight: normal;
 }
@@ -1399,10 +1407,11 @@ font-weight: normal;
 width: 100%;
 height: 25%;
 display: flex;
-justify-content: flex-start;
+justify-content: flex-end;
 font-size: 12px;
 padding-top: 10px;
 padding-right: 0px;
+padding-left: 10px;
 font-family: 'Graphik Arabic';
 font-weight: normal;
 }
@@ -1579,8 +1588,8 @@ font-weight: normal;
     }
     .smalldevicemenu 
     {
-        width: 100%;
-        height: 100%;
+        width: 0%;
+        height: 0%;
         background-color: #eae9e6;
     display: flex;
     justify-content: space-around;
@@ -1595,6 +1604,7 @@ font-weight: normal;
         font-family: "Poppins", serif;
         padding: 10px;
         height: 50%;
+        display: none;
         text-align: center;
         transition: all 0.1s ease-in-out;
     }
@@ -1947,6 +1957,7 @@ height: 100%;
     height: 75%;
     display: flex;
     justify-content: start;
+    align-items: start;
     padding-top: 10px;
 }
 .footermenutop a 
@@ -2052,9 +2063,10 @@ display: flex;
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: end;
     padding-right: 0px;
     padding-top: 10px;
+    padding-left: 10px;
 }
 
 
@@ -2088,6 +2100,7 @@ justify-content: flex-end;
 font-size: 12px;
 padding-top: 10px;
 padding-right: 10px;
+padding-left: 0px;
 font-family: 'Graphik Arabic';
 font-weight: normal;
 }
@@ -2097,10 +2110,11 @@ font-weight: normal;
 width: 100%;
 height: 25%;
 display: flex;
-justify-content: flex-start;
+justify-content: flex-end;
 font-size: 12px;
 padding-top: 10px;
 padding-right: 0px;
+padding-left: 10px;
 font-family: 'Graphik Arabic';
 font-weight: normal;
 }
@@ -2274,8 +2288,8 @@ font-weight: normal;
     }
     .smalldevicemenu 
     {
-        width: 100%;
-        height: 100%;
+        width: 0%;
+        height: 0%;
         background-color: #eae9e6;
     display: flex;
     justify-content: space-around;
@@ -2290,6 +2304,7 @@ font-weight: normal;
         font-family: "Poppins", serif;
         padding: 10px;
         height: 50%;
+        display: none;
         text-align: center;
         transition: all 0.1s ease-in-out;
     }
@@ -2747,7 +2762,7 @@ display: flex;
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     padding-right: 10px;
     padding-left: 0px;
     padding-top: 10px;
@@ -2757,9 +2772,10 @@ display: flex;
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-end;
     padding-right: 0px;
     padding-top: 10px;
+    padding-left: 10px;
 }
 .footercpyrighttopright button 
 {
@@ -2791,6 +2807,7 @@ justify-content: flex-end;
 font-size: 12px;
 padding-top: 10px;
 padding-right: 10px;
+padding-left: 0px;
 font-family: 'Graphik Arabic';
 font-weight: normal;
 }
@@ -2800,10 +2817,11 @@ font-weight: normal;
 width: 100%;
 height: 25%;
 display: flex;
-justify-content: flex-start;
+justify-content: flex-end;
 font-size: 12px;
 padding-top: 10px;
 padding-right: 0px;
+padding-left: 10px;
 font-family: 'Graphik Arabic';
 font-weight: normal;
 }
@@ -2989,8 +3007,8 @@ font-weight: normal;
     }
     .smalldevicemenu 
     {
-        width: 100%;
-        height: 100%;
+        width: 0%;
+        height: 0%;
         background-color: #eae9e6;
     display: flex;
     justify-content: space-around;
@@ -3005,6 +3023,7 @@ font-weight: normal;
         font-family: "Poppins", serif;
         padding: 10px;
         height: 50%;
+        display: none;
         text-align: center;
         transition: all 0.1s ease-in-out;
     }
@@ -3467,7 +3486,7 @@ align-items: center;
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     padding-right: 10px;
     padding-left: 0px;
     padding-top: 10px;
@@ -3477,8 +3496,9 @@ align-items: center;
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-end;
     padding-right: 0px;
+    padding-left: 10px;
     padding-top: 10px;
 }
 .footercpyrighttopright button 
@@ -3512,6 +3532,7 @@ height: fit-content;
     font-size: 12px;
     padding-top: 10px;
     padding-right: 10px;
+    padding-left: 0px;
     font-family: 'Graphik Arabic';
     font-weight: normal;
 }
@@ -3521,10 +3542,11 @@ height: fit-content;
     width: 100%;
     height: 25%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     font-size: 12px;
     padding-top: 10px;
     padding-right: 0px;
+    padding-left: 10px;
     font-family: 'Graphik Arabic';
   font-weight: normal;
 }
@@ -3699,8 +3721,8 @@ height: fit-content;
     }
     .smalldevicemenu 
     {
-        width: 100%;
-        height: 100%;
+        width: 0%;
+        height: 0%;
         background-color: #eae9e6;
     display: flex;
     justify-content: space-around;
@@ -3717,6 +3739,7 @@ height: fit-content;
         font-family: 'PP Eiko';
         font-weight: 500;
         height: 50%;
+        display: none;
         text-align: center;
         transition: all 0.1s ease-in-out;
     }
@@ -3730,6 +3753,7 @@ height: fit-content;
         font-family: 'Salma Arabic';
         font-weight: 500;
         height: 50%;
+        display: none;
         text-align: center;
         transition: all 0.1s ease-in-out;
     }
@@ -4258,24 +4282,28 @@ height: fit-content;
     height: 30%;
     display: flex;
     justify-content: center;
+    align-items: start;
     font-family: 'Graphik Arabic';
     font-weight: normal;
     font-size: 12px;
-    padding-top: 10px;
-    padding-right: 10px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
     }
     
     [dir="rtl"] .footercopyrightbottom
     {
-    width: 100%;
+   width: 100%;
     height: 25%;
     display: flex;
     justify-content: center;
-    font-size: 12px;
-    padding-top: 10px;
-    padding-right: 0px;
+    align-items: start;
     font-family: 'Graphik Arabic';
     font-weight: normal;
+    font-size: 12px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
     }
     
     .footercopyrightbottom .linkdin 
@@ -4440,8 +4468,8 @@ height: fit-content;
     }
     .smalldevicemenu 
     {
-        width: 100%;
-        height: 100%;
+        width: 0%;
+        height: 0%;
         background-color: #eae9e6;
     display: flex;
     justify-content: space-around;
@@ -4458,6 +4486,7 @@ height: fit-content;
         font-family: 'PP Eiko';
         font-weight: 500;
         height: 50%;
+        display: none;
         text-align: center;
         transition: all 0.1s ease-in-out;
     }
@@ -4471,6 +4500,7 @@ height: fit-content;
         font-family: 'Salma Arabic';
         font-weight: 500;
         height: 50%;
+        display: none;
         text-align: center;
         transition: all 0.1s ease-in-out;
     }
@@ -4992,11 +5022,13 @@ width: 100%;
 height: 30%;
 display: flex;
 justify-content: center;
+align-items: start;
 font-size: 12px;
 font-family: 'Graphik Arabic';
 font-weight: normal;
-padding-top: 10px;
-padding-right: 10px;
+padding-top: 0px;
+padding-right: 0px;
+padding-left: 0px;
 }
 
 [dir="rtl"] .footercopyrightbottom
@@ -5005,9 +5037,12 @@ width: 100%;
 height: 25%;
 display: flex;
 justify-content: center;
+align-items: start;
 font-size: 12px;
-padding-top: 10px;
+padding-top: 0px;
 padding-right: 0px;
+padding-left: 0px;
+
 font-family: 'Graphik Arabic';
 font-weight: normal;
 }

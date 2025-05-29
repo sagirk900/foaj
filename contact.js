@@ -267,18 +267,31 @@ setdirontoggle();
 function OpenMenu() 
 {
 var menubars = document.querySelector(".hamburgers i");
+
+
 menubars.addEventListener("click",function(){
     var smallmenu = document.querySelector(".smalldevicemenu");
+    var menudata = document.querySelectorAll(".smalldevicemenu a")
     if (menubars.classList.contains("fa-bars") ) {
         menubars.classList.remove("fa-bars"); 
         menubars.classList.add("fa-xmark"); 
-        smallmenu.style.opacity="1"
+        smallmenu.style.opacity="1";
+        smallmenu.style.width="100%";
+        smallmenu.style.height="100%";
+        menudata.forEach((ele)=>{
+            ele.style.display="block";
+        })
     } 
     else if(menubars.classList.contains("fa-xmark"))
     {
         menubars.classList.add("fa-bars"); 
         menubars.classList.remove("fa-xmark");
-        smallmenu.style.opacity="0"
+        smallmenu.style.opacity="0";
+        smallmenu.style.width="0%";
+        smallmenu.style.height="0%";
+        menudata.forEach((ele)=>{
+            ele.style.display="none";
+        })
     }
 })
 
