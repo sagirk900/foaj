@@ -312,7 +312,7 @@ opacity: 0;
 .vediosection 
 {
     width: 100%;
-    height: 100%;
+    height: 85%;
   
 }
 .centersection 
@@ -452,7 +452,7 @@ opacity: 0;
 .brandlogosection 
 {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     background-color: #eae9e6;
    display: flex;
    justify-content: center;
@@ -463,16 +463,19 @@ opacity: 0;
 width: 50%;
 height: 90%;
 border-top: 0.5px solid black;
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 2.5%;
 }
 .brandlogotopcontent 
 {
-    height: 60%;
+    height: 65%;
     width: 100%;
 }
 
 .brandlogotopcontentrow1 
 {
-    height: 35%;
+    height: 25%;
     width: 100%;
     display: flex;
 }
@@ -487,12 +490,12 @@ border-top: 0.5px solid black;
 .brandlogotopcontentrow1logo img 
 {
     width: 50%;
-    height: 50%;
+    height: auto;
 }
 
 .brandlogotopcontentrow2 
 {
-    height: 35%;
+    height: 25%;
     width: 100%;
     display: flex;
 }
@@ -507,11 +510,11 @@ border-top: 0.5px solid black;
 .brandlogotopcontentrow2logo img 
 {
     width: 50%;
-    height: 50%;
+    height: auto;
 }
 .brandlogotopcontentrow3 
 {
-    height: 30%;
+    height: 25%;
     width: 100%;
     display: flex;
 }
@@ -526,12 +529,31 @@ border-top: 0.5px solid black;
 .brandlogotopcontentrow3logo img 
 {
     width: 50%;
-    height: 50%;
+    height: auto;
 }
 
+.brandlogotopcontentrow4 
+{
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+.brandlogotopcontentrow4logo 
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandlogotopcontentrow4logo img 
+{
+    width: 50%;
+    height: auto;
+}
 .brandlogobottomcontent
 {
-    height: 40%;
+    height: 35%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -542,7 +564,7 @@ border-top: 0.5px solid black;
     width: 60%;
     height: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
 }
 .brandlogobottomcontentleft p 
@@ -551,10 +573,16 @@ border-top: 0.5px solid black;
     text-transform: capitalize;
     font-family: 'Graphik Arabic';
     font-weight: normal;
-    width: 50%;
+    width: 80%;
     text-align: justify;
     color: #00341A;
-    margin-right: 5%;
+    word-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6; /* Adjust for better readability */
+  hyphens: none;
+  word-break: normal;
+  overflow-wrap: break-word;
+    margin-right: 0%;
     margin-left: 0%;
 }
 [dir="rtl"] .brandlogobottomcontentleft p 
@@ -563,18 +591,24 @@ border-top: 0.5px solid black;
     text-transform: capitalize;
     font-family: 'Graphik Arabic';
     font-weight: normal;
-    width: 50%;
+    width: 80%;
     text-align: justify;
     color: #00341A;
+    word-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6; /* Adjust for better readability */
+  hyphens: none;
+  word-break: normal;
+  overflow-wrap: break-word;
     margin-right: 0%;
-    margin-left: 5%;
+    margin-left: 0%;
 }
 .brandlogobottomcontentright
 {
     width: 40%;
     height: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
 .brandlogobottomcontentright a 
@@ -846,7 +880,7 @@ font-weight: normal;
 }
 
 /* Extra Large Screens (4K, TVs, Ultra-Wide, mac pro) */
-@media only screen and (min-width: 1400px) and (max-width:2560px) {
+@media only screen and (min-width: 1400px) and (max-width:1799px) {
     .banner 
     {
         width: 100%;
@@ -1236,7 +1270,7 @@ font-weight: normal;
     .brandlogosection 
     {
         width: 100%;
-        height: 150vh;
+        height: 130vh;
         background-color: #eae9e6;
        display: flex;
        justify-content: center;
@@ -1247,6 +1281,10 @@ font-weight: normal;
     width: 80%;
     height: 90%;
     border-top: 0.5px solid black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 0%;
     }
     .brandlogotopcontent 
     {
@@ -1256,7 +1294,7 @@ font-weight: normal;
     
     .brandlogotopcontentrow1 
     {
-        height: 35%;
+        height: 25%;
         width: 100%;
         display: flex;
     }
@@ -1271,12 +1309,12 @@ font-weight: normal;
     .brandlogotopcontentrow1logo img 
     {
         width: 60%;
-        height: 60%;
+        height: auto;
     }
     
     .brandlogotopcontentrow2 
     {
-        height: 35%;
+        height: 25%;
         width: 100%;
         display: flex;
     }
@@ -1291,11 +1329,11 @@ font-weight: normal;
     .brandlogotopcontentrow2logo img 
     {
         width: 60%;
-        height: 60%;
+        height: auto;
     }
     .brandlogotopcontentrow3 
     {
-        height: 30%;
+        height: 25%;
         width: 100%;
         display: flex;
     }
@@ -1312,9 +1350,32 @@ font-weight: normal;
     .brandlogotopcontentrow3logo img 
     {
         width: 60%;
-        height: 60%;
+        height: auto;
     }
     
+       .brandlogotopcontentrow4 
+    {
+        height: 25%;
+        width: 100%;
+        display: flex;
+
+    }
+    .brandlogotopcontentrow4logo
+    {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    
+    .brandlogotopcontentrow4logo img 
+    {
+        width: 60%;
+        height: auto;
+    }
+
     .brandlogobottomcontent
     {
         height: 40%;
@@ -1337,21 +1398,32 @@ font-weight: normal;
         text-transform: capitalize;
         font-family: 'Graphik Arabic';
         font-weight: normal;
-        width: 60%;
+        width: 80%;
         text-align: justify;
         color: #00341A;
+        word-spacing: normal;
+        letter-spacing: normal;
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: break-word;
         margin-left: 0%;
         margin-right: 0%;
     }
     [dir="rtl"] .brandlogobottomcontentleft p 
     {
-        font-size: 17px;
+        font-size: 15px;
         text-transform: capitalize;
         font-family: 'Graphik Arabic';
         font-weight: normal;
-        width: 60%;
+        width: 80%;
         text-align: justify;
         color: #00341A;
+        word-spacing: normal;
+        letter-spacing: normal;
+     /* Adjust for better readability */
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: break-word;
         margin-left: 0%;
         margin-right: 0%;
     }
@@ -2021,10 +2093,10 @@ height: fit-content;
         color: white;
         text-decoration: none;
     }
-    .brandlogosection 
+   .brandlogosection 
     {
         width: 100%;
-        height: 150vh;
+        height: 120vh;
         background-color: #eae9e6;
        display: flex;
        justify-content: center;
@@ -2032,19 +2104,23 @@ height: fit-content;
     }
     .brandlogocontent 
     {
-    width: 80%;
+    width: 70%;
     height: 90%;
     border-top: 0.5px solid black;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 5%;
+    padding-bottom: 0%;
     }
     .brandlogotopcontent 
     {
-        height: 70%;
+        height: 60%;
         width: 100%;
     }
     
     .brandlogotopcontentrow1 
     {
-        height: 35%;
+        height: 25%;
         width: 100%;
         display: flex;
     }
@@ -2058,13 +2134,13 @@ height: fit-content;
     }
     .brandlogotopcontentrow1logo img 
     {
-        width: 70%;
-        height: 45%;
+        width: 65%;
+        height: auto;
     }
     
     .brandlogotopcontentrow2 
     {
-        height: 35%;
+        height: 25%;
         width: 100%;
         display: flex;
     }
@@ -2078,16 +2154,16 @@ height: fit-content;
     }
     .brandlogotopcontentrow2logo img 
     {
-        width: 70%;
-        height: 45%;
+        width: 65%;
+        height: auto;
     }
     .brandlogotopcontentrow3 
     {
-        height: 30%;
+        height: 25%;
         width: 100%;
         display: flex;
     }
-    .brandlogotopcontentrow3logo 
+    .brandlogotopcontentrow3logo
     {
         width: 25%;
         height: 100%;
@@ -2095,16 +2171,40 @@ height: fit-content;
         justify-content: center;
         align-items: center;
     }
+   
+    
     .brandlogotopcontentrow3logo img 
     {
         width: 65%;
-        height: 45%;
+        height: auto;
     }
- 
     
+       .brandlogotopcontentrow4 
+    {
+        height: 25%;
+        width: 100%;
+        display: flex;
+
+    }
+    .brandlogotopcontentrow4logo
+    {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    
+    .brandlogotopcontentrow4logo img 
+    {
+        width: 65%;
+        height: auto;
+    }
+
     .brandlogobottomcontent
     {
-        height: 30%;
+        height: 40%;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -2120,25 +2220,36 @@ height: fit-content;
     }
     .brandlogobottomcontentleft p 
     {
-        font-size: 16px;
+        font-size: 15px;
         text-transform: capitalize;
         font-family: 'Graphik Arabic';
         font-weight: normal;
         width: 60%;
         text-align: justify;
         color: #00341A;
+        word-spacing: normal;
+        letter-spacing: normal;
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: break-word;
         margin-left: 0%;
         margin-right: 0%;
     }
     [dir="rtl"] .brandlogobottomcontentleft p 
     {
-        font-size: 17px;
+        font-size: 15px;
         text-transform: capitalize;
         font-family: 'Graphik Arabic';
         font-weight: normal;
         width: 60%;
         text-align: justify;
         color: #00341A;
+        word-spacing: normal;
+        letter-spacing: normal;
+     /* Adjust for better readability */
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: break-word;
         margin-left: 0%;
         margin-right: 0%;
     }
@@ -2154,15 +2265,15 @@ height: fit-content;
     {
         text-decoration: none;
         color: #00341a;
-        font-size: 18px;
+        font-size: 14px;
         margin-left: 0%;
         margin-right: 0%;
     }
-    [dir="rtl"]  .brandlogobottomcontentright a 
+    [dir="rtl"] .brandlogobottomcontentright a 
     {
         text-decoration: none;
         color: #00341a;
-        font-size: 18px;
+        font-size: 14px;
         margin-left: 0%;
         margin-right: 0%;
     }
@@ -2173,13 +2284,13 @@ height: fit-content;
     }
     .brandlogobottomcontentright a span 
     {
-        font-size: 18px;
+        font-size: 16px;
         font-family: 'Graphik Arabic';
         font-weight: normal;
     }
     [dir="rtl"] .brandlogobottomcontentright a span 
     {
-        font-size: 18px;
+        font-size: 16px;
         font-family: 'Graphik Arabic';
         font-weight: normal;
     }
@@ -2813,7 +2924,7 @@ font-weight: normal;
     .brandlogosection 
     {
         width: 100%;
-        height: 150vh;
+        height: 130vh;
         background-color: #eae9e6;
        display: flex;
        justify-content: center;
@@ -2824,16 +2935,19 @@ font-weight: normal;
     width: 80%;
     height: 90%;
     border-top: 0.5px solid black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
     }
     .brandlogotopcontent 
     {
-        height: 60%;
+        height: 65%;
         width: 100%;
     }
     
     .brandlogotopcontentrow1 
     {
-        height: 35%;
+        height: 25%;
         width: 100%;
         display: flex;
     }
@@ -2848,12 +2962,12 @@ font-weight: normal;
     .brandlogotopcontentrow1logo img 
     {
         width: 65%;
-        height: 50%;
+        height: auto;
     }
     
     .brandlogotopcontentrow2 
     {
-        height: 35%;
+        height: 25%;
         width: 100%;
         display: flex;
     }
@@ -2867,12 +2981,12 @@ font-weight: normal;
     }
     .brandlogotopcontentrow2logo img 
     {
-        width: 65%;
-        height: 50%;
+       width: 65%;
+        height: auto;
     }
     .brandlogotopcontentrow3 
     {
-        height: 30%;
+        height: 25%;
         width: 100%;
         display: flex;
     }
@@ -2886,14 +3000,34 @@ font-weight: normal;
     }
     .brandlogotopcontentrow3logo img 
     {
-        width: 65%;
-        height: 50%;
+       width: 65%;
+        height: auto;
+    }
+
+    .brandlogotopcontentrow4 
+    {
+        height: 25%;
+        width: 100%;
+        display: flex;
+    }
+    .brandlogotopcontentrow4logo 
+    {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .brandlogotopcontentrow4logo img 
+    {
+     width: 65%;
+        height: auto;
     }
 
     
     .brandlogobottomcontent
     {
-        height: 40%;
+        height: 35%;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -2916,6 +3050,11 @@ font-weight: normal;
         width: 60%;
         text-align: justify;
         color: #00341A;
+       word-spacing: normal;
+        letter-spacing: normal;
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: break-word;
         margin-left: 0%;
         margin-right: 0%;
     }
@@ -2928,6 +3067,11 @@ font-weight: normal;
         width: 60%;
         text-align: justify;
         color: #00341A;
+      word-spacing: normal;
+        letter-spacing: normal;
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: break-word;
         margin-left: 0%;
         margin-right: 0%;
     }
@@ -3595,10 +3739,11 @@ font-weight: normal;
         color: white;
         text-decoration: none;
     }
-    .brandlogosection 
+   
+       .brandlogosection 
     {
         width: 100%;
-        height: 100vh;
+        height: 80vh;
         background-color: #eae9e6;
        display: flex;
        justify-content: center;
@@ -3606,9 +3751,12 @@ font-weight: normal;
     }
     .brandlogocontent 
     {
-    width: 85%;
+    width: 80%;
     height: 90%;
     border-top: 0.5px solid black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
     }
     .brandlogotopcontent 
     {
@@ -3618,7 +3766,7 @@ font-weight: normal;
     
     .brandlogotopcontentrow1 
     {
-        height: 35%;
+        height: 25%;
         width: 100%;
         display: flex;
     }
@@ -3632,13 +3780,13 @@ font-weight: normal;
     }
     .brandlogotopcontentrow1logo img 
     {
-       width: 70%;
-        height: 40%;
+        width: 75%;
+        height: auto;
     }
     
     .brandlogotopcontentrow2 
     {
-        height: 35%;
+        height: 25%;
         width: 100%;
         display: flex;
     }
@@ -3652,13 +3800,12 @@ font-weight: normal;
     }
     .brandlogotopcontentrow2logo img 
     {
-        width: 70%;
-        height: 40%;
+       width: 75%;
+        height: auto;
     }
-    
     .brandlogotopcontentrow3 
     {
-        height: 35%;
+        height: 25%;
         width: 100%;
         display: flex;
     }
@@ -3672,10 +3819,31 @@ font-weight: normal;
     }
     .brandlogotopcontentrow3logo img 
     {
-        width: 70%;
-        height: 40%;
+       width: 75%;
+        height: auto;
     }
-   
+
+    .brandlogotopcontentrow4 
+    {
+        height: 25%;
+        width: 100%;
+        display: flex;
+    }
+    .brandlogotopcontentrow4logo 
+    {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .brandlogotopcontentrow4logo img 
+    {
+     width: 75%;
+        height: auto;
+    }
+
+    
     .brandlogobottomcontent
     {
         height: 40%;
@@ -3694,13 +3862,18 @@ font-weight: normal;
     }
     .brandlogobottomcontentleft p 
     {
-        font-size: 17px;
+        font-size: 16px;
         text-transform: capitalize;
         font-family: 'Graphik Arabic';
         font-weight: normal;
         width: 80%;
         text-align: justify;
         color: #00341A;
+       word-spacing: normal;
+        letter-spacing: normal;
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: break-word;
         margin-left: 0%;
         margin-right: 0%;
     }
@@ -3710,9 +3883,14 @@ font-weight: normal;
         text-transform: capitalize;
         font-family: 'Graphik Arabic';
         font-weight: normal;
-        width: 60%;
+        width: 80%;
         text-align: justify;
         color: #00341A;
+      word-spacing: normal;
+        letter-spacing: normal;
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: break-word;
         margin-left: 0%;
         margin-right: 0%;
     }
@@ -3728,7 +3906,7 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #00341a;
-        font-size: 20px;
+        font-size: 16px;
         margin-left: 0%;
         margin-right: 0%;
     }
@@ -3736,7 +3914,7 @@ font-weight: normal;
     {
         text-decoration: none;
         color: #00341a;
-        font-size: 20px;
+        font-size: 16px;
         margin-left: 0%;
         margin-right: 0%;
     }
@@ -3747,13 +3925,13 @@ font-weight: normal;
     }
     .brandlogobottomcontentright a span 
     {
-        font-size: 20px;
+        font-size: 16px;
         font-family: 'Graphik Arabic';
         font-weight: normal;
     }
     [dir="rtl"] .brandlogobottomcontentright a span 
     {
-        font-size: 20px;
+        font-size: 17px;
         font-family: 'Graphik Arabic';
         font-weight: normal;
     }
@@ -3799,7 +3977,9 @@ font-weight: normal;
         width: 100%;
         height: 75%;
         padding-top: 10px;
-        display:flex;
+       display:flex;
+    justify-content: start;
+    align-items: start;
     }
     .footermenutop a 
     {
@@ -4402,30 +4582,39 @@ height: fit-content;
     .brandlogosection 
     {
         width: 100%;
-        height: 160vh;
+        height: auto;
         background-color: #eae9e6;
        display: flex;
        justify-content: center;
-       align-items: end;
+       align-items: center;
+       padding-top: 15vh;
+       padding-bottom: 15vh;
     }
     .brandlogocontent 
     {
-    width: 85%;
-    height: 90%;
+    width: 80%;
+    height:auto;
     border-top: 0.5px solid black;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+    padding-left: 0%;
+    padding-right: 0%;
     }
     
     
     .brandlogotopcontent 
     {
-        height: 60%;
+        height: auto;
         width: 100%;
-     
+        padding-left: 3vh;
+        padding-right: 3vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
     }
     
     .brandlogotopcontentrow1 
     {
-        height: 33.5%;
+        height: 20vh;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -4441,12 +4630,12 @@ height: fit-content;
     .brandlogotopcontentrow1logo img 
     {
         width: 60%;
-        height: 60%;
+        height: auto;
     }
     
     .brandlogotopcontentrow2 
     {
-        height: 33.5%;
+        height: 20vh;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -4462,11 +4651,11 @@ height: fit-content;
     .brandlogotopcontentrow2logo img 
     {
         width: 60%;
-        height: 60%;
+        height: auto;
     }
     .brandlogotopcontentrow3 
     {
-        height: 33%;
+        height: 20vh;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -4482,14 +4671,47 @@ height: fit-content;
     .brandlogotopcontentrow3logo img 
     {
         width: 60%;
-        height: 60%;
+        height: auto;
     }
    
+    .brandlogotopcontentrow4 
+    {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .brandlogotopcontentrow4logo:nth-child(1)
+     {
+        width: 0vh;
+        height: 0vh;
+        display: none;
+     }
+      .brandlogotopcontentrow4logo:nth-child(4)
+     {
+        width: 0vh;
+        height: 0vh;
+        display: none;
+     }
+    .brandlogotopcontentrow4logo:nth-child(2),
+    .brandlogotopcontentrow4logo:nth-child(3) 
+    {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
+    .brandlogotopcontentrow4logo img 
+    {
+        width: 60%;
+        height: auto;
+    }
     
     .brandlogobottomcontent
     {
-        height: 40%;
+        height: auto;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -4497,22 +4719,29 @@ height: fit-content;
     .brandlogobottomcontentleft 
     {
         width: 100%;
-        height: 80%;
+        height: auto;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .brandlogobottomcontentleft p 
     {
-        font-size: 18px;
+        font-size: 17px;
         text-transform: capitalize;
         font-family: 'Graphik Arabic';
         font-weight: normal;
-        width: 80%;
-        text-align: left;
-        color: #00341A;
+        width: 100%;
         margin-left: 0%;
         margin-right: 0%;
+        text-align: justify;
+        color: #00341A;
+       word-spacing: normal;
+        letter-spacing: normal;
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: break-word;
     }
     [dir="rtl"] .brandlogobottomcontentleft p 
     {
@@ -4520,16 +4749,23 @@ height: fit-content;
         text-transform: capitalize;
         font-family: 'Graphik Arabic';
         font-weight: normal;
-        width: 80%;
-        text-align: right;
-        color: #00341A;
+        width: 100%;
         margin-left: 0%;
         margin-right: 0%;
+        text-align: justify;
+        color: #00341A;
+       word-spacing: normal;
+        letter-spacing: normal;
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: break-word;
     }
     .brandlogobottomcontentright
     {
         width: 100%;
-        height: 20%;
+        height: auto;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
         display: flex;
         justify-content: center;
         align-items: start;
@@ -5223,186 +5459,242 @@ opacity: 0;
     color: white;
     text-decoration: none;
 }
-.brandlogosection 
-{
-    width: 100%;
-    height: 160vh;
-    background-color: #eae9e6;
-   display: flex;
-   justify-content: center;
-   align-items: end;
-}
-.brandlogocontent 
-{
-width: 85%;
-height: 90%;
-border-top: 0.5px solid black;
-}
 
 
-.brandlogotopcontent 
-{
-    height: 60%;
-    width: 100%;
- 
-}
-
-.brandlogotopcontentrow1 
-{
-    height: 33.5%;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.brandlogotopcontentrow1logo 
-{
-    height: 50%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.brandlogotopcontentrow1logo img 
-{
-    width: 60%;
-    height: 60%;
-}
-
-.brandlogotopcontentrow2 
-{
-    height: 33.5%;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.brandlogotopcontentrow2logo 
-{
-    height: 50%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.brandlogotopcontentrow2logo img 
-{
-    width: 60%;
-    height: 60%;
-}
-.brandlogotopcontentrow3
-{
-    height: 33%;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.brandlogotopcontentrow3logo 
-{
-    height: 50%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.brandlogotopcontentrow3logo img 
-{
-    width: 60%;
-    height: 60%;
-}
-
-
-.brandlogobottomcontent
-{
-    height: 40%;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.brandlogobottomcontentleft 
-{
-    width: 100%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.brandlogobottomcontentleft p 
-{
-    font-size: 15px;
-    text-transform: capitalize;
-    font-family: 'Graphik Arabic';
-    font-weight: normal;
+ .brandlogosection 
+    {
+        width: 100%;
+        height: auto;
+        background-color: #eae9e6;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-top: 15vh;
+       padding-bottom: 15vh;
+    }
+    .brandlogocontent 
+    {
     width: 80%;
-    text-align: left;
-    color: #00341A;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-[dir="rtl"] .brandlogobottomcontentleft p 
-{
-    font-size: 17px;
-    text-transform: capitalize;
-    font-family: 'Graphik Arabic';
-    font-weight: normal;
-    width: 80%;
-    text-align: right;
-    color: #00341A;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-.brandlogobottomcontentright
-{
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-}
-.brandlogobottomcontentright a 
-{
-    text-decoration: none;
-    color: #00341a;
-    font-size: 18px;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-[dir="rtl"] .brandlogobottomcontentright a 
-{
-    text-decoration: none;
-    color: #00341a;
-    font-size: 18px;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-.brandlogobottomcontentright a:hover 
-{
-    color: #00341a;
-    transform: scale(1.1,1.1);
-}
-.brandlogobottomcontentright a span 
-{
-    font-size: 18px;
-    font-family: 'Graphik Arabic';
-    font-weight: normal;
-
-}
-[dir="rtl"] .brandlogobottomcontentright a span 
-{
-    font-size: 18px;
-    font-family: 'Graphik Arabic';
-    font-weight: normal;
-
-}
-.brandlogobottomcontentright a i 
-{
-    padding-left: 10px;
-    padding-right: 0px;
-}
-[dir="rtl"] .brandlogobottomcontentright a i 
-{
-    padding-right: 10px;
-    padding-left: 0px;
-}
-
+    height: auto;
+    border-top: 0.5px solid black;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+    padding-left: 0%;
+    padding-right: 0%;
+    }
+    
+    
+    .brandlogotopcontent 
+    {
+        height: 60%;
+        width: auto;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    
+    .brandlogotopcontentrow1 
+    {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .brandlogotopcontentrow1logo 
+    {
+        height: 50%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .brandlogotopcontentrow1logo img 
+    {
+        width: 60%;
+        height: auto;
+    }
+    
+    .brandlogotopcontentrow2 
+    {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .brandlogotopcontentrow2logo 
+    {
+        height: 50%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .brandlogotopcontentrow2logo img 
+    {
+        width: 60%;
+        height: auto;
+    }
+    .brandlogotopcontentrow3 
+    {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .brandlogotopcontentrow3logo 
+    {
+        height: 50%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .brandlogotopcontentrow3logo img 
+    {
+        width: 60%;
+        height: auto;
+    }
+   
+    .brandlogotopcontentrow4 
+    {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .brandlogotopcontentrow4logo:nth-child(1)
+     {
+        width: 0vh;
+        height: 0vh;
+        display: none;
+     }
+      .brandlogotopcontentrow4logo:nth-child(4)
+     {
+        width: 0vh;
+        height: 0vh;
+        display: none;
+     }
+    .brandlogotopcontentrow4logo:nth-child(2),
+    .brandlogotopcontentrow4logo:nth-child(3) 
+    {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .brandlogotopcontentrow4logo img 
+    {
+        width: 60%;
+        height: auto;
+    }
+    
+    .brandlogobottomcontent
+    {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .brandlogobottomcontentleft 
+    {
+        width: 100%;
+        height: auto;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .brandlogobottomcontentleft p 
+    {
+        font-size: 16px;
+        text-transform: capitalize;
+        font-family: 'Graphik Arabic';
+        font-weight: normal;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: justify;
+        color: #00341A;
+       word-spacing: normal;
+        letter-spacing: normal;
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+    [dir="rtl"] .brandlogobottomcontentleft p 
+    {
+        font-size: 17px;
+        text-transform: capitalize;
+        font-family: 'Graphik Arabic';
+        font-weight: normal;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: justify;
+        color: #00341A;
+       word-spacing: normal;
+        letter-spacing: normal;
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+    .brandlogobottomcontentright
+    {
+        width: 100%;
+        height: auto;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .brandlogobottomcontentright a 
+    {
+        text-decoration: none;
+        color: #00341a;
+        font-size: 18px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    [dir="rtl"] .brandlogobottomcontentright a 
+    {
+        text-decoration: none;
+        color: #00341a;
+        font-size: 18px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .brandlogobottomcontentright a:hover 
+    {
+        color: #00341a;
+        transform: scale(1.1,1.1);
+    }
+    .brandlogobottomcontentright a span 
+    {
+        font-size: 18px;
+        font-family: 'Graphik Arabic';
+        font-weight: normal;
+    }
+    [dir="rtl"] .brandlogobottomcontentright a span 
+    {
+        font-size: 18px;
+        font-family: 'Graphik Arabic';
+        font-weight: normal;
+    }
+    .brandlogobottomcontentright a i 
+    {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    [dir="rtl"] .brandlogobottomcontentright a i 
+    {
+        padding-right: 10px;
+        padding-left: 0px;
+    }
 
 /*footersection*/
 .footersection 

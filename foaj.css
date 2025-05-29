@@ -829,7 +829,7 @@ font-style: italic;
 .foajbanner 
 {
 width: 100%;
-height: 150%;
+height: 120%;
 }
 .foajbanner img 
 {
@@ -1068,7 +1068,7 @@ font-weight: normal;
 }
 
 /* Extra Large Screens (4K, TVs, Ultra-Wide, mac pro) */
-@media only screen and (min-width: 1400px) and (max-width:2560px) {
+@media only screen and (min-width: 1400px) and (max-width:1799px) {
     
     .menu 
     {
@@ -4972,6 +4972,8 @@ height: 50%;
     height: 75%;
     padding-top: 10px;
     display:flex;
+    justify-content: start;
+    align-items: start;
 }
 .footermenutop a 
 {

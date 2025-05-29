@@ -29,6 +29,10 @@ document.addEventListener("DOMContentLoaded", function () {
     var compcontentten = document.querySelector(".compcontentcenterrow10col2content p");
     var compcontentelev = document.querySelector(".compcontentcenterrow11col2content p");
     var compcontenttwe = document.querySelector(".compcontentcenterrow12col2content p");
+    var compcontentthirteen = document.querySelector(".compcontentcenterrow13col2content p");
+    var compcontentfourteen = document.querySelector(".compcontentcenterrow14col2content p");
+
+
 
     var tooglebuttonfooter = document.querySelector('.footercpyrighttopright #toggleDirections');
     var footfoaj = document.querySelector("#footfoaj");
@@ -94,6 +98,14 @@ document.addEventListener("DOMContentLoaded", function () {
 والتسويقية، لتصبح الشريك المفضل للعملاء، بأدائها الاحترافي وجهودها المكرسة نحو نتائج استثنائية.`
             compcontenttwe.textContent="شركة تسويق رقمي تعتمد على التحليل العميق والبيانات في تطوير وتنفيذ استراتيجيات فعّالة تلبي تطلعات العملاء وتواكب احتياجاتهم، مع سجل حافل منذ تأسيسها في تحقيق نتائج ملموسة تنعكس على الواقع."
 
+            compcontentthirteen.textContent=`أداء العقارية، شركة تسويق عقاري رائدة منذ عام 1999، تقدّم مقاربة
+ جديدة تدمج بين التقنية والتسويق، مدعومة بخبرة واسعة في القطاع العقاري.
+مما يؤهلها لتقديم حلولًا تسويقية عقارية بطابع فريد يواكب تطلعات عملائها.`;
+            compcontentfourteen.textContent=`هودج،شركة إنتاج سعودية انطلقت من قلب الرياض، تجمع بين عمق الهوية المحلية واتساع الرؤية العالمية في رواية الرسائل بلغة بصرية مبتكرة تصل إلى الجمهور بجمالية ووضوح.
+تقدّم هودج حلولاً متكاملة في إنتاج المحتوى المرئي، وتجمع بين الخبرة والابتكار عبر فريق محترف في مجالات الإنتاج وإدارته.`;
+
+
+
             footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
             footcomp.textContent="الشركات";
@@ -156,8 +168,17 @@ document.addEventListener("DOMContentLoaded", function () {
                                     that align with clients goals and address their needs,with
                                     a proven track record of achieving tangible results since
                                     its establishment`;
+         compcontentthirteen.textContent=`Adaa Real Estate, a leading real estate marketing company since 1999, offers a fresh perspective on the market by
+                                            integrating advanced technology with strategic marketing. Supported by extensive industry experience, this approach 
+                                            enables the delivery of distinctive and effective real estate solutions to clients.`;
+
+        compcontentfourteen.textContent=`Howdaj is a Saudi production company born in the heart of Riyadh. It blends the richness of local identity with the breadth of a global vision, telling
+                                            stories through an innovative visual language that connects with audiences in both clarity and beauty.
+                                            The company offers integrated solutions in visual content production, combining expertise and creativity through 
+                                            a professional team specialized in all aspects of production and management.`;                                                                                
 
 
+                                            
         footfoaj.textContent="Foaj";
         footproj.textContent="Projects";
         footcomp.textContent="Companies";
@@ -193,6 +214,8 @@ function Direction() {
     var compcontentten = document.querySelector(".compcontentcenterrow10col2content p");
     var compcontentelev = document.querySelector(".compcontentcenterrow11col2content p");
     var compcontenttwe = document.querySelector(".compcontentcenterrow12col2content p");
+    var compcontentthirteen = document.querySelector(".compcontentcenterrow13col2content p");
+    var compcontentfourteen = document.querySelector(".compcontentcenterrow14col2content p");
 
     var tooglebuttonfooter = document.querySelector('.footercpyrighttopright #toggleDirections');
     var footfoaj = document.querySelector("#footfoaj");
@@ -270,8 +293,12 @@ function Direction() {
             compcontentelev.textContent=`انطلقت شركة نَص في عام 2014 من مدينة الرياض في المملكة العربية السعودية، مع العزم
  على تقديم مستوى عالٍ من الجودة والتميز في صناعة المحتوى وتطوير المخرجات التواصلية 
 والتسويقية، لتصبح الشريك المفضل للعملاء، بأدائها الاحترافي وجهودها المكرسة نحو نتائج استثنائية.`
-            compcontenttwe.textContent="شركة تسويق رقمي تعتمد على التحليل العميق والبيانات في تطوير وتنفيذ استراتيجيات فعّالة تلبي تطلعات العملاء وتواكب احتياجاتهم، مع سجل حافل منذ تأسيسها في تحقيق نتائج ملموسة تنعكس على الواقع."
-
+            compcontenttwe.textContent="شركة تسويق رقمي تعتمد على التحليل العميق والبيانات في تطوير وتنفيذ استراتيجيات فعّالة تلبي تطلعات العملاء وتواكب احتياجاتهم، مع سجل حافل منذ تأسيسها في تحقيق نتائج ملموسة تنعكس على الواقع.";
+            compcontentthirteen.textContent=`أداء العقارية، شركة تسويق عقاري رائدة منذ عام 1999، تقدّم مقاربة
+ جديدة تدمج بين التقنية والتسويق، مدعومة بخبرة واسعة في القطاع العقاري.
+مما يؤهلها لتقديم حلولًا تسويقية عقارية بطابع فريد يواكب تطلعات عملائها.`;
+            compcontentfourteen.textContent=`هودج،شركة إنتاج سعودية انطلقت من قلب الرياض، تجمع بين عمق الهوية المحلية واتساع الرؤية العالمية في رواية الرسائل بلغة بصرية مبتكرة تصل إلى الجمهور بجمالية ووضوح.
+تقدّم هودج حلولاً متكاملة في إنتاج المحتوى المرئي، وتجمع بين الخبرة والابتكار عبر فريق محترف في مجالات الإنتاج وإدارته.`;
 
             footfoaj.textContent="فوج";
             footproj.textContent="المشاريع";
@@ -335,8 +362,15 @@ function Direction() {
                                         and data to develop and implement effective strategies
                                         that align with clients goals and address their needs,with
                                         a proven track record of achieving tangible results since
-                                        its establishment`;                        
+                                        its establishment`;
+            compcontentthirteen.textContent=`Adaa Real Estate, a leading real estate marketing company since 1999, offers a fresh perspective on the market by
+                                            integrating advanced technology with strategic marketing. Supported by extensive industry experience, this approach 
+                                            enables the delivery of distinctive and effective real estate solutions to clients.`;
 
+           compcontentfourteen.textContent=`Howdaj is a Saudi production company born in the heart of Riyadh. It blends the richness of local identity with the breadth of a global vision, telling
+                                            stories through an innovative visual language that connects with audiences in both clarity and beauty.
+                                            The company offers integrated solutions in visual content production, combining expertise and creativity through 
+                                            a professional team specialized in all aspects of production and management.`;                                                    
             footfoaj.textContent="Foaj";
             footproj.textContent="Projects";
             footcomp.textContent="Companies";
